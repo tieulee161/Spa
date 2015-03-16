@@ -1,0 +1,1 @@
+DBCC CHECKIDENT ([dbo.Personnels], RESEED, 0)

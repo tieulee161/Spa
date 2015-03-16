@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{926E2A7D-44C9-46C8-9F3D-DCF2690327D0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SpaDatabase</RootNamespace>
+    <AssemblyName>SpaDatabase</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MySql.Data.6.9.3\lib\net40\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Migrations\201501261627475_Init.cs" />
+    <Compile Include="Migrations\201501261627475_Init.Designer.cs">
+      <DependentUpon>201501261627475_Init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201501281250406_ChangTbl.cs" />
+    <Compile Include="Migrations\201501281250406_ChangTbl.Designer.cs">
+      <DependentUpon>201501281250406_ChangTbl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201501281412151_ChangeTbl.cs" />
+    <Compile Include="Migrations\201501281412151_ChangeTbl.Designer.cs">
+      <DependentUpon>201501281412151_ChangeTbl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502160559496_ChangeTbl1.cs" />
+    <Compile Include="Migrations\201502160559496_ChangeTbl1.Designer.cs">
+      <DependentUpon>201502160559496_ChangeTbl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502160816357_ChangeTbl2.cs" />
+    <Compile Include="Migrations\201502160816357_ChangeTbl2.Designer.cs">
+      <DependentUpon>201502160816357_ChangeTbl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\Entities\BaseCustomer.cs" />
+    <Compile Include="Model\Entities\BaseEntity.cs" />
+    <Compile Include="Model\Entities\BaseService.cs" />
+    <Compile Include="Model\Entities\Bed.cs" />
+    <Compile Include="Model\Entities\BedTransaction.cs" />
+    <Compile Include="Model\Entities\BillCertificate.cs" />
+    <Compile Include="Model\Entities\BillDetail.cs" />
+    <Compile Include="Model\Entities\BillKTV.cs" />
+    <Compile Include="Model\Entities\BillMain.cs" />
+    <Compile Include="Model\Entities\BillOtherService.cs" />
+    <Compile Include="Model\Entities\BillPackage.cs" />
+    <Compile Include="Model\Entities\BillService.cs" />
+    <Compile Include="Model\Entities\BillVoucherPayment.cs" />
+    <Compile Include="Model\Entities\Book.cs" />
+    <Compile Include="Model\Entities\Certificate.cs" />
+    <Compile Include="Model\Entities\CertificateSeri.cs" />
+    <Compile Include="Model\Entities\Currency.cs" />
+    <Compile Include="Model\Entities\Customer.cs" />
+    <Compile Include="Model\Entities\DailyReport.cs" />
+    <Compile Include="Model\Entities\Export.cs" />
+    <Compile Include="Model\Entities\Import.cs" />
+    <Compile Include="Model\Entities\Inventory.cs" />
+    <Compile Include="Model\Entities\Job.cs" />
+    <Compile Include="Model\Entities\Member.cs" />
+    <Compile Include="Model\Entities\Nationality.cs" />
+    <Compile Include="Model\Entities\OtherService.cs" />
+    <Compile Include="Model\Entities\Package.cs" />
+    <Compile Include="Model\Entities\Personnel.cs" />
+    <Compile Include="Model\Entities\PersonnelSetting.cs" />
+    <Compile Include="Model\Entities\Promotion.cs" />
+    <Compile Include="Model\Entities\Role.cs" />
+    <Compile Include="Model\Entities\Room.cs" />
+    <Compile Include="Model\Entities\Service.cs" />
+    <Compile Include="Model\Entities\ShiftReport.cs" />
+    <Compile Include="Model\Entities\Supplier.cs" />
+    <Compile Include="Model\Entities\SystemData.cs" />
+    <Compile Include="Model\Entities\User.cs" />
+    <Compile Include="Model\Entities\VIPSetting.cs" />
+    <Compile Include="Model\Entities\Warehouse.cs" />
+    <Compile Include="Model\SpaDbContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\IRepository.cs" />
+    <Compile Include="Repositories\Repository.cs" />
+    <Compile Include="Services\DBAccess.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SpaCommon\SpaCommon.csproj">
+      <Project>{6ad088e8-530e-4d1f-bf26-8538035cc899}</Project>
+      <Name>SpaCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201501261627475_Init.resx">
+      <DependentUpon>201501261627475_Init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201501281250406_ChangTbl.resx">
+      <DependentUpon>201501281250406_ChangTbl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201501281412151_ChangeTbl.resx">
+      <DependentUpon>201501281412151_ChangeTbl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502160559496_ChangeTbl1.resx">
+      <DependentUpon>201502160559496_ChangeTbl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502160816357_ChangeTbl2.resx">
+      <DependentUpon>201502160816357_ChangeTbl2.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

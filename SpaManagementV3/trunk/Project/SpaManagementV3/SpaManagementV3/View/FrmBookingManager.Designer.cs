@@ -1,0 +1,271 @@
+﻿namespace SpaManagementV3.View
+{
+    partial class FrmBookingManager
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn1 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewComboBoxColumn gridViewComboBoxColumn1 = new Telerik.WinControls.UI.GridViewComboBoxColumn();
+            Telerik.WinControls.UI.GridViewDateTimeColumn gridViewDateTimeColumn1 = new Telerik.WinControls.UI.GridViewDateTimeColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn1 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn2 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn3 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn4 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn5 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn6 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.Data.SortDescriptor sortDescriptor1 = new Telerik.WinControls.Data.SortDescriptor();
+            this.telerikMetroTheme1 = new Telerik.WinControls.Themes.TelerikMetroTheme();
+            this.radGroupBox1 = new Telerik.WinControls.UI.RadGroupBox();
+            this.calendar = new Telerik.WinControls.UI.RadCalendar();
+            this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
+            this.btnNewBooking = new Telerik.WinControls.UI.RadButton();
+            this.dtgBooking = new Telerik.WinControls.UI.RadGridView();
+            this.radContextMenu1 = new Telerik.WinControls.UI.RadContextMenu(this.components);
+            this.radContextMenuManager1 = new Telerik.WinControls.UI.RadContextMenuManager();
+            this.contextCancel = new Telerik.WinControls.UI.RadMenuItem();
+            this.contextDelete = new Telerik.WinControls.UI.RadMenuItem();
+            ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).BeginInit();
+            this.radGroupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.calendar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).BeginInit();
+            this.radPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnNewBooking)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgBooking)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgBooking.MasterTemplate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // radGroupBox1
+            // 
+            this.radGroupBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
+            this.radGroupBox1.Controls.Add(this.calendar);
+            this.radGroupBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.radGroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.radGroupBox1.HeaderText = "Calendar";
+            this.radGroupBox1.Location = new System.Drawing.Point(0, 36);
+            this.radGroupBox1.Name = "radGroupBox1";
+            this.radGroupBox1.Padding = new System.Windows.Forms.Padding(2, 30, 2, 2);
+            this.radGroupBox1.Size = new System.Drawing.Size(287, 574);
+            this.radGroupBox1.TabIndex = 1;
+            this.radGroupBox1.Text = "Calendar";
+            this.radGroupBox1.ThemeName = "TelerikMetro";
+            // 
+            // calendar
+            // 
+            this.calendar.AllowMultipleView = true;
+            this.calendar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.calendar.Location = new System.Drawing.Point(2, 30);
+            this.calendar.Name = "calendar";
+            this.calendar.ShowOtherMonthsDays = false;
+            this.calendar.Size = new System.Drawing.Size(283, 530);
+            this.calendar.TabIndex = 0;
+            this.calendar.Text = "radCalendar1";
+            this.calendar.ThemeName = "TelerikMetro";
+            this.calendar.ZoomFactor = 1.2F;
+            // 
+            // radPanel1
+            // 
+            this.radPanel1.Controls.Add(this.btnNewBooking);
+            this.radPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.radPanel1.Location = new System.Drawing.Point(0, 0);
+            this.radPanel1.Name = "radPanel1";
+            this.radPanel1.Size = new System.Drawing.Size(1036, 36);
+            this.radPanel1.TabIndex = 3;
+            this.radPanel1.ThemeName = "TelerikMetro";
+            // 
+            // btnNewBooking
+            // 
+            this.btnNewBooking.Image = global::SpaManagementV3.Properties.Resources.Add;
+            this.btnNewBooking.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnNewBooking.Location = new System.Drawing.Point(12, 6);
+            this.btnNewBooking.Name = "btnNewBooking";
+            this.btnNewBooking.Size = new System.Drawing.Size(123, 24);
+            this.btnNewBooking.TabIndex = 1;
+            this.btnNewBooking.Text = "New Booking";
+            this.btnNewBooking.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNewBooking.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnNewBooking.ThemeName = "TelerikMetro";
+            // 
+            // dtgBooking
+            // 
+            this.dtgBooking.BackColor = System.Drawing.Color.White;
+            this.dtgBooking.Cursor = System.Windows.Forms.Cursors.Default;
+            this.dtgBooking.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dtgBooking.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dtgBooking.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.dtgBooking.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.dtgBooking.Location = new System.Drawing.Point(287, 36);
+            // 
+            // dtgBooking
+            // 
+            this.dtgBooking.MasterTemplate.AllowAddNewRow = false;
+            this.dtgBooking.MasterTemplate.AllowCellContextMenu = false;
+            this.dtgBooking.MasterTemplate.AllowDeleteRow = false;
+            this.dtgBooking.MasterTemplate.AllowRowResize = false;
+            this.dtgBooking.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
+            gridViewDecimalColumn1.DecimalPlaces = 0;
+            gridViewDecimalColumn1.EnableExpressionEditor = false;
+            gridViewDecimalColumn1.HeaderText = "Id";
+            gridViewDecimalColumn1.IsVisible = false;
+            gridViewDecimalColumn1.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            gridViewDecimalColumn1.Name = "colId";
+            gridViewComboBoxColumn1.EnableExpressionEditor = false;
+            gridViewComboBoxColumn1.HeaderText = "Status";
+            gridViewComboBoxColumn1.Name = "column7";
+            gridViewComboBoxColumn1.Width = 91;
+            gridViewDateTimeColumn1.EnableExpressionEditor = false;
+            gridViewDateTimeColumn1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            gridViewDateTimeColumn1.HeaderText = "Time";
+            gridViewDateTimeColumn1.Name = "column1";
+            gridViewDateTimeColumn1.Width = 91;
+            gridViewTextBoxColumn1.EnableExpressionEditor = false;
+            gridViewTextBoxColumn1.HeaderText = "Customer";
+            gridViewTextBoxColumn1.Name = "column2";
+            gridViewTextBoxColumn1.Width = 91;
+            gridViewTextBoxColumn2.EnableExpressionEditor = false;
+            gridViewTextBoxColumn2.HeaderText = "KTV";
+            gridViewTextBoxColumn2.Name = "column3";
+            gridViewTextBoxColumn2.Width = 91;
+            gridViewTextBoxColumn3.EnableExpressionEditor = false;
+            gridViewTextBoxColumn3.HeaderText = "Room";
+            gridViewTextBoxColumn3.Name = "column4";
+            gridViewTextBoxColumn3.Width = 91;
+            gridViewTextBoxColumn4.EnableExpressionEditor = false;
+            gridViewTextBoxColumn4.HeaderText = "Service";
+            gridViewTextBoxColumn4.Name = "column5";
+            gridViewTextBoxColumn4.Width = 91;
+            gridViewTextBoxColumn5.EnableExpressionEditor = false;
+            gridViewTextBoxColumn5.HeaderText = "Package";
+            gridViewTextBoxColumn5.Name = "column6";
+            gridViewTextBoxColumn5.Width = 91;
+            gridViewTextBoxColumn6.EnableExpressionEditor = false;
+            gridViewTextBoxColumn6.HeaderText = "Note";
+            gridViewTextBoxColumn6.Name = "column8";
+            gridViewTextBoxColumn6.Width = 99;
+            this.dtgBooking.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
+            gridViewDecimalColumn1,
+            gridViewComboBoxColumn1,
+            gridViewDateTimeColumn1,
+            gridViewTextBoxColumn1,
+            gridViewTextBoxColumn2,
+            gridViewTextBoxColumn3,
+            gridViewTextBoxColumn4,
+            gridViewTextBoxColumn5,
+            gridViewTextBoxColumn6});
+            this.dtgBooking.MasterTemplate.EnableGrouping = false;
+            this.dtgBooking.MasterTemplate.EnableSorting = false;
+            this.dtgBooking.MasterTemplate.ShowHeaderCellButtons = true;
+            sortDescriptor1.PropertyName = "colName";
+            this.dtgBooking.MasterTemplate.SortDescriptors.AddRange(new Telerik.WinControls.Data.SortDescriptor[] {
+            sortDescriptor1});
+            this.dtgBooking.Name = "dtgBooking";
+            this.radContextMenuManager1.SetRadContextMenu(this.dtgBooking, this.radContextMenu1);
+            this.dtgBooking.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.dtgBooking.ShowHeaderCellButtons = true;
+            this.dtgBooking.Size = new System.Drawing.Size(749, 574);
+            this.dtgBooking.TabIndex = 70;
+            this.dtgBooking.ThemeName = "TelerikMetro";
+            // 
+            // radContextMenu1
+            // 
+            this.radContextMenu1.Items.AddRange(new Telerik.WinControls.RadItem[] {
+            this.contextCancel,
+            this.contextDelete});
+            this.radContextMenu1.ThemeName = "TelerikMetro";
+            // 
+            // contextCancel
+            // 
+            this.contextCancel.AccessibleDescription = "Update";
+            this.contextCancel.AccessibleName = "Update";
+            this.contextCancel.DescriptionFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contextCancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contextCancel.Image = global::SpaManagementV3.Properties.Resources.Delete;
+            this.contextCancel.Name = "contextCancel";
+            this.contextCancel.Text = "Update";
+            this.contextCancel.Visibility = Telerik.WinControls.ElementVisibility.Visible;
+            // 
+            // contextDelete
+            // 
+            this.contextDelete.AccessibleDescription = "Delete";
+            this.contextDelete.AccessibleName = "Delete";
+            this.contextDelete.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contextDelete.Image = global::SpaManagementV3.Properties.Resources.Delete;
+            this.contextDelete.Name = "contextDelete";
+            this.contextDelete.Text = "Delete";
+            this.contextDelete.Visibility = Telerik.WinControls.ElementVisibility.Visible;
+            // 
+            // FrmBookingManager
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1036, 610);
+            this.Controls.Add(this.dtgBooking);
+            this.Controls.Add(this.radGroupBox1);
+            this.Controls.Add(this.radPanel1);
+            this.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Name = "FrmBookingManager";
+            // 
+            // 
+            // 
+            this.RootElement.ApplyShapeToControl = true;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Booking Manager";
+            this.ThemeName = "TelerikMetro";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FrmBooking_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).EndInit();
+            this.radGroupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.calendar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
+            this.radPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnNewBooking)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgBooking.MasterTemplate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgBooking)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private Telerik.WinControls.Themes.TelerikMetroTheme telerikMetroTheme1;
+        private Telerik.WinControls.UI.RadGroupBox radGroupBox1;
+        private Telerik.WinControls.UI.RadPanel radPanel1;
+        private Telerik.WinControls.UI.RadButton btnNewBooking;
+        private Telerik.WinControls.UI.RadCalendar calendar;
+        private Telerik.WinControls.UI.RadGridView dtgBooking;
+        private Telerik.WinControls.UI.RadContextMenuManager radContextMenuManager1;
+        private Telerik.WinControls.UI.RadContextMenu radContextMenu1;
+        private Telerik.WinControls.UI.RadMenuItem contextCancel;
+        private Telerik.WinControls.UI.RadMenuItem contextDelete;
+    }
+}
