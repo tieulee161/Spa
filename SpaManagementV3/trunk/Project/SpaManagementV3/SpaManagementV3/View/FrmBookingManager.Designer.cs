@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn1 = new Telerik.WinControls.UI.GridViewDecimalColumn();
             Telerik.WinControls.UI.GridViewComboBoxColumn gridViewComboBoxColumn1 = new Telerik.WinControls.UI.GridViewComboBoxColumn();
             Telerik.WinControls.UI.GridViewDateTimeColumn gridViewDateTimeColumn1 = new Telerik.WinControls.UI.GridViewDateTimeColumn();
@@ -43,17 +42,19 @@
             this.radGroupBox1 = new Telerik.WinControls.UI.RadGroupBox();
             this.calendar = new Telerik.WinControls.UI.RadCalendar();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
+            this.btnCancelBooking = new Telerik.WinControls.UI.RadButton();
+            this.btnDeleteBooking = new Telerik.WinControls.UI.RadButton();
+            this.btnEditBooking = new Telerik.WinControls.UI.RadButton();
             this.btnNewBooking = new Telerik.WinControls.UI.RadButton();
             this.dtgBooking = new Telerik.WinControls.UI.RadGridView();
-            this.radContextMenu1 = new Telerik.WinControls.UI.RadContextMenu(this.components);
-            this.radContextMenuManager1 = new Telerik.WinControls.UI.RadContextMenuManager();
-            this.contextCancel = new Telerik.WinControls.UI.RadMenuItem();
-            this.contextDelete = new Telerik.WinControls.UI.RadMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).BeginInit();
             this.radGroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.calendar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).BeginInit();
             this.radPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCancelBooking)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDeleteBooking)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnEditBooking)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnNewBooking)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgBooking)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgBooking.MasterTemplate)).BeginInit();
@@ -90,6 +91,9 @@
             // 
             // radPanel1
             // 
+            this.radPanel1.Controls.Add(this.btnCancelBooking);
+            this.radPanel1.Controls.Add(this.btnDeleteBooking);
+            this.radPanel1.Controls.Add(this.btnEditBooking);
             this.radPanel1.Controls.Add(this.btnNewBooking);
             this.radPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.radPanel1.Location = new System.Drawing.Point(0, 0);
@@ -97,6 +101,45 @@
             this.radPanel1.Size = new System.Drawing.Size(1036, 36);
             this.radPanel1.TabIndex = 3;
             this.radPanel1.ThemeName = "TelerikMetro";
+            // 
+            // btnCancelBooking
+            // 
+            this.btnCancelBooking.Image = global::SpaManagementV3.Properties.Resources.Recycle;
+            this.btnCancelBooking.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnCancelBooking.Location = new System.Drawing.Point(399, 6);
+            this.btnCancelBooking.Name = "btnCancelBooking";
+            this.btnCancelBooking.Size = new System.Drawing.Size(123, 24);
+            this.btnCancelBooking.TabIndex = 4;
+            this.btnCancelBooking.Text = "Cancel Booking";
+            this.btnCancelBooking.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCancelBooking.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCancelBooking.ThemeName = "TelerikMetro";
+            // 
+            // btnDeleteBooking
+            // 
+            this.btnDeleteBooking.Image = global::SpaManagementV3.Properties.Resources.Delete;
+            this.btnDeleteBooking.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnDeleteBooking.Location = new System.Drawing.Point(270, 6);
+            this.btnDeleteBooking.Name = "btnDeleteBooking";
+            this.btnDeleteBooking.Size = new System.Drawing.Size(123, 24);
+            this.btnDeleteBooking.TabIndex = 3;
+            this.btnDeleteBooking.Text = "Delete Booking";
+            this.btnDeleteBooking.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeleteBooking.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnDeleteBooking.ThemeName = "TelerikMetro";
+            // 
+            // btnEditBooking
+            // 
+            this.btnEditBooking.Image = global::SpaManagementV3.Properties.Resources.Edit;
+            this.btnEditBooking.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnEditBooking.Location = new System.Drawing.Point(141, 6);
+            this.btnEditBooking.Name = "btnEditBooking";
+            this.btnEditBooking.Size = new System.Drawing.Size(123, 24);
+            this.btnEditBooking.TabIndex = 2;
+            this.btnEditBooking.Text = "Edit Booking";
+            this.btnEditBooking.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEditBooking.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnEditBooking.ThemeName = "TelerikMetro";
             // 
             // btnNewBooking
             // 
@@ -188,40 +231,11 @@
             this.dtgBooking.MasterTemplate.SortDescriptors.AddRange(new Telerik.WinControls.Data.SortDescriptor[] {
             sortDescriptor1});
             this.dtgBooking.Name = "dtgBooking";
-            this.radContextMenuManager1.SetRadContextMenu(this.dtgBooking, this.radContextMenu1);
             this.dtgBooking.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.dtgBooking.ShowHeaderCellButtons = true;
             this.dtgBooking.Size = new System.Drawing.Size(749, 574);
             this.dtgBooking.TabIndex = 70;
             this.dtgBooking.ThemeName = "TelerikMetro";
-            // 
-            // radContextMenu1
-            // 
-            this.radContextMenu1.Items.AddRange(new Telerik.WinControls.RadItem[] {
-            this.contextCancel,
-            this.contextDelete});
-            this.radContextMenu1.ThemeName = "TelerikMetro";
-            // 
-            // contextCancel
-            // 
-            this.contextCancel.AccessibleDescription = "Update";
-            this.contextCancel.AccessibleName = "Update";
-            this.contextCancel.DescriptionFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contextCancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contextCancel.Image = global::SpaManagementV3.Properties.Resources.Delete;
-            this.contextCancel.Name = "contextCancel";
-            this.contextCancel.Text = "Update";
-            this.contextCancel.Visibility = Telerik.WinControls.ElementVisibility.Visible;
-            // 
-            // contextDelete
-            // 
-            this.contextDelete.AccessibleDescription = "Delete";
-            this.contextDelete.AccessibleName = "Delete";
-            this.contextDelete.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contextDelete.Image = global::SpaManagementV3.Properties.Resources.Delete;
-            this.contextDelete.Name = "contextDelete";
-            this.contextDelete.Text = "Delete";
-            this.contextDelete.Visibility = Telerik.WinControls.ElementVisibility.Visible;
             // 
             // FrmBookingManager
             // 
@@ -247,6 +261,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.calendar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnCancelBooking)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDeleteBooking)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnEditBooking)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnNewBooking)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgBooking.MasterTemplate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgBooking)).EndInit();
@@ -263,9 +280,8 @@
         private Telerik.WinControls.UI.RadButton btnNewBooking;
         private Telerik.WinControls.UI.RadCalendar calendar;
         private Telerik.WinControls.UI.RadGridView dtgBooking;
-        private Telerik.WinControls.UI.RadContextMenuManager radContextMenuManager1;
-        private Telerik.WinControls.UI.RadContextMenu radContextMenu1;
-        private Telerik.WinControls.UI.RadMenuItem contextCancel;
-        private Telerik.WinControls.UI.RadMenuItem contextDelete;
+        private Telerik.WinControls.UI.RadButton btnDeleteBooking;
+        private Telerik.WinControls.UI.RadButton btnEditBooking;
+        private Telerik.WinControls.UI.RadButton btnCancelBooking;
     }
 }

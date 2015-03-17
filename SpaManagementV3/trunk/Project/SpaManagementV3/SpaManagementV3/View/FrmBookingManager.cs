@@ -21,6 +21,7 @@ namespace SpaManagementV3.View
             calendar.MultiViewRows = 3;
             calendar.SelectedDate = DateTime.Now;
             InitializeGridview(dtgBooking);
+            
        
         }
 
@@ -56,13 +57,19 @@ namespace SpaManagementV3.View
         {
             if (sender.Equals(btnNewBooking))
             {
-               
+                FrmBooking f = new FrmBooking();
+                f.ShowDialog(this);
+
             }
-            else if (sender.Equals(contextCancel))
+            else if (sender.Equals(btnEditBooking))
             {
 
             }
-            else if (sender.Equals(contextDelete))
+            else if (sender.Equals(btnDeleteBooking))
+            {
+
+            }
+            else if (sender.Equals(btnCancelBooking))
             {
 
             }
@@ -80,8 +87,9 @@ namespace SpaManagementV3.View
         private void InitEvent()
         {
             btnNewBooking.Click += Button_Click;
-            contextCancel.Click += Button_Click;
-            contextDelete.Click += Button_Click;
+            btnEditBooking.Click += Button_Click;
+            btnDeleteBooking.Click += Button_Click;
+            btnCancelBooking.Click += Button_Click;
 
             dtgBooking.RowFormatting += dtgBooking_RowFormatting;
             dtgBooking.CreateCell += dtgBooking_CreateCell;
@@ -92,6 +100,16 @@ namespace SpaManagementV3.View
         private void LoadData()
         {
             
+        }
+
+        public void AddNewBookingToBookingList(Book book)
+        {
+
+        }
+
+        public void UpdateBooking(Book book)
+        {
+
         }
         #endregion
     }

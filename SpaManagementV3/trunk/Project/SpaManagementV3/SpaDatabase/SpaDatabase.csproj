@@ -71,6 +71,10 @@
     <Compile Include="Migrations\201502160816357_ChangeTbl2.Designer.cs">
       <DependentUpon>201502160816357_ChangeTbl2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201503170215257_ChangeTbl3.cs" />
+    <Compile Include="Migrations\201503170215257_ChangeTbl3.Designer.cs">
+      <DependentUpon>201503170215257_ChangeTbl3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Entities\BaseCustomer.cs" />
     <Compile Include="Model\Entities\BaseEntity.cs" />
@@ -142,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201502160816357_ChangeTbl2.resx">
       <DependentUpon>201502160816357_ChangeTbl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201503170215257_ChangeTbl3.resx">
+      <DependentUpon>201503170215257_ChangeTbl3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

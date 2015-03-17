@@ -25,7 +25,10 @@ namespace SpaManagementV3.View
         }
 
         #region property
-        public bool IsNew { get; set; }
+
+        public Book Book { get; set; }
+
+        public ErrorCode IsSuccess { get; set; }
 
         #endregion
 
@@ -114,13 +117,34 @@ namespace SpaManagementV3.View
                         }
                     }
 
-                    Book book = null;
-                    ErrorCode error = Program.Server.AddNewBook(customerName, bookingTime, note, personnels, rooms, services, packages, out book);
-                    MessageHandler.MessageManager(this, error);
-                    if(error == ErrorCode.OK)
+                    if(Book == null)
                     {
-
+                        Book book = null;
+                        ErrorCode error = Program.Server.AddNewBook(customerName, bookingTime, note, personnels, rooms, services, packages, out book);
+                        this.Book = book;
+                        MessageHandler.MessageManager(this, error);
+                        if (error == ErrorCode.OK)
+                        {
+                            IsSuccess = ErrorCode.OK;
+                        }
+                        else
+                        {
+                            IsSuccess = ErrorCode.N_OK;
+                        }
                     }
+                    else
+                    {
+                        ErrorCode error = Program.Server.UpdateBook(Book.Id, customerName, bookingTime, note, personnels, rooms, services, packages);
+                        if (error == ErrorCode.OK)
+                        {
+                            IsSuccess = ErrorCode.OK;
+                        }
+                        else
+                        {
+                            IsSuccess = ErrorCode.N_OK;
+                        }
+                    }
+                   
                 }
             }
             else if (sender.Equals(btnCancel))
@@ -142,9 +166,23 @@ namespace SpaManagementV3.View
 
         private void LoadData()
         {
+            if (Book != null)
+            {
+                txtCustomerName.Text = Book.CustomerName;
+                txtNote.Text = Book.Note;
+                dateBookingTime.Value = Book.BookingTime;
+                spinId.Value = Book.Id;
+            }
+
+
             List<Room> rooms = Program.Server.GetRooms();
             for (int j = 0; j < rooms.Count; j++)
             {
+                if(Book != null)
+                {
+                      
+                }
+               
                 dtgRoom.Rows.Add(new object[] { rooms[j].Id, false, rooms[j].Code });
             }
 
@@ -165,6 +203,8 @@ namespace SpaManagementV3.View
             {
                 dtgPackage.Rows.Add(new object[] { packages[j].Id, false, packages[j].Code });
             }
+
+          
         }
         #endregion
     }

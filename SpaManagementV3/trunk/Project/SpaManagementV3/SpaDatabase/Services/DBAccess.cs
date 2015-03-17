@@ -3110,6 +3110,7 @@ namespace SpaDatabase.Services
                 book.CustomerName = customerName;
                 book.BookingTime = bookingTime;
                 book.Note = note;
+                book.Status = BookingStatus.New;
 
                 if (personnelCodes.Count > 0)
                 {
@@ -3295,6 +3296,28 @@ namespace SpaDatabase.Services
             }
             return res;
         }
+
+        public ErrorCode CanncelBook(int id)
+        {
+            ErrorCode res = ErrorCode.N_OK;
+            using (SpaDbContext db = new SpaDbContext())
+            {
+                IRepository<Book> bookService = new Repository<Book>(db);
+                Book book = bookService.GetById(id);
+                if(book != null)
+                {
+                    book.Status = BookingStatus.Cancelled;
+                    if (bookService.SaveChanges())
+                    {
+                        res = ErrorCode.OK;
+                    }
+                }
+               
+            }
+            return res;
+        }
+
+
         public Book GetBook(int id)
         {
             Book res = null;
