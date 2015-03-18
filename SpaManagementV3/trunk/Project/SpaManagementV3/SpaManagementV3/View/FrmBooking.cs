@@ -10,6 +10,7 @@ using Telerik.WinControls;
 using Telerik.WinControls.UI;
 using SpaCommon;
 using SpaDatabase.Model.Entities;
+using System.Linq;
 
 namespace SpaManagementV3.View
 {
@@ -89,7 +90,7 @@ namespace SpaManagementV3.View
                             rooms.Add((string)dtgRoom.Rows[j].Cells[2].Value);
                         }
                     }
-                    
+
                     for (int j = 0; j < dtgService.Rows.Count; j++)
                     {
                         bool temp = (bool)dtgService.Rows[j].Cells[1].Value;
@@ -107,7 +108,7 @@ namespace SpaManagementV3.View
                             packages.Add((string)dtgPackage.Rows[j].Cells[2].Value);
                         }
                     }
-                    
+
                     for (int j = 0; j < dtgKTV.Rows.Count; j++)
                     {
                         bool temp = (bool)dtgKTV.Rows[j].Cells[1].Value;
@@ -117,7 +118,7 @@ namespace SpaManagementV3.View
                         }
                     }
 
-                    if(Book == null)
+                    if (Book == null)
                     {
                         Book book = null;
                         ErrorCode error = Program.Server.AddNewBook(customerName, bookingTime, note, personnels, rooms, services, packages, out book);
@@ -144,7 +145,7 @@ namespace SpaManagementV3.View
                             IsSuccess = ErrorCode.N_OK;
                         }
                     }
-                   
+
                 }
             }
             else if (sender.Equals(btnCancel))
@@ -178,33 +179,59 @@ namespace SpaManagementV3.View
             List<Room> rooms = Program.Server.GetRooms();
             for (int j = 0; j < rooms.Count; j++)
             {
-                if(Book != null)
+                int roomID = rooms[j].Id;
+                bool isBooked = false;
+                if (Book != null)
                 {
-                      
+                    isBooked = (from q in Book.Rooms
+                                where q.Id == roomID
+                                select q).Any();
                 }
-               
-                dtgRoom.Rows.Add(new object[] { rooms[j].Id, false, rooms[j].Code });
+
+                dtgRoom.Rows.Add(new object[] { roomID, isBooked, rooms[j].Code });
             }
 
             List<Service> services = Program.Server.GetServices();
             for (int j = 0; j < services.Count; j++)
             {
-                dtgService.Rows.Add(new object[] { services[j].Id, false, services[j].Code });
+                int serviceId = services[j].Id;
+                bool isBooked = false;
+                if (Book != null)
+                {
+                    isBooked = (from q in Book.Services
+                                where q.Id == serviceId
+                                select q).Any();
+                }
+                dtgService.Rows.Add(new object[] { serviceId, isBooked, services[j].Code });
             }
 
             List<Personnel> ktvs = Program.Server.GetKTVs();
             for (int j = 0; j < ktvs.Count; j++)
             {
-                dtgKTV.Rows.Add(new object[] { ktvs[j].Id, false, ktvs[j].Code });
+                int ktvId = ktvs[j].Id;
+                bool isBooked = false;
+                if (Book != null)
+                {
+                    isBooked = (from q in Book.Personnels
+                                where q.Id == ktvId
+                                select q).Any();
+                }
+                dtgKTV.Rows.Add(new object[] { ktvId, isBooked, ktvs[j].Code });
             }
 
             List<Package> packages = Program.Server.GetPackages();
             for (int j = 0; j < packages.Count; j++)
             {
-                dtgPackage.Rows.Add(new object[] { packages[j].Id, false, packages[j].Code });
+                int packageId = packages[j].Id;
+                bool isBooked = false;
+                if (Book != null)
+                {
+                    isBooked = (from q in Book.Packages
+                                where q.Id == packageId
+                                select q).Any();
+                }
+                dtgPackage.Rows.Add(new object[] { packageId, isBooked, packages[j].Code });
             }
-
-          
         }
         #endregion
     }
