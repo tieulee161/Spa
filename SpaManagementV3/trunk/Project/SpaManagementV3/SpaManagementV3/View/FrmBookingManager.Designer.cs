@@ -30,6 +30,7 @@
         {
             Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn1 = new Telerik.WinControls.UI.GridViewDecimalColumn();
             Telerik.WinControls.UI.GridViewComboBoxColumn gridViewComboBoxColumn1 = new Telerik.WinControls.UI.GridViewComboBoxColumn();
+            Telerik.WinControls.UI.ConditionalFormattingObject conditionalFormattingObject1 = new Telerik.WinControls.UI.ConditionalFormattingObject();
             Telerik.WinControls.UI.GridViewDateTimeColumn gridViewDateTimeColumn1 = new Telerik.WinControls.UI.GridViewDateTimeColumn();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn1 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn2 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
@@ -181,12 +182,21 @@
             0,
             0});
             gridViewDecimalColumn1.Name = "colId";
+            conditionalFormattingObject1.ApplyToRow = true;
+            conditionalFormattingObject1.CellBackColor = System.Drawing.Color.Silver;
+            conditionalFormattingObject1.CellForeColor = System.Drawing.Color.Empty;
+            conditionalFormattingObject1.Name = "Cancelled";
+            conditionalFormattingObject1.RowBackColor = System.Drawing.Color.Silver;
+            conditionalFormattingObject1.RowForeColor = System.Drawing.Color.Empty;
+            conditionalFormattingObject1.TValue1 = "Cancelled";
+            gridViewComboBoxColumn1.ConditionalFormattingObjectList.Add(conditionalFormattingObject1);
             gridViewComboBoxColumn1.EnableExpressionEditor = false;
             gridViewComboBoxColumn1.HeaderText = "Status";
             gridViewComboBoxColumn1.Name = "column7";
             gridViewComboBoxColumn1.Width = 91;
             gridViewDateTimeColumn1.EnableExpressionEditor = false;
-            gridViewDateTimeColumn1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            gridViewDateTimeColumn1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            gridViewDateTimeColumn1.FormatString = "{0:HH:mm}";
             gridViewDateTimeColumn1.HeaderText = "Time";
             gridViewDateTimeColumn1.Name = "column1";
             gridViewDateTimeColumn1.Width = 91;
@@ -231,6 +241,7 @@
             this.dtgBooking.MasterTemplate.SortDescriptors.AddRange(new Telerik.WinControls.Data.SortDescriptor[] {
             sortDescriptor1});
             this.dtgBooking.Name = "dtgBooking";
+            this.dtgBooking.ReadOnly = true;
             this.dtgBooking.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.dtgBooking.ShowHeaderCellButtons = true;
             this.dtgBooking.Size = new System.Drawing.Size(749, 574);
@@ -239,7 +250,7 @@
             // 
             // FrmBookingManager
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1036, 610);
             this.Controls.Add(this.dtgBooking);

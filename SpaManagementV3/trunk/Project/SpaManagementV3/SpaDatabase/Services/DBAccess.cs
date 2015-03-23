@@ -3189,6 +3189,8 @@ namespace SpaDatabase.Services
                 if (book != null)
                 {
                     book.CustomerName = customerName;
+                    book.Note = note;
+                    book.BookingTime = bookingTime;
                     if (book.Personnels == null)
                     {
                         book.Personnels = new List<Personnel>();

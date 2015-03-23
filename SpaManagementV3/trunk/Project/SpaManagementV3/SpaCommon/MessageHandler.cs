@@ -235,6 +235,19 @@ namespace SpaCommon
 
         #endregion
 
+        #region ask
+        public static DialogResult AskForDeleting()
+        {
+            return Question("Are you really want to delete ?");
+        }
+
+        public static DialogResult AskForCancellingBooking()
+        {
+            return Question("Are you really want to cancel this booking?");
+        }
+
+        #endregion
+
     }
 
 }

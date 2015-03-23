@@ -126,6 +126,7 @@ namespace SpaManagementV3.View
                         MessageHandler.MessageManager(this, error);
                         if (error == ErrorCode.OK)
                         {
+                            this.Book = Program.Server.GetBook(Book.Id);
                             IsSuccess = ErrorCode.OK;
                             Close();
                         }
@@ -170,6 +171,8 @@ namespace SpaManagementV3.View
 
         private void LoadData()
         {
+            dateBookingTime.Value = DateTime.Now;
+
             if (Book != null)
             {
                 txtCustomerName.Text = Book.CustomerName;

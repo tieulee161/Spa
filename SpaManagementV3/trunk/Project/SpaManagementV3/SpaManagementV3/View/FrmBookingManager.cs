@@ -102,31 +102,38 @@ namespace SpaManagementV3.View
             }
             else if (sender.Equals(btnDeleteBooking))
             {
-                if (dtgBooking.SelectedRows.Count > 0)
+                if(MessageHandler.AskForDeleting() == System.Windows.Forms.DialogResult.Yes)
                 {
-                    int bookId = (int)(decimal)dtgBooking.SelectedRows[0].Cells[0].Value;
-                    ErrorCode err = Program.Server.DeleteBook(bookId);
-                    if (err == ErrorCode.OK)
+                    if (dtgBooking.SelectedRows.Count > 0)
                     {
-                        // remove to reminder list
+                        int bookId = (int)(decimal)dtgBooking.SelectedRows[0].Cells[0].Value;
+                        ErrorCode err = Program.Server.DeleteBook(bookId);
+                        if (err == ErrorCode.OK)
+                        {
+                            // remove to reminder list
 
-                        // update to gridview
-                        dtgBooking.SelectedRows[0].Delete();
+                            // update to gridview
+                            dtgBooking.SelectedRows[0].Delete();
+                        }
                     }
                 }
+                
             }
             else if (sender.Equals(btnCancelBooking))
             {
-                if (dtgBooking.SelectedRows.Count > 0)
+                if (MessageHandler.AskForCancellingBooking() == System.Windows.Forms.DialogResult.Yes)
                 {
-                    int bookId = (int)(decimal)dtgBooking.SelectedRows[0].Cells[0].Value;
-                    ErrorCode err = Program.Server.CanncelBook(bookId);
-                    if (err == ErrorCode.OK)
+                    if (dtgBooking.SelectedRows.Count > 0)
                     {
-                        // remove to reminder list
+                        int bookId = (int)(decimal)dtgBooking.SelectedRows[0].Cells[0].Value;
+                        ErrorCode err = Program.Server.CanncelBook(bookId);
+                        if (err == ErrorCode.OK)
+                        {
+                            // remove to reminder list
 
-                        // update to gridview
-                        dtgBooking.SelectedRows[0].Cells[1].Value = BookingStatus.Cancelled;
+                            // update to gridview
+                            dtgBooking.SelectedRows[0].Cells[1].Value = BookingStatus.Cancelled;
+                        }
                     }
                 }
             }
@@ -135,47 +142,7 @@ namespace SpaManagementV3.View
 
         private void calendar_SelectionChanged(object sender, EventArgs e)
         {
-            dtgBooking.Rows.Clear();
-
-            List<Book> books = Program.Server.GetBooks(CurrentSelectedDate);
-            foreach (Book book in books)
-            {
-                string ktvs;
-                string rooms;
-                string packges;
-                string services;
-
-                List<string> temp = new List<string>();
-                foreach (Personnel ktv in book.Personnels)
-                {
-                    temp.Add(ktv.Code);
-                }
-                ktvs = SpaCommon.StringParser.GetString(temp);
-
-                temp.Clear();
-                foreach (Room room in book.Rooms)
-                {
-                    temp.Add(room.Code);
-                }
-                rooms = SpaCommon.StringParser.GetString(temp);
-
-                temp.Clear();
-                foreach (Service service in book.Services)
-                {
-                    temp.Add(service.Code);
-                }
-                services = SpaCommon.StringParser.GetString(temp);
-
-                temp.Clear();
-                foreach (Package package in book.Packages)
-                {
-                    temp.Add(package.Code);
-                }
-                packges = SpaCommon.StringParser.GetString(temp);
-
-                dtgBooking.Rows.Add(new object[] { book.Id, book.Status, book.BookingTime, book.CustomerName, ktvs, rooms, services, packges, book.Note });
-            }
-
+            UpdateBookingOnGridview();
         }
 
         #endregion
@@ -196,7 +163,7 @@ namespace SpaManagementV3.View
 
         private void LoadData()
         {
-
+            UpdateBookingOnGridview();
         }
 
         public void AddNewBookingToBookingList(Book book)
@@ -275,14 +242,58 @@ namespace SpaManagementV3.View
             packges = SpaCommon.StringParser.GetString(temp);
 
             dtgBooking.SelectedRows[0].Cells[1].Value = book.Status;
-            dtgBooking.SelectedRows[0].Cells[1].Value = book.BookingTime;
-            dtgBooking.SelectedRows[0].Cells[1].Value = book.CustomerName;
-            dtgBooking.SelectedRows[0].Cells[1].Value = ktvs;
-            dtgBooking.SelectedRows[0].Cells[1].Value = rooms;
-            dtgBooking.SelectedRows[0].Cells[1].Value = services;
-            dtgBooking.SelectedRows[0].Cells[1].Value = packges;
-            dtgBooking.SelectedRows[0].Cells[1].Value = book.Note;
+            dtgBooking.SelectedRows[0].Cells[2].Value = book.BookingTime;
+            dtgBooking.SelectedRows[0].Cells[3].Value = book.CustomerName;
+            dtgBooking.SelectedRows[0].Cells[4].Value = ktvs;
+            dtgBooking.SelectedRows[0].Cells[5].Value = rooms;
+            dtgBooking.SelectedRows[0].Cells[6].Value = services;
+            dtgBooking.SelectedRows[0].Cells[7].Value = packges;
+            dtgBooking.SelectedRows[0].Cells[8].Value = book.Note;
 
+        }
+
+        private void UpdateBookingOnGridview()
+        {
+            dtgBooking.Rows.Clear();
+
+            List<Book> books = Program.Server.GetBooks(CurrentSelectedDate);
+            foreach (Book book in books)
+            {
+                string ktvs;
+                string rooms;
+                string packges;
+                string services;
+
+                List<string> temp = new List<string>();
+                foreach (Personnel ktv in book.Personnels)
+                {
+                    temp.Add(ktv.Code);
+                }
+                ktvs = SpaCommon.StringParser.GetString(temp);
+
+                temp.Clear();
+                foreach (Room room in book.Rooms)
+                {
+                    temp.Add(room.Code);
+                }
+                rooms = SpaCommon.StringParser.GetString(temp);
+
+                temp.Clear();
+                foreach (Service service in book.Services)
+                {
+                    temp.Add(service.Code);
+                }
+                services = SpaCommon.StringParser.GetString(temp);
+
+                temp.Clear();
+                foreach (Package package in book.Packages)
+                {
+                    temp.Add(package.Code);
+                }
+                packges = SpaCommon.StringParser.GetString(temp);
+
+                dtgBooking.Rows.Add(new object[] { book.Id, book.Status, book.BookingTime, book.CustomerName, ktvs, rooms, services, packges, book.Note });
+            }
         }
         #endregion
     }
