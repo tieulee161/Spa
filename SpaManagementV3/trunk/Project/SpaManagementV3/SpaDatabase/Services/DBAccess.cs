@@ -3304,7 +3304,7 @@ namespace SpaDatabase.Services
             {
                 IRepository<Book> bookService = new Repository<Book>(db);
                 Book book = bookService.GetById(id);
-                if(book != null)
+                if (book != null)
                 {
                     book.Status = BookingStatus.Cancelled;
                     if (bookService.SaveChanges())
@@ -3312,7 +3312,7 @@ namespace SpaDatabase.Services
                         res = ErrorCode.OK;
                     }
                 }
-               
+
             }
             return res;
         }
@@ -3324,7 +3324,7 @@ namespace SpaDatabase.Services
             using (SpaDbContext db = new SpaDbContext())
             {
                 IRepository<Book> bookService = new Repository<Book>(db);
-                res = bookService.GetById(id);
+                res = bookService.Get(q => q.Id == id, null, "Rooms,Services,Packages,Personnels").FirstOrDefault();
             }
             return res;
         }
@@ -3334,7 +3334,18 @@ namespace SpaDatabase.Services
             using (SpaDbContext db = new SpaDbContext())
             {
                 IRepository<Book> bookService = new Repository<Book>(db);
-                res = bookService.GetAll().ToList();
+                res = bookService.Get(null, null, "Rooms,Services,Packages,Personnels").ToList();
+            }
+            return res;
+        }
+
+        public List<Book> GetBooks(DateTime date)
+        {
+            List<Book> res = new List<Book>();
+            using (SpaDbContext db = new SpaDbContext())
+            {
+                IRepository<Book> bookService = new Repository<Book>(db);
+                res = bookService.Get(q => (q.BookingTime.Year == date.Year) && (q.BookingTime.Month == date.Month) && (q.BookingTime.Day == date.Day), null, "Rooms,Services,Packages,Personnels").ToList();
             }
             return res;
         }

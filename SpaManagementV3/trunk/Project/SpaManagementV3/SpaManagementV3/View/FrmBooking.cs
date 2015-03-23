@@ -127,6 +127,7 @@ namespace SpaManagementV3.View
                         if (error == ErrorCode.OK)
                         {
                             IsSuccess = ErrorCode.OK;
+                            Close();
                         }
                         else
                         {
@@ -138,7 +139,9 @@ namespace SpaManagementV3.View
                         ErrorCode error = Program.Server.UpdateBook(Book.Id, customerName, bookingTime, note, personnels, rooms, services, packages);
                         if (error == ErrorCode.OK)
                         {
+                            this.Book = Program.Server.GetBook(Book.Id);
                             IsSuccess = ErrorCode.OK;
+                            Close();
                         }
                         else
                         {
