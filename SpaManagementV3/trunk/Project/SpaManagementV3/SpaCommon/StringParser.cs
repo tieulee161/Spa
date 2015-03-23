@@ -49,5 +49,12 @@ namespace SpaCommon
             
             return res;
         }
+
+        public static string GetString(List<string> data)
+        {
+            string res = "";
+            res = string.Join(",", data);
+            return res;
+        }
     }
 }

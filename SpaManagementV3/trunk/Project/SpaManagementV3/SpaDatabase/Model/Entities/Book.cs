@@ -11,6 +11,7 @@ namespace SpaDatabase.Model.Entities
     public class Book : BaseEntity
     {
         public string CustomerName { get; set; }
+
         public DateTime BookingTime { get; set; }
 
         [MaxLength(500)]
