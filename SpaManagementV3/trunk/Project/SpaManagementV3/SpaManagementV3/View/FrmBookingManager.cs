@@ -102,7 +102,7 @@ namespace SpaManagementV3.View
             }
             else if (sender.Equals(btnDeleteBooking))
             {
-                if(MessageHandler.AskForDeleting() == System.Windows.Forms.DialogResult.Yes)
+                if (MessageHandler.AskForDeleting() == System.Windows.Forms.DialogResult.Yes)
                 {
                     if (dtgBooking.SelectedRows.Count > 0)
                     {
@@ -117,7 +117,7 @@ namespace SpaManagementV3.View
                         }
                     }
                 }
-                
+
             }
             else if (sender.Equals(btnCancelBooking))
             {
@@ -201,7 +201,7 @@ namespace SpaManagementV3.View
             }
             packges = SpaCommon.StringParser.GetString(temp);
 
-            dtgBooking.Rows.Add(new object[] { book.Id, book.Status, book.BookingTime, book.CustomerName, ktvs, rooms, services, packges, book.Note });
+            dtgBooking.Rows.Add(new object[] { book.Id, book.Status, book.BookingTime, book.CustomerName, book.Location, ktvs, rooms, services, packges, book.Note });
 
         }
 
@@ -244,11 +244,12 @@ namespace SpaManagementV3.View
             dtgBooking.SelectedRows[0].Cells[1].Value = book.Status;
             dtgBooking.SelectedRows[0].Cells[2].Value = book.BookingTime;
             dtgBooking.SelectedRows[0].Cells[3].Value = book.CustomerName;
-            dtgBooking.SelectedRows[0].Cells[4].Value = ktvs;
-            dtgBooking.SelectedRows[0].Cells[5].Value = rooms;
-            dtgBooking.SelectedRows[0].Cells[6].Value = services;
-            dtgBooking.SelectedRows[0].Cells[7].Value = packges;
-            dtgBooking.SelectedRows[0].Cells[8].Value = book.Note;
+            dtgBooking.SelectedRows[0].Cells[4].Value = book.Location;
+            dtgBooking.SelectedRows[0].Cells[5].Value = ktvs;
+            dtgBooking.SelectedRows[0].Cells[6].Value = rooms;
+            dtgBooking.SelectedRows[0].Cells[7].Value = services;
+            dtgBooking.SelectedRows[0].Cells[8].Value = packges;
+            dtgBooking.SelectedRows[0].Cells[9].Value = book.Note;
 
         }
 
@@ -292,7 +293,7 @@ namespace SpaManagementV3.View
                 }
                 packges = SpaCommon.StringParser.GetString(temp);
 
-                dtgBooking.Rows.Add(new object[] { book.Id, book.Status, book.BookingTime, book.CustomerName, ktvs, rooms, services, packges, book.Note });
+                dtgBooking.Rows.Add(new object[] { book.Id, book.Status, book.BookingTime, book.CustomerName, book.Location, ktvs, rooms, services, packges, book.Note });
             }
         }
         #endregion

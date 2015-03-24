@@ -19,6 +19,8 @@ namespace SpaDatabase.Model.Entities
 
         public BookingStatus Status { get; set; }
 
+        public Branch Location { get; set; }
+
         public virtual ICollection<Room> Rooms { get; set; }
         public virtual ICollection<Service> Services { get; set; }
         public virtual ICollection<Package> Packages { get; set; }

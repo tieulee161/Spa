@@ -81,6 +81,7 @@ namespace SpaManagementV3.View
                     List<string> services = new List<string>();
                     List<string> personnels = new List<string>();
                     List<string> packages = new List<string>();
+                    Branch location = (Branch)cbbxLocation.SelectedValue;
 
                     for (int j = 0; j < dtgRoom.Rows.Count; j++)
                     {
@@ -121,7 +122,7 @@ namespace SpaManagementV3.View
                     if (Book == null)
                     {
                         Book book = null;
-                        ErrorCode error = Program.Server.AddNewBook(customerName, bookingTime, note, personnels, rooms, services, packages, out book);
+                        ErrorCode error = Program.Server.AddNewBook(customerName, bookingTime, location, note, personnels, rooms, services, packages, out book);
                         this.Book = book;
                         MessageHandler.MessageManager(this, error);
                         if (error == ErrorCode.OK)
@@ -137,7 +138,7 @@ namespace SpaManagementV3.View
                     }
                     else
                     {
-                        ErrorCode error = Program.Server.UpdateBook(Book.Id, customerName, bookingTime, note, personnels, rooms, services, packages);
+                        ErrorCode error = Program.Server.UpdateBook(Book.Id, customerName, bookingTime, location, note, personnels, rooms, services, packages);
                         if (error == ErrorCode.OK)
                         {
                             this.Book = Program.Server.GetBook(Book.Id);
@@ -173,12 +174,22 @@ namespace SpaManagementV3.View
         {
             dateBookingTime.Value = DateTime.Now;
 
+            RadListDataItem item = new RadListDataItem(Branch.MH9C.ToString());
+            item.Value = Branch.MH9C;
+            RadListDataItem item1 = new RadListDataItem(Branch.MH2A.ToString());
+            item1.Value = Branch.MH2A;
+            cbbxLocation.Items.Add(item);
+            cbbxLocation.Items.Add(item1);
+            cbbxLocation.SelectedValue = Branch.MH9C;
+
+
             if (Book != null)
             {
                 txtCustomerName.Text = Book.CustomerName;
                 txtNote.Text = Book.Note;
                 dateBookingTime.Value = Book.BookingTime;
                 spinId.Value = Book.Id;
+                cbbxLocation.SelectedValue = Book.Location;
             }
 
 

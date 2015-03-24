@@ -3095,7 +3095,7 @@ namespace SpaDatabase.Services
         #endregion
 
         #region book
-        public ErrorCode AddNewBook(string customerName, DateTime bookingTime, string note, List<string> personnelCodes, List<string> roomCodes, List<string> serviceCodes, List<string> packageCodes, out Book book)
+        public ErrorCode AddNewBook(string customerName, DateTime bookingTime, Branch branch, string note, List<string> personnelCodes, List<string> roomCodes, List<string> serviceCodes, List<string> packageCodes, out Book book)
         {
             ErrorCode res = ErrorCode.N_OK;
             using (SpaDbContext db = new SpaDbContext())
@@ -3111,6 +3111,7 @@ namespace SpaDatabase.Services
                 book.BookingTime = bookingTime;
                 book.Note = note;
                 book.Status = BookingStatus.New;
+                book.Location = branch;
 
                 if (personnelCodes.Count > 0)
                 {
@@ -3174,7 +3175,7 @@ namespace SpaDatabase.Services
 
             return res;
         }
-        public ErrorCode UpdateBook(int id, string customerName, DateTime bookingTime, string note, List<string> personnelCodes, List<string> roomCodes, List<string> serviceCodes, List<string> packageCodes)
+        public ErrorCode UpdateBook(int id, string customerName, DateTime bookingTime, Branch branch, string note, List<string> personnelCodes, List<string> roomCodes, List<string> serviceCodes, List<string> packageCodes)
         {
             ErrorCode res = ErrorCode.N_OK;
             using (SpaDbContext db = new SpaDbContext())
@@ -3191,6 +3192,7 @@ namespace SpaDatabase.Services
                     book.CustomerName = customerName;
                     book.Note = note;
                     book.BookingTime = bookingTime;
+                    book.Location = branch;
                     if (book.Personnels == null)
                     {
                         book.Personnels = new List<Personnel>();

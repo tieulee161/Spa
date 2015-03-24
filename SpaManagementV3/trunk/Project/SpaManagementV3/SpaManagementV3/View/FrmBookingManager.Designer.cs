@@ -38,6 +38,7 @@
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn4 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn5 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn6 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn7 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.Data.SortDescriptor sortDescriptor1 = new Telerik.WinControls.Data.SortDescriptor();
             this.telerikMetroTheme1 = new Telerik.WinControls.Themes.TelerikMetroTheme();
             this.radGroupBox1 = new Telerik.WinControls.UI.RadGroupBox();
@@ -184,46 +185,52 @@
             gridViewDecimalColumn1.Name = "colId";
             conditionalFormattingObject1.ApplyToRow = true;
             conditionalFormattingObject1.CellBackColor = System.Drawing.Color.Silver;
+            conditionalFormattingObject1.CellFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             conditionalFormattingObject1.CellForeColor = System.Drawing.Color.Empty;
             conditionalFormattingObject1.Name = "Cancelled";
             conditionalFormattingObject1.RowBackColor = System.Drawing.Color.Silver;
+            conditionalFormattingObject1.RowFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             conditionalFormattingObject1.RowForeColor = System.Drawing.Color.Empty;
             conditionalFormattingObject1.TValue1 = "Cancelled";
             gridViewComboBoxColumn1.ConditionalFormattingObjectList.Add(conditionalFormattingObject1);
             gridViewComboBoxColumn1.EnableExpressionEditor = false;
             gridViewComboBoxColumn1.HeaderText = "Status";
             gridViewComboBoxColumn1.Name = "column7";
-            gridViewComboBoxColumn1.Width = 91;
+            gridViewComboBoxColumn1.Width = 65;
             gridViewDateTimeColumn1.EnableExpressionEditor = false;
             gridViewDateTimeColumn1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             gridViewDateTimeColumn1.FormatString = "{0:HH:mm}";
             gridViewDateTimeColumn1.HeaderText = "Time";
             gridViewDateTimeColumn1.Name = "column1";
-            gridViewDateTimeColumn1.Width = 91;
+            gridViewDateTimeColumn1.Width = 54;
             gridViewTextBoxColumn1.EnableExpressionEditor = false;
             gridViewTextBoxColumn1.HeaderText = "Customer";
             gridViewTextBoxColumn1.Name = "column2";
-            gridViewTextBoxColumn1.Width = 91;
+            gridViewTextBoxColumn1.Width = 80;
             gridViewTextBoxColumn2.EnableExpressionEditor = false;
-            gridViewTextBoxColumn2.HeaderText = "KTV";
-            gridViewTextBoxColumn2.Name = "column3";
-            gridViewTextBoxColumn2.Width = 91;
+            gridViewTextBoxColumn2.HeaderText = "Location";
+            gridViewTextBoxColumn2.Name = "colLocation";
+            gridViewTextBoxColumn2.Width = 87;
             gridViewTextBoxColumn3.EnableExpressionEditor = false;
-            gridViewTextBoxColumn3.HeaderText = "Room";
-            gridViewTextBoxColumn3.Name = "column4";
+            gridViewTextBoxColumn3.HeaderText = "KTV";
+            gridViewTextBoxColumn3.Name = "column3";
             gridViewTextBoxColumn3.Width = 91;
             gridViewTextBoxColumn4.EnableExpressionEditor = false;
-            gridViewTextBoxColumn4.HeaderText = "Service";
-            gridViewTextBoxColumn4.Name = "column5";
-            gridViewTextBoxColumn4.Width = 91;
+            gridViewTextBoxColumn4.HeaderText = "Room";
+            gridViewTextBoxColumn4.Name = "column4";
+            gridViewTextBoxColumn4.Width = 85;
             gridViewTextBoxColumn5.EnableExpressionEditor = false;
-            gridViewTextBoxColumn5.HeaderText = "Package";
-            gridViewTextBoxColumn5.Name = "column6";
-            gridViewTextBoxColumn5.Width = 91;
+            gridViewTextBoxColumn5.HeaderText = "Service";
+            gridViewTextBoxColumn5.Name = "column5";
+            gridViewTextBoxColumn5.Width = 94;
             gridViewTextBoxColumn6.EnableExpressionEditor = false;
-            gridViewTextBoxColumn6.HeaderText = "Note";
-            gridViewTextBoxColumn6.Name = "column8";
-            gridViewTextBoxColumn6.Width = 99;
+            gridViewTextBoxColumn6.HeaderText = "Package";
+            gridViewTextBoxColumn6.Name = "column6";
+            gridViewTextBoxColumn6.Width = 98;
+            gridViewTextBoxColumn7.EnableExpressionEditor = false;
+            gridViewTextBoxColumn7.HeaderText = "Note";
+            gridViewTextBoxColumn7.Name = "column8";
+            gridViewTextBoxColumn7.Width = 83;
             this.dtgBooking.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
             gridViewDecimalColumn1,
             gridViewComboBoxColumn1,
@@ -233,7 +240,8 @@
             gridViewTextBoxColumn3,
             gridViewTextBoxColumn4,
             gridViewTextBoxColumn5,
-            gridViewTextBoxColumn6});
+            gridViewTextBoxColumn6,
+            gridViewTextBoxColumn7});
             this.dtgBooking.MasterTemplate.EnableGrouping = false;
             this.dtgBooking.MasterTemplate.EnableSorting = false;
             this.dtgBooking.MasterTemplate.ShowHeaderCellButtons = true;
@@ -250,7 +258,7 @@
             // 
             // FrmBookingManager
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1036, 610);
             this.Controls.Add(this.dtgBooking);
