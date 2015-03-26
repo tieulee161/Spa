@@ -52,6 +52,7 @@
     <Reference Include="Telerik.WinControls, Version=2014.2.715.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.GridView, Version=2014.2.715.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.RadMarkupEditor, Version=2014.2.715.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Scheduler, Version=2014.2.715.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.Themes.TelerikMetro, Version=2014.2.715.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.Themes.TelerikMetroBlue, Version=2014.2.715.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.UI, Version=2014.2.715.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
@@ -196,12 +197,19 @@
       <DependentUpon>FrmSystemData.cs</DependentUpon>
     </Compile>
     <Compile Include="View\SpreadsheetGridRowHeaderCellElement.cs" />
+    <Compile Include="View\Template\FrmAlarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Template\FrmAlarm.Designer.cs">
+      <DependentUpon>FrmAlarm.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Template\FrmBedSetting.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\Template\FrmBedSetting.Designer.cs">
       <DependentUpon>FrmBedSetting.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Template\HDReminder.cs" />
     <Compile Include="View\Template\UcBed.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -269,6 +277,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\FrmSystemData.resx">
       <DependentUpon>FrmSystemData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Template\FrmAlarm.resx">
+      <DependentUpon>FrmAlarm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Template\FrmBedSetting.resx">
       <DependentUpon>FrmBedSetting.cs</DependentUpon>
