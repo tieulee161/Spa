@@ -195,6 +195,7 @@ namespace SpaManagementV3.View
             LoadOtherService();
             LoadPromotion();
             LoadVoucher();
+            LoadBooking();
             LoadNewBill();
         }
 
@@ -399,6 +400,12 @@ namespace SpaManagementV3.View
             spinPay.Value = 0;
             btnAddVoucher.Enabled = false;
             #endregion
+        }
+
+        private void LoadBooking()
+        {
+            List<Book> books = Program.Server.GetBooks(DateTime.Now);
+
         }
 
         private void LoadNewBill()
