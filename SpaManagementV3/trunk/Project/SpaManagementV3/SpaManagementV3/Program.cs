@@ -29,8 +29,8 @@ namespace SpaManagementV3
             Application.SetCompatibleTextRenderingDefault(false);
             ConnectToServer();
          
-        //    Application.Run(new FrmMain());
-            Application.Run(new FrmBookingManager());
+            Application.Run(new FrmMain());
+         //   Application.Run(new FrmBookingManager());
        //     Application.Run(new FrmRoomManagement2A());
         }
 

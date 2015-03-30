@@ -12,6 +12,7 @@ using Telerik.WinControls.UI;
 using SpaCommon;
 using SpaDatabase.Model.Entities;
 using SpaDatabase.Services;
+using SpaManagementV3.View.Template;
 
 namespace SpaManagementV3.View
 {
@@ -405,7 +406,12 @@ namespace SpaManagementV3.View
         private void LoadBooking()
         {
             List<Book> books = Program.Server.GetBooks(DateTime.Now);
-
+            HDReminder.InitReminder();
+            foreach(Book book in books)
+            {
+                HDReminder.AddAppoiment(book);
+            }
+            HDReminder.Start();
         }
 
         private void LoadNewBill()
@@ -638,7 +644,8 @@ namespace SpaManagementV3.View
             }
             else if (sender.Equals(menuBookingManagement))
             {
-
+                FrmBookingManager f = new FrmBookingManager();
+                f.Show();
             }
             else if (sender.Equals(menuKTVManagement))
             {
