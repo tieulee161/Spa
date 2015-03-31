@@ -74,7 +74,7 @@ namespace SpaManagementV3.View
                 if (f.IsSuccess == ErrorCode.OK)
                 {
                     // add to reminder list
-                    HDReminder.AddAppoiment(f.Book);
+                   Program.Reminder.AddAppoiment(f.Book);
 
                     // display to gridview
                     if (CurrentSelectedDate.Date == f.Book.BookingTime.Date)
@@ -98,7 +98,7 @@ namespace SpaManagementV3.View
                         if (f.IsSuccess == ErrorCode.OK)
                         {
                             // update to reminder list
-                            HDReminder.UpdateAppoiment(book);
+                            Program.Reminder.UpdateAppoiment(book);
 
                             // update to gridview
                             UpdateBooking(f.Book);
@@ -117,7 +117,7 @@ namespace SpaManagementV3.View
                         if (err == ErrorCode.OK)
                         {
                             // remove to reminder list
-                            HDReminder.RemoveAppoiment(bookId);
+                            Program.Reminder.RemoveAppoiment(bookId);
 
                             // update to gridview
                             dtgBooking.SelectedRows[0].Delete();
@@ -137,7 +137,7 @@ namespace SpaManagementV3.View
                         if (err == ErrorCode.OK)
                         {
                             // remove to reminder list
-                            HDReminder.RemoveAppoiment(bookId);
+                            Program.Reminder.RemoveAppoiment(bookId);
 
                             // update to gridview
                             dtgBooking.SelectedRows[0].Cells[1].Value = BookingStatus.Cancelled;

@@ -406,12 +406,12 @@ namespace SpaManagementV3.View
         private void LoadBooking()
         {
             List<Book> books = Program.Server.GetBooks(DateTime.Now);
-            HDReminder.InitReminder();
+            Program.Reminder.InitReminder();
             foreach(Book book in books)
             {
-                HDReminder.AddAppoiment(book);
+                Program.Reminder.AddAppoiment(book);
             }
-            HDReminder.Start();
+      //      Program.Reminder.Start();
         }
 
         private void LoadNewBill()

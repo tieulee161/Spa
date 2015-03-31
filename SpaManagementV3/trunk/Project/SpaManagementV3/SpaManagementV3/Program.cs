@@ -11,12 +11,14 @@ using System.Runtime.Remoting.Channels;
 using System.Runtime.Remoting.Channels.Tcp;
 using System.Runtime.Remoting.Channels.Http;
 
+using SpaManagementV3.View.Template;
+
 namespace SpaManagementV3
 {
     static class Program
     {
         #region properties
-     
+        public static HDReminder Reminder { get; set; }
 
         #endregion
         /// <summary>
@@ -27,6 +29,7 @@ namespace SpaManagementV3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Init();
             ConnectToServer();
          
             Application.Run(new FrmMain());
@@ -55,6 +58,11 @@ namespace SpaManagementV3
             {
                 MessageBox.Show("Không thể kết nối đến server !\r\n\r\nXem lại kết nối internet hoặc server hiện đang không hoạt động.\r\n" + ex.Message);
             }
+        }
+
+        private static void Init()
+        {
+            Reminder = new HDReminder();
         }
     }
 }

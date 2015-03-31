@@ -11,18 +11,18 @@ using SpaDatabase.Model;
 
 namespace SpaManagementV3.View.Template
 {
-    public static class HDReminder
+    public class HDReminder
     {
-        public static Dictionary<int, Appointment> Appoiments = new Dictionary<int, Appointment>();
+        public Dictionary<int, Appointment> Appoiments = new Dictionary<int, Appointment>();
 
-      //  private static List<object> openedAlerts = new List<object>();
-        private static RadScheduler _RadScheduler { get; set; }
+        //  private static List<object> openedAlerts = new List<object>();
+        private RadScheduler _RadScheduler { get; set; }
 
-        private static RadSchedulerReminder _SchedulerReminder { get; set; }
+        private RadSchedulerReminder _SchedulerReminder { get; set; }
 
-        private static FrmAlarm _CustomAlarmForm { get; set; }
+        private FrmAlarm _CustomAlarmForm { get; set; }
 
-        public static void AddAppoiment(Book book)
+        public void AddAppoiment(Book book)
         {
             if (!Appoiments.ContainsKey(book.Id))
             {
@@ -31,16 +31,16 @@ namespace SpaManagementV3.View.Template
                 string title = string.Format("{0} : {1}", book.BookingTime.ToString("dd/MM/yyyy HH:mm"), book.CustomerName);
 
                 Appointment appointment = new Appointment(dtStart, dtEnd, title);
-                _RadScheduler.Appointments.Add(appointment);
-
                 appointment.Reminder = new TimeSpan(0, 5, 0);
+
+                _RadScheduler.Appointments.Add(appointment);
 
                 Appoiments.Add(book.Id, appointment);
             }
 
         }
 
-        public static void UpdateAppoiment(Book book)
+        public void UpdateAppoiment(Book book)
         {
             if (Appoiments.ContainsKey(book.Id))
             {
@@ -52,7 +52,7 @@ namespace SpaManagementV3.View.Template
             }
         }
 
-        public static void RemoveAppoiment(int bookId)
+        public void RemoveAppoiment(int bookId)
         {
             if (Appoiments.ContainsKey(bookId))
             {
@@ -60,18 +60,18 @@ namespace SpaManagementV3.View.Template
             }
         }
 
-        public static void Start()
+        public void Start()
         {
             _SchedulerReminder.StartReminder();
         }
 
-        public static void Stop()
+        public void Stop()
         {
             _SchedulerReminder.StopReminder();
         }
 
 
-        public static void InitReminder()
+        public void InitReminder()
         {
             _SchedulerReminder = new RadSchedulerReminder();
             _RadScheduler = new RadScheduler();
@@ -83,7 +83,7 @@ namespace SpaManagementV3.View.Template
             _SchedulerReminder.AlarmFormShowing += schedulerReminder_AlarmFormShowing;
         }
 
-        private static void schedulerReminder_AlarmFormShowing(object sender, RadAlarmFormShowingEventArgs e)
+        private void schedulerReminder_AlarmFormShowing(object sender, RadAlarmFormShowingEventArgs e)
         {
             e.AlarmForm = _CustomAlarmForm;
         }
