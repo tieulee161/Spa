@@ -104,6 +104,7 @@
             // 
             // 
             this.RootElement.ApplyShapeToControl = true;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " Booking";
             this.ThemeName = "TelerikMetro";
             ((System.ComponentModel.ISupportInitialize)(this.btnDismiss)).EndInit();

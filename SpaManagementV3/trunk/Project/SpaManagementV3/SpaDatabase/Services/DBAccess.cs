@@ -3301,7 +3301,7 @@ namespace SpaDatabase.Services
             return res;
         }
 
-        public ErrorCode CanncelBook(int id)
+        public ErrorCode ChangeBookStatus(int id, BookingStatus status)
         {
             ErrorCode res = ErrorCode.N_OK;
             using (SpaDbContext db = new SpaDbContext())
@@ -3310,7 +3310,7 @@ namespace SpaDatabase.Services
                 Book book = bookService.GetById(id);
                 if (book != null)
                 {
-                    book.Status = BookingStatus.Cancelled;
+                    book.Status = status;
                     if (bookService.SaveChanges())
                     {
                         res = ErrorCode.OK;
@@ -3350,6 +3350,17 @@ namespace SpaDatabase.Services
             {
                 IRepository<Book> bookService = new Repository<Book>(db);
                 res = bookService.Get(q => (q.BookingTime.Year == date.Year) && (q.BookingTime.Month == date.Month) && (q.BookingTime.Day == date.Day), null, "Rooms,Services,Packages,Personnels").ToList();
+            }
+            return res;
+        }
+
+        public List<Book> GetBooks(DateTime date, bool isReminded)
+        {
+            List<Book> res = new List<Book>();
+            using (SpaDbContext db = new SpaDbContext())
+            {
+                IRepository<Book> bookService = new Repository<Book>(db);
+                res = bookService.Get(q => (q.BookingTime.Year == date.Year) && (q.BookingTime.Month == date.Month) && (q.BookingTime.Day == date.Day) && ((q.Status == BookingStatus.New) || (q.Status == BookingStatus.Snoozed)), null, "Rooms,Services,Packages,Personnels").ToList();
             }
             return res;
         }

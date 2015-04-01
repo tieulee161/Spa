@@ -405,13 +405,12 @@ namespace SpaManagementV3.View
 
         private void LoadBooking()
         {
-            List<Book> books = Program.Server.GetBooks(DateTime.Now);
-            Program.Reminder.InitReminder();
+            List<Book> books = Program.Server.GetBooks(DateTime.Now, true);
             foreach(Book book in books)
             {
-                Program.Reminder.AddAppoiment(book);
+                Program.Reminder.AddAppointment(book);
             }
-      //      Program.Reminder.Start();
+            Program.Reminder.Start();
         }
 
         private void LoadNewBill()

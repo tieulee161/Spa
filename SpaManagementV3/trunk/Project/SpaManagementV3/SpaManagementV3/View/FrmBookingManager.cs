@@ -74,7 +74,7 @@ namespace SpaManagementV3.View
                 if (f.IsSuccess == ErrorCode.OK)
                 {
                     // add to reminder list
-                   Program.Reminder.AddAppoiment(f.Book);
+                   Program.Reminder.AddAppointment(f.Book);
 
                     // display to gridview
                     if (CurrentSelectedDate.Date == f.Book.BookingTime.Date)
@@ -98,7 +98,7 @@ namespace SpaManagementV3.View
                         if (f.IsSuccess == ErrorCode.OK)
                         {
                             // update to reminder list
-                            Program.Reminder.UpdateAppoiment(book);
+                            Program.Reminder.UpdateAppointment(book);
 
                             // update to gridview
                             UpdateBooking(f.Book);
@@ -117,7 +117,7 @@ namespace SpaManagementV3.View
                         if (err == ErrorCode.OK)
                         {
                             // remove to reminder list
-                            Program.Reminder.RemoveAppoiment(bookId);
+                            Program.Reminder.RemoveAppointment(bookId);
 
                             // update to gridview
                             dtgBooking.SelectedRows[0].Delete();
@@ -133,11 +133,11 @@ namespace SpaManagementV3.View
                     if (dtgBooking.SelectedRows.Count > 0)
                     {
                         int bookId = (int)(decimal)dtgBooking.SelectedRows[0].Cells[0].Value;
-                        ErrorCode err = Program.Server.CanncelBook(bookId);
+                        ErrorCode err = Program.Server.ChangeBookStatus(bookId, BookingStatus.Cancelled);
                         if (err == ErrorCode.OK)
                         {
                             // remove to reminder list
-                            Program.Reminder.RemoveAppoiment(bookId);
+                            Program.Reminder.RemoveAppointment(bookId);
 
                             // update to gridview
                             dtgBooking.SelectedRows[0].Cells[1].Value = BookingStatus.Cancelled;

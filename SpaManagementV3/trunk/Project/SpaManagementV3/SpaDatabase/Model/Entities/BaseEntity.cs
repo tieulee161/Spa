@@ -95,5 +95,7 @@ namespace SpaDatabase.Model.Entities
         New,
         Cancelled,
         Done,
+        Snoozed,
+        Dimiss,
     }
 }
