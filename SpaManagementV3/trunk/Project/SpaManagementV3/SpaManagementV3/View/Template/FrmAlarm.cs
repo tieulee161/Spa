@@ -28,6 +28,7 @@ namespace SpaManagementV3.View.Template
             {
                 Program.Reminder.Dismiss((int)item.Value);
             }
+            Close();
         }
 
         private void btnSnooze_Click(object sender, EventArgs e)
@@ -36,6 +37,7 @@ namespace SpaManagementV3.View.Template
             {
                 Program.Reminder.Snooze((int)item.Value);
             }
+            Close();
         }
 
         private void btnDismiss_Click(object sender, EventArgs e)

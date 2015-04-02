@@ -48,7 +48,7 @@
             this.btnDismiss.Name = "btnDismiss";
             this.btnDismiss.Size = new System.Drawing.Size(102, 24);
             this.btnDismiss.TabIndex = 4;
-            this.btnDismiss.Text = "Dismiss";
+            this.btnDismiss.Text = "Dimiss";
             this.btnDismiss.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDismiss.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnDismiss.ThemeName = "TelerikMetro";
@@ -74,7 +74,7 @@
             this.btnDismissAll.Name = "btnDismissAll";
             this.btnDismissAll.Size = new System.Drawing.Size(102, 24);
             this.btnDismissAll.TabIndex = 6;
-            this.btnDismissAll.Text = "Dismiss All";
+            this.btnDismissAll.Text = "Dimiss All";
             this.btnDismissAll.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDismissAll.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnDismissAll.ThemeName = "TelerikMetro";

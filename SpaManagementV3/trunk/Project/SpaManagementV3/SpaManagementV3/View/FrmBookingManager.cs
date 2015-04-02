@@ -56,6 +56,8 @@ namespace SpaManagementV3.View
         private void InitializeGridview(RadGridView grid)
         {
             grid.TableElement.RowHeaderColumnWidth = 42;
+            grid.RowFormatting += dtgBooking_RowFormatting;
+            grid.CreateCell += dtgBooking_CreateCell;
         }
 
         private void FrmBooking_Load(object sender, EventArgs e)
@@ -163,8 +165,7 @@ namespace SpaManagementV3.View
             btnDeleteBooking.Click += Button_Click;
             btnCancelBooking.Click += Button_Click;
 
-            dtgBooking.RowFormatting += dtgBooking_RowFormatting;
-            dtgBooking.CreateCell += dtgBooking_CreateCell;
+        
 
             calendar.SelectionChanged += calendar_SelectionChanged;
         }

@@ -171,6 +171,27 @@ namespace SpaManagementV3.View.Template
             }
         }
 
+        public void Done(int bookId)
+        {
+            if (Appointments.ContainsKey(bookId))
+            {
+                ErrorCode err = Program.Server.ChangeBookStatus(bookId, BookingStatus.Done);
+                if (err == ErrorCode.OK)
+                {
+                    Appointments.Remove(bookId);
+                }
+            }
+        }
+
+        public void DoneAll()
+        {
+            List<int> keys = Appointments.Keys.ToList();
+            for (int j = keys.Count - 1; j >= 0; j--)
+            {
+                Done(keys[j]);
+            }
+        }
+
         public void Snooze(int bookId)
         {
             if (Appointments.ContainsKey(bookId))
