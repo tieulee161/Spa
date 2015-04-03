@@ -246,6 +246,11 @@ namespace SpaCommon
             return Question("Are you really want to cancel this booking?");
         }
 
+        public static DialogResult AskForEndingBooking()
+        {
+            return Question("Are you want to end this booking?");
+        }
+
         #endregion
 
     }

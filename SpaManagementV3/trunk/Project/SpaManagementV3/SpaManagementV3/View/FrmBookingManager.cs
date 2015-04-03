@@ -83,6 +83,8 @@ namespace SpaManagementV3.View
                     {
                         AddNewBookingToBookingList(f.Book);
                     }
+
+                    // hight light calendar
                 }
 
             }
@@ -123,6 +125,8 @@ namespace SpaManagementV3.View
 
                             // update to gridview
                             dtgBooking.SelectedRows[0].Delete();
+
+                            // remove high light if dont have any booking on this day
                         }
                     }
                 }
@@ -147,6 +151,25 @@ namespace SpaManagementV3.View
                     }
                 }
             }
+            else if (sender.Equals(btnEndBooking))
+            {
+                if (MessageHandler.AskForEndingBooking() == System.Windows.Forms.DialogResult.Yes)
+                {
+                    if (dtgBooking.SelectedRows.Count > 0)
+                    {
+                        int bookId = (int)(decimal)dtgBooking.SelectedRows[0].Cells[0].Value;
+                        ErrorCode err = Program.Server.ChangeBookStatus(bookId, BookingStatus.Done);
+                        if (err == ErrorCode.OK)
+                        {
+                            // remove to reminder list
+                            Program.Reminder.RemoveAppointment(bookId);
+
+                            // update to gridview
+                            dtgBooking.SelectedRows[0].Cells[1].Value = BookingStatus.Done;
+                        }
+                    }
+                }
+            }
 
         }
 
@@ -164,14 +187,14 @@ namespace SpaManagementV3.View
             btnEditBooking.Click += Button_Click;
             btnDeleteBooking.Click += Button_Click;
             btnCancelBooking.Click += Button_Click;
-
-        
+            btnEndBooking.Click += Button_Click;
 
             calendar.SelectionChanged += calendar_SelectionChanged;
         }
 
         private void LoadData()
         {
+            UpdateBookingOnCalendar();
             UpdateBookingOnGridview();
         }
 
@@ -304,6 +327,17 @@ namespace SpaManagementV3.View
 
                 dtgBooking.Rows.Add(new object[] { book.Id, book.Status, book.BookingTime, book.CustomerName, book.Location, ktvs, rooms, services, packges, book.Note });
             }
+        }
+
+        private void UpdateBookingOnCalendar()
+        {
+            List<Book> books = Program.Server.GetBooks();
+
+        }
+
+        private void UpdateBookingOnCalendar(DateTime date)
+        {
+
         }
         #endregion
     }

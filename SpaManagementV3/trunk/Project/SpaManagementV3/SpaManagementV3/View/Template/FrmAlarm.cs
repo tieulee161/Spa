@@ -42,9 +42,11 @@ namespace SpaManagementV3.View.Template
 
         private void btnDismiss_Click(object sender, EventArgs e)
         {
-            foreach (RadListDataItem item in this.radListBox1.SelectedItems)
+            for (int j = this.radListBox1.SelectedItems.Count - 1; j >= 0; j--)
             {
+                RadListDataItem item = this.radListBox1.SelectedItems[j];
                 Program.Reminder.Dismiss((int)item.Value);
+                radListBox1.Items.Remove(item);
             }
         }
 

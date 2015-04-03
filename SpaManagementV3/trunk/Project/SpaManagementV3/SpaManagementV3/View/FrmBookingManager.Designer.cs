@@ -28,22 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn1 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewComboBoxColumn gridViewComboBoxColumn1 = new Telerik.WinControls.UI.GridViewComboBoxColumn();
-            Telerik.WinControls.UI.ConditionalFormattingObject conditionalFormattingObject1 = new Telerik.WinControls.UI.ConditionalFormattingObject();
-            Telerik.WinControls.UI.GridViewDateTimeColumn gridViewDateTimeColumn1 = new Telerik.WinControls.UI.GridViewDateTimeColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn1 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn2 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn3 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn4 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn5 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn6 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn7 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.Data.SortDescriptor sortDescriptor1 = new Telerik.WinControls.Data.SortDescriptor();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn2 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewComboBoxColumn gridViewComboBoxColumn2 = new Telerik.WinControls.UI.GridViewComboBoxColumn();
+            Telerik.WinControls.UI.ConditionalFormattingObject conditionalFormattingObject2 = new Telerik.WinControls.UI.ConditionalFormattingObject();
+            Telerik.WinControls.UI.GridViewDateTimeColumn gridViewDateTimeColumn2 = new Telerik.WinControls.UI.GridViewDateTimeColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn8 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn9 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn10 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn11 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn12 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn13 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn14 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.Data.SortDescriptor sortDescriptor2 = new Telerik.WinControls.Data.SortDescriptor();
             this.telerikMetroTheme1 = new Telerik.WinControls.Themes.TelerikMetroTheme();
             this.radGroupBox1 = new Telerik.WinControls.UI.RadGroupBox();
             this.calendar = new Telerik.WinControls.UI.RadCalendar();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
+            this.btnEndBooking = new Telerik.WinControls.UI.RadButton();
             this.btnCancelBooking = new Telerik.WinControls.UI.RadButton();
             this.btnDeleteBooking = new Telerik.WinControls.UI.RadButton();
             this.btnEditBooking = new Telerik.WinControls.UI.RadButton();
@@ -54,6 +55,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.calendar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).BeginInit();
             this.radPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnEndBooking)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCancelBooking)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDeleteBooking)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnEditBooking)).BeginInit();
@@ -93,6 +95,7 @@
             // 
             // radPanel1
             // 
+            this.radPanel1.Controls.Add(this.btnEndBooking);
             this.radPanel1.Controls.Add(this.btnCancelBooking);
             this.radPanel1.Controls.Add(this.btnDeleteBooking);
             this.radPanel1.Controls.Add(this.btnEditBooking);
@@ -103,6 +106,19 @@
             this.radPanel1.Size = new System.Drawing.Size(1036, 36);
             this.radPanel1.TabIndex = 3;
             this.radPanel1.ThemeName = "TelerikMetro";
+            // 
+            // btnEndBooking
+            // 
+            this.btnEndBooking.Image = global::SpaManagementV3.Properties.Resources.Check;
+            this.btnEndBooking.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnEndBooking.Location = new System.Drawing.Point(528, 6);
+            this.btnEndBooking.Name = "btnEndBooking";
+            this.btnEndBooking.Size = new System.Drawing.Size(123, 24);
+            this.btnEndBooking.TabIndex = 5;
+            this.btnEndBooking.Text = "End Booking";
+            this.btnEndBooking.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEndBooking.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnEndBooking.ThemeName = "TelerikMetro";
             // 
             // btnCancelBooking
             // 
@@ -173,81 +189,81 @@
             this.dtgBooking.MasterTemplate.AllowDeleteRow = false;
             this.dtgBooking.MasterTemplate.AllowRowResize = false;
             this.dtgBooking.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            gridViewDecimalColumn1.DecimalPlaces = 0;
-            gridViewDecimalColumn1.EnableExpressionEditor = false;
-            gridViewDecimalColumn1.HeaderText = "Id";
-            gridViewDecimalColumn1.IsVisible = false;
-            gridViewDecimalColumn1.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn2.DecimalPlaces = 0;
+            gridViewDecimalColumn2.EnableExpressionEditor = false;
+            gridViewDecimalColumn2.HeaderText = "Id";
+            gridViewDecimalColumn2.IsVisible = false;
+            gridViewDecimalColumn2.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn1.Name = "colId";
-            conditionalFormattingObject1.ApplyToRow = true;
-            conditionalFormattingObject1.CellBackColor = System.Drawing.Color.Silver;
-            conditionalFormattingObject1.CellFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            conditionalFormattingObject1.CellForeColor = System.Drawing.Color.Empty;
-            conditionalFormattingObject1.Name = "Cancelled";
-            conditionalFormattingObject1.RowBackColor = System.Drawing.Color.Silver;
-            conditionalFormattingObject1.RowFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            conditionalFormattingObject1.RowForeColor = System.Drawing.Color.Empty;
-            conditionalFormattingObject1.TValue1 = "Cancelled";
-            gridViewComboBoxColumn1.ConditionalFormattingObjectList.Add(conditionalFormattingObject1);
-            gridViewComboBoxColumn1.EnableExpressionEditor = false;
-            gridViewComboBoxColumn1.HeaderText = "Status";
-            gridViewComboBoxColumn1.Name = "column7";
-            gridViewComboBoxColumn1.Width = 65;
-            gridViewDateTimeColumn1.EnableExpressionEditor = false;
-            gridViewDateTimeColumn1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            gridViewDateTimeColumn1.FormatString = "{0:HH:mm}";
-            gridViewDateTimeColumn1.HeaderText = "Time";
-            gridViewDateTimeColumn1.Name = "column1";
-            gridViewDateTimeColumn1.Width = 54;
-            gridViewTextBoxColumn1.EnableExpressionEditor = false;
-            gridViewTextBoxColumn1.HeaderText = "Customer";
-            gridViewTextBoxColumn1.Name = "column2";
-            gridViewTextBoxColumn1.Width = 80;
-            gridViewTextBoxColumn2.EnableExpressionEditor = false;
-            gridViewTextBoxColumn2.HeaderText = "Location";
-            gridViewTextBoxColumn2.Name = "colLocation";
-            gridViewTextBoxColumn2.Width = 87;
-            gridViewTextBoxColumn3.EnableExpressionEditor = false;
-            gridViewTextBoxColumn3.HeaderText = "KTV";
-            gridViewTextBoxColumn3.Name = "column3";
-            gridViewTextBoxColumn3.Width = 91;
-            gridViewTextBoxColumn4.EnableExpressionEditor = false;
-            gridViewTextBoxColumn4.HeaderText = "Room";
-            gridViewTextBoxColumn4.Name = "column4";
-            gridViewTextBoxColumn4.Width = 85;
-            gridViewTextBoxColumn5.EnableExpressionEditor = false;
-            gridViewTextBoxColumn5.HeaderText = "Service";
-            gridViewTextBoxColumn5.Name = "column5";
-            gridViewTextBoxColumn5.Width = 94;
-            gridViewTextBoxColumn6.EnableExpressionEditor = false;
-            gridViewTextBoxColumn6.HeaderText = "Package";
-            gridViewTextBoxColumn6.Name = "column6";
-            gridViewTextBoxColumn6.Width = 98;
-            gridViewTextBoxColumn7.EnableExpressionEditor = false;
-            gridViewTextBoxColumn7.HeaderText = "Note";
-            gridViewTextBoxColumn7.Name = "column8";
-            gridViewTextBoxColumn7.Width = 83;
+            gridViewDecimalColumn2.Name = "colId";
+            conditionalFormattingObject2.ApplyToRow = true;
+            conditionalFormattingObject2.CellBackColor = System.Drawing.Color.Silver;
+            conditionalFormattingObject2.CellFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            conditionalFormattingObject2.CellForeColor = System.Drawing.Color.Empty;
+            conditionalFormattingObject2.Name = "Cancelled";
+            conditionalFormattingObject2.RowBackColor = System.Drawing.Color.Silver;
+            conditionalFormattingObject2.RowFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            conditionalFormattingObject2.RowForeColor = System.Drawing.Color.Empty;
+            conditionalFormattingObject2.TValue1 = "Cancelled";
+            gridViewComboBoxColumn2.ConditionalFormattingObjectList.Add(conditionalFormattingObject2);
+            gridViewComboBoxColumn2.EnableExpressionEditor = false;
+            gridViewComboBoxColumn2.HeaderText = "Status";
+            gridViewComboBoxColumn2.Name = "column7";
+            gridViewComboBoxColumn2.Width = 65;
+            gridViewDateTimeColumn2.EnableExpressionEditor = false;
+            gridViewDateTimeColumn2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            gridViewDateTimeColumn2.FormatString = "{0:HH:mm}";
+            gridViewDateTimeColumn2.HeaderText = "Time";
+            gridViewDateTimeColumn2.Name = "column1";
+            gridViewDateTimeColumn2.Width = 54;
+            gridViewTextBoxColumn8.EnableExpressionEditor = false;
+            gridViewTextBoxColumn8.HeaderText = "Customer";
+            gridViewTextBoxColumn8.Name = "column2";
+            gridViewTextBoxColumn8.Width = 80;
+            gridViewTextBoxColumn9.EnableExpressionEditor = false;
+            gridViewTextBoxColumn9.HeaderText = "Location";
+            gridViewTextBoxColumn9.Name = "colLocation";
+            gridViewTextBoxColumn9.Width = 87;
+            gridViewTextBoxColumn10.EnableExpressionEditor = false;
+            gridViewTextBoxColumn10.HeaderText = "KTV";
+            gridViewTextBoxColumn10.Name = "column3";
+            gridViewTextBoxColumn10.Width = 91;
+            gridViewTextBoxColumn11.EnableExpressionEditor = false;
+            gridViewTextBoxColumn11.HeaderText = "Room";
+            gridViewTextBoxColumn11.Name = "column4";
+            gridViewTextBoxColumn11.Width = 85;
+            gridViewTextBoxColumn12.EnableExpressionEditor = false;
+            gridViewTextBoxColumn12.HeaderText = "Service";
+            gridViewTextBoxColumn12.Name = "column5";
+            gridViewTextBoxColumn12.Width = 94;
+            gridViewTextBoxColumn13.EnableExpressionEditor = false;
+            gridViewTextBoxColumn13.HeaderText = "Package";
+            gridViewTextBoxColumn13.Name = "column6";
+            gridViewTextBoxColumn13.Width = 98;
+            gridViewTextBoxColumn14.EnableExpressionEditor = false;
+            gridViewTextBoxColumn14.HeaderText = "Note";
+            gridViewTextBoxColumn14.Name = "column8";
+            gridViewTextBoxColumn14.Width = 83;
             this.dtgBooking.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewDecimalColumn1,
-            gridViewComboBoxColumn1,
-            gridViewDateTimeColumn1,
-            gridViewTextBoxColumn1,
-            gridViewTextBoxColumn2,
-            gridViewTextBoxColumn3,
-            gridViewTextBoxColumn4,
-            gridViewTextBoxColumn5,
-            gridViewTextBoxColumn6,
-            gridViewTextBoxColumn7});
+            gridViewDecimalColumn2,
+            gridViewComboBoxColumn2,
+            gridViewDateTimeColumn2,
+            gridViewTextBoxColumn8,
+            gridViewTextBoxColumn9,
+            gridViewTextBoxColumn10,
+            gridViewTextBoxColumn11,
+            gridViewTextBoxColumn12,
+            gridViewTextBoxColumn13,
+            gridViewTextBoxColumn14});
             this.dtgBooking.MasterTemplate.EnableGrouping = false;
             this.dtgBooking.MasterTemplate.EnableSorting = false;
             this.dtgBooking.MasterTemplate.ShowHeaderCellButtons = true;
-            sortDescriptor1.PropertyName = "colName";
+            sortDescriptor2.PropertyName = "colName";
             this.dtgBooking.MasterTemplate.SortDescriptors.AddRange(new Telerik.WinControls.Data.SortDescriptor[] {
-            sortDescriptor1});
+            sortDescriptor2});
             this.dtgBooking.Name = "dtgBooking";
             this.dtgBooking.ReadOnly = true;
             this.dtgBooking.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -280,6 +296,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.calendar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnEndBooking)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCancelBooking)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDeleteBooking)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnEditBooking)).EndInit();
@@ -302,5 +319,6 @@
         private Telerik.WinControls.UI.RadButton btnDeleteBooking;
         private Telerik.WinControls.UI.RadButton btnEditBooking;
         private Telerik.WinControls.UI.RadButton btnCancelBooking;
+        private Telerik.WinControls.UI.RadButton btnEndBooking;
     }
 }
