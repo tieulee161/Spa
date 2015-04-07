@@ -30,84 +30,84 @@
         {
             this.telerikMetroTheme1 = new Telerik.WinControls.Themes.TelerikMetroTheme();
             this.radGroupBox1 = new Telerik.WinControls.UI.RadGroupBox();
-            this.btnSave = new Telerik.WinControls.UI.RadButton();
-            this.radButton1 = new Telerik.WinControls.UI.RadButton();
-            this.radButton2 = new Telerik.WinControls.UI.RadButton();
-            this.radButton3 = new Telerik.WinControls.UI.RadButton();
-            this.radButton4 = new Telerik.WinControls.UI.RadButton();
-            this.radButton5 = new Telerik.WinControls.UI.RadButton();
+            this.btnKTVOrderMonthly = new Telerik.WinControls.UI.RadButton();
+            this.btnKTVOrderDaily = new Telerik.WinControls.UI.RadButton();
+            this.btnKTVOrderSpecific = new Telerik.WinControls.UI.RadButton();
+            this.btnKTVRevenueMonthly = new Telerik.WinControls.UI.RadButton();
+            this.btnKTVRevenueDaily = new Telerik.WinControls.UI.RadButton();
+            this.btnKTVRevenueSpecific = new Telerik.WinControls.UI.RadButton();
             this.radGroupBox2 = new Telerik.WinControls.UI.RadGroupBox();
-            this.radButton6 = new Telerik.WinControls.UI.RadButton();
-            this.radButton7 = new Telerik.WinControls.UI.RadButton();
-            this.radButton8 = new Telerik.WinControls.UI.RadButton();
-            this.radButton9 = new Telerik.WinControls.UI.RadButton();
-            this.radButton10 = new Telerik.WinControls.UI.RadButton();
-            this.radButton11 = new Telerik.WinControls.UI.RadButton();
-            this.radButton12 = new Telerik.WinControls.UI.RadButton();
-            this.radButton13 = new Telerik.WinControls.UI.RadButton();
+            this.btnCustomerMember = new Telerik.WinControls.UI.RadButton();
+            this.btnCustomerVoucher = new Telerik.WinControls.UI.RadButton();
+            this.btnCustomerKTVMonthly = new Telerik.WinControls.UI.RadButton();
+            this.btnCustomerKTVDaily = new Telerik.WinControls.UI.RadButton();
+            this.btnCustomerPromotion = new Telerik.WinControls.UI.RadButton();
+            this.btnCustomerRevenueMonthly = new Telerik.WinControls.UI.RadButton();
+            this.btnCustomerRevenueDaily = new Telerik.WinControls.UI.RadButton();
+            this.btnCustomerRevenueSpecific = new Telerik.WinControls.UI.RadButton();
             this.radGroupBox3 = new Telerik.WinControls.UI.RadGroupBox();
-            this.radButton16 = new Telerik.WinControls.UI.RadButton();
-            this.radButton17 = new Telerik.WinControls.UI.RadButton();
-            this.radButton18 = new Telerik.WinControls.UI.RadButton();
-            this.radButton19 = new Telerik.WinControls.UI.RadButton();
+            this.btnRevenueServiceMonthly = new Telerik.WinControls.UI.RadButton();
+            this.btnRevenueServiceDaily = new Telerik.WinControls.UI.RadButton();
+            this.btnRevenueVoucher = new Telerik.WinControls.UI.RadButton();
+            this.btnRevenueServicePromotion = new Telerik.WinControls.UI.RadButton();
             this.radGroupBox4 = new Telerik.WinControls.UI.RadGroupBox();
-            this.radButton14 = new Telerik.WinControls.UI.RadButton();
-            this.radButton15 = new Telerik.WinControls.UI.RadButton();
-            this.radButton20 = new Telerik.WinControls.UI.RadButton();
-            this.radButton21 = new Telerik.WinControls.UI.RadButton();
-            this.radButton23 = new Telerik.WinControls.UI.RadButton();
+            this.btnRevenueMonthly = new Telerik.WinControls.UI.RadButton();
+            this.btnRevenueDaily = new Telerik.WinControls.UI.RadButton();
+            this.btnRevenue = new Telerik.WinControls.UI.RadButton();
+            this.btnDay = new Telerik.WinControls.UI.RadButton();
+            this.btnShift = new Telerik.WinControls.UI.RadButton();
             this.radGroupBox5 = new Telerik.WinControls.UI.RadGroupBox();
-            this.radButton24 = new Telerik.WinControls.UI.RadButton();
-            this.radButton25 = new Telerik.WinControls.UI.RadButton();
-            this.radButton26 = new Telerik.WinControls.UI.RadButton();
+            this.btnInventory = new Telerik.WinControls.UI.RadButton();
+            this.btnExport = new Telerik.WinControls.UI.RadButton();
+            this.btnImport = new Telerik.WinControls.UI.RadButton();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).BeginInit();
             this.radGroupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnSave)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnKTVOrderMonthly)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnKTVOrderDaily)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnKTVOrderSpecific)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnKTVRevenueMonthly)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnKTVRevenueDaily)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnKTVRevenueSpecific)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox2)).BeginInit();
             this.radGroupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCustomerMember)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCustomerVoucher)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCustomerKTVMonthly)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCustomerKTVDaily)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCustomerPromotion)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCustomerRevenueMonthly)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCustomerRevenueDaily)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCustomerRevenueSpecific)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox3)).BeginInit();
             this.radGroupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRevenueServiceMonthly)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRevenueServiceDaily)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRevenueVoucher)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRevenueServicePromotion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox4)).BeginInit();
             this.radGroupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRevenueMonthly)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRevenueDaily)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRevenue)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDay)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnShift)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox5)).BeginInit();
             this.radGroupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnInventory)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnExport)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnImport)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
             // radGroupBox1
             // 
             this.radGroupBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
-            this.radGroupBox1.Controls.Add(this.radButton3);
-            this.radGroupBox1.Controls.Add(this.radButton4);
-            this.radGroupBox1.Controls.Add(this.radButton5);
-            this.radGroupBox1.Controls.Add(this.radButton2);
-            this.radGroupBox1.Controls.Add(this.radButton1);
-            this.radGroupBox1.Controls.Add(this.btnSave);
+            this.radGroupBox1.Controls.Add(this.btnKTVOrderMonthly);
+            this.radGroupBox1.Controls.Add(this.btnKTVOrderDaily);
+            this.radGroupBox1.Controls.Add(this.btnKTVOrderSpecific);
+            this.radGroupBox1.Controls.Add(this.btnKTVRevenueMonthly);
+            this.radGroupBox1.Controls.Add(this.btnKTVRevenueDaily);
+            this.radGroupBox1.Controls.Add(this.btnKTVRevenueSpecific);
             this.radGroupBox1.HeaderText = "KTV Report";
             this.radGroupBox1.Location = new System.Drawing.Point(3, 1);
             this.radGroupBox1.Name = "radGroupBox1";
@@ -117,83 +117,83 @@
             this.radGroupBox1.Text = "KTV Report";
             this.radGroupBox1.ThemeName = "TelerikMetro";
             // 
-            // btnSave
+            // btnKTVOrderMonthly
             // 
-            this.btnSave.Location = new System.Drawing.Point(18, 28);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(233, 24);
-            this.btnSave.TabIndex = 58;
-            this.btnSave.Text = "1. Doanh thu cụ thể của từng nhân viên";
-            this.btnSave.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnSave.ThemeName = "TelerikMetro";
+            this.btnKTVOrderMonthly.Location = new System.Drawing.Point(18, 178);
+            this.btnKTVOrderMonthly.Name = "btnKTVOrderMonthly";
+            this.btnKTVOrderMonthly.Size = new System.Drawing.Size(233, 24);
+            this.btnKTVOrderMonthly.TabIndex = 63;
+            this.btnKTVOrderMonthly.Text = "6. Order của nhân viên theo tháng";
+            this.btnKTVOrderMonthly.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKTVOrderMonthly.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnKTVOrderMonthly.ThemeName = "TelerikMetro";
             // 
-            // radButton1
+            // btnKTVOrderDaily
             // 
-            this.radButton1.Location = new System.Drawing.Point(18, 58);
-            this.radButton1.Name = "radButton1";
-            this.radButton1.Size = new System.Drawing.Size(233, 24);
-            this.radButton1.TabIndex = 59;
-            this.radButton1.Text = "2. Doanh thu nhân viên theo ngày";
-            this.radButton1.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton1.ThemeName = "TelerikMetro";
+            this.btnKTVOrderDaily.Location = new System.Drawing.Point(18, 148);
+            this.btnKTVOrderDaily.Name = "btnKTVOrderDaily";
+            this.btnKTVOrderDaily.Size = new System.Drawing.Size(233, 24);
+            this.btnKTVOrderDaily.TabIndex = 62;
+            this.btnKTVOrderDaily.Text = "5. Order của nhân viên theo ngày";
+            this.btnKTVOrderDaily.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKTVOrderDaily.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnKTVOrderDaily.ThemeName = "TelerikMetro";
             // 
-            // radButton2
+            // btnKTVOrderSpecific
             // 
-            this.radButton2.Location = new System.Drawing.Point(18, 88);
-            this.radButton2.Name = "radButton2";
-            this.radButton2.Size = new System.Drawing.Size(233, 24);
-            this.radButton2.TabIndex = 60;
-            this.radButton2.Text = "3. Doanh thu nhân viên theo tháng";
-            this.radButton2.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton2.ThemeName = "TelerikMetro";
+            this.btnKTVOrderSpecific.Location = new System.Drawing.Point(18, 118);
+            this.btnKTVOrderSpecific.Name = "btnKTVOrderSpecific";
+            this.btnKTVOrderSpecific.Size = new System.Drawing.Size(233, 24);
+            this.btnKTVOrderSpecific.TabIndex = 61;
+            this.btnKTVOrderSpecific.Text = "4. Order cụ thể của từng nhân viên";
+            this.btnKTVOrderSpecific.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKTVOrderSpecific.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnKTVOrderSpecific.ThemeName = "TelerikMetro";
             // 
-            // radButton3
+            // btnKTVRevenueMonthly
             // 
-            this.radButton3.Location = new System.Drawing.Point(18, 178);
-            this.radButton3.Name = "radButton3";
-            this.radButton3.Size = new System.Drawing.Size(233, 24);
-            this.radButton3.TabIndex = 63;
-            this.radButton3.Text = "6. Order của nhân viên theo tháng";
-            this.radButton3.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton3.ThemeName = "TelerikMetro";
+            this.btnKTVRevenueMonthly.Location = new System.Drawing.Point(18, 88);
+            this.btnKTVRevenueMonthly.Name = "btnKTVRevenueMonthly";
+            this.btnKTVRevenueMonthly.Size = new System.Drawing.Size(233, 24);
+            this.btnKTVRevenueMonthly.TabIndex = 60;
+            this.btnKTVRevenueMonthly.Text = "3. Doanh thu nhân viên theo tháng";
+            this.btnKTVRevenueMonthly.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKTVRevenueMonthly.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnKTVRevenueMonthly.ThemeName = "TelerikMetro";
             // 
-            // radButton4
+            // btnKTVRevenueDaily
             // 
-            this.radButton4.Location = new System.Drawing.Point(18, 148);
-            this.radButton4.Name = "radButton4";
-            this.radButton4.Size = new System.Drawing.Size(233, 24);
-            this.radButton4.TabIndex = 62;
-            this.radButton4.Text = "5. Order của nhân viên theo ngày";
-            this.radButton4.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton4.ThemeName = "TelerikMetro";
+            this.btnKTVRevenueDaily.Location = new System.Drawing.Point(18, 58);
+            this.btnKTVRevenueDaily.Name = "btnKTVRevenueDaily";
+            this.btnKTVRevenueDaily.Size = new System.Drawing.Size(233, 24);
+            this.btnKTVRevenueDaily.TabIndex = 59;
+            this.btnKTVRevenueDaily.Text = "2. Doanh thu nhân viên theo ngày";
+            this.btnKTVRevenueDaily.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKTVRevenueDaily.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnKTVRevenueDaily.ThemeName = "TelerikMetro";
             // 
-            // radButton5
+            // btnKTVRevenueSpecific
             // 
-            this.radButton5.Location = new System.Drawing.Point(18, 118);
-            this.radButton5.Name = "radButton5";
-            this.radButton5.Size = new System.Drawing.Size(233, 24);
-            this.radButton5.TabIndex = 61;
-            this.radButton5.Text = "4. Order cụ thể của từng nhân viên";
-            this.radButton5.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton5.ThemeName = "TelerikMetro";
+            this.btnKTVRevenueSpecific.Location = new System.Drawing.Point(18, 28);
+            this.btnKTVRevenueSpecific.Name = "btnKTVRevenueSpecific";
+            this.btnKTVRevenueSpecific.Size = new System.Drawing.Size(233, 24);
+            this.btnKTVRevenueSpecific.TabIndex = 58;
+            this.btnKTVRevenueSpecific.Text = "1. Doanh thu cụ thể của từng nhân viên";
+            this.btnKTVRevenueSpecific.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKTVRevenueSpecific.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnKTVRevenueSpecific.ThemeName = "TelerikMetro";
             // 
             // radGroupBox2
             // 
             this.radGroupBox2.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
-            this.radGroupBox2.Controls.Add(this.radButton12);
-            this.radGroupBox2.Controls.Add(this.radButton13);
-            this.radGroupBox2.Controls.Add(this.radButton6);
-            this.radGroupBox2.Controls.Add(this.radButton7);
-            this.radGroupBox2.Controls.Add(this.radButton8);
-            this.radGroupBox2.Controls.Add(this.radButton9);
-            this.radGroupBox2.Controls.Add(this.radButton10);
-            this.radGroupBox2.Controls.Add(this.radButton11);
+            this.radGroupBox2.Controls.Add(this.btnCustomerMember);
+            this.radGroupBox2.Controls.Add(this.btnCustomerVoucher);
+            this.radGroupBox2.Controls.Add(this.btnCustomerKTVMonthly);
+            this.radGroupBox2.Controls.Add(this.btnCustomerKTVDaily);
+            this.radGroupBox2.Controls.Add(this.btnCustomerPromotion);
+            this.radGroupBox2.Controls.Add(this.btnCustomerRevenueMonthly);
+            this.radGroupBox2.Controls.Add(this.btnCustomerRevenueDaily);
+            this.radGroupBox2.Controls.Add(this.btnCustomerRevenueSpecific);
             this.radGroupBox2.HeaderText = "Customer Report";
             this.radGroupBox2.Location = new System.Drawing.Point(278, 1);
             this.radGroupBox2.Name = "radGroupBox2";
@@ -203,101 +203,101 @@
             this.radGroupBox2.Text = "Customer Report";
             this.radGroupBox2.ThemeName = "TelerikMetro";
             // 
-            // radButton6
+            // btnCustomerMember
             // 
-            this.radButton6.Location = new System.Drawing.Point(18, 178);
-            this.radButton6.Name = "radButton6";
-            this.radButton6.Size = new System.Drawing.Size(215, 24);
-            this.radButton6.TabIndex = 63;
-            this.radButton6.Text = "6. Khách - nhân viên theo tháng";
-            this.radButton6.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton6.ThemeName = "TelerikMetro";
+            this.btnCustomerMember.Location = new System.Drawing.Point(18, 238);
+            this.btnCustomerMember.Name = "btnCustomerMember";
+            this.btnCustomerMember.Size = new System.Drawing.Size(215, 24);
+            this.btnCustomerMember.TabIndex = 65;
+            this.btnCustomerMember.Text = "8. Khách - Member";
+            this.btnCustomerMember.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCustomerMember.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCustomerMember.ThemeName = "TelerikMetro";
             // 
-            // radButton7
+            // btnCustomerVoucher
             // 
-            this.radButton7.Location = new System.Drawing.Point(18, 148);
-            this.radButton7.Name = "radButton7";
-            this.radButton7.Size = new System.Drawing.Size(215, 24);
-            this.radButton7.TabIndex = 62;
-            this.radButton7.Text = "5. Khách - nhân viên theo ngày";
-            this.radButton7.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton7.ThemeName = "TelerikMetro";
+            this.btnCustomerVoucher.Location = new System.Drawing.Point(18, 208);
+            this.btnCustomerVoucher.Name = "btnCustomerVoucher";
+            this.btnCustomerVoucher.Size = new System.Drawing.Size(215, 24);
+            this.btnCustomerVoucher.TabIndex = 64;
+            this.btnCustomerVoucher.Text = "7. Khách - Certificate/Gift";
+            this.btnCustomerVoucher.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCustomerVoucher.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCustomerVoucher.ThemeName = "TelerikMetro";
             // 
-            // radButton8
+            // btnCustomerKTVMonthly
             // 
-            this.radButton8.Location = new System.Drawing.Point(18, 118);
-            this.radButton8.Name = "radButton8";
-            this.radButton8.Size = new System.Drawing.Size(215, 24);
-            this.radButton8.TabIndex = 61;
-            this.radButton8.Text = "4. Khách - chương trình";
-            this.radButton8.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton8.ThemeName = "TelerikMetro";
+            this.btnCustomerKTVMonthly.Location = new System.Drawing.Point(18, 178);
+            this.btnCustomerKTVMonthly.Name = "btnCustomerKTVMonthly";
+            this.btnCustomerKTVMonthly.Size = new System.Drawing.Size(215, 24);
+            this.btnCustomerKTVMonthly.TabIndex = 63;
+            this.btnCustomerKTVMonthly.Text = "6. Khách - nhân viên theo tháng";
+            this.btnCustomerKTVMonthly.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCustomerKTVMonthly.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCustomerKTVMonthly.ThemeName = "TelerikMetro";
             // 
-            // radButton9
+            // btnCustomerKTVDaily
             // 
-            this.radButton9.Location = new System.Drawing.Point(18, 88);
-            this.radButton9.Name = "radButton9";
-            this.radButton9.Size = new System.Drawing.Size(215, 24);
-            this.radButton9.TabIndex = 60;
-            this.radButton9.Text = "3. Doanh thu khách theo tháng";
-            this.radButton9.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton9.ThemeName = "TelerikMetro";
+            this.btnCustomerKTVDaily.Location = new System.Drawing.Point(18, 148);
+            this.btnCustomerKTVDaily.Name = "btnCustomerKTVDaily";
+            this.btnCustomerKTVDaily.Size = new System.Drawing.Size(215, 24);
+            this.btnCustomerKTVDaily.TabIndex = 62;
+            this.btnCustomerKTVDaily.Text = "5. Khách - nhân viên theo ngày";
+            this.btnCustomerKTVDaily.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCustomerKTVDaily.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCustomerKTVDaily.ThemeName = "TelerikMetro";
             // 
-            // radButton10
+            // btnCustomerPromotion
             // 
-            this.radButton10.Location = new System.Drawing.Point(18, 58);
-            this.radButton10.Name = "radButton10";
-            this.radButton10.Size = new System.Drawing.Size(215, 24);
-            this.radButton10.TabIndex = 59;
-            this.radButton10.Text = "2. Doanh thu khách theo ngày";
-            this.radButton10.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton10.ThemeName = "TelerikMetro";
+            this.btnCustomerPromotion.Location = new System.Drawing.Point(18, 118);
+            this.btnCustomerPromotion.Name = "btnCustomerPromotion";
+            this.btnCustomerPromotion.Size = new System.Drawing.Size(215, 24);
+            this.btnCustomerPromotion.TabIndex = 61;
+            this.btnCustomerPromotion.Text = "4. Khách - chương trình";
+            this.btnCustomerPromotion.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCustomerPromotion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCustomerPromotion.ThemeName = "TelerikMetro";
             // 
-            // radButton11
+            // btnCustomerRevenueMonthly
             // 
-            this.radButton11.Location = new System.Drawing.Point(18, 28);
-            this.radButton11.Name = "radButton11";
-            this.radButton11.Size = new System.Drawing.Size(215, 24);
-            this.radButton11.TabIndex = 58;
-            this.radButton11.Text = "1. Doanh thu cụ thể của từng khách";
-            this.radButton11.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton11.ThemeName = "TelerikMetro";
+            this.btnCustomerRevenueMonthly.Location = new System.Drawing.Point(18, 88);
+            this.btnCustomerRevenueMonthly.Name = "btnCustomerRevenueMonthly";
+            this.btnCustomerRevenueMonthly.Size = new System.Drawing.Size(215, 24);
+            this.btnCustomerRevenueMonthly.TabIndex = 60;
+            this.btnCustomerRevenueMonthly.Text = "3. Doanh thu khách theo tháng";
+            this.btnCustomerRevenueMonthly.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCustomerRevenueMonthly.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCustomerRevenueMonthly.ThemeName = "TelerikMetro";
             // 
-            // radButton12
+            // btnCustomerRevenueDaily
             // 
-            this.radButton12.Location = new System.Drawing.Point(18, 238);
-            this.radButton12.Name = "radButton12";
-            this.radButton12.Size = new System.Drawing.Size(215, 24);
-            this.radButton12.TabIndex = 65;
-            this.radButton12.Text = "8. Khách - Member";
-            this.radButton12.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton12.ThemeName = "TelerikMetro";
+            this.btnCustomerRevenueDaily.Location = new System.Drawing.Point(18, 58);
+            this.btnCustomerRevenueDaily.Name = "btnCustomerRevenueDaily";
+            this.btnCustomerRevenueDaily.Size = new System.Drawing.Size(215, 24);
+            this.btnCustomerRevenueDaily.TabIndex = 59;
+            this.btnCustomerRevenueDaily.Text = "2. Doanh thu khách theo ngày";
+            this.btnCustomerRevenueDaily.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCustomerRevenueDaily.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCustomerRevenueDaily.ThemeName = "TelerikMetro";
             // 
-            // radButton13
+            // btnCustomerRevenueSpecific
             // 
-            this.radButton13.Location = new System.Drawing.Point(18, 208);
-            this.radButton13.Name = "radButton13";
-            this.radButton13.Size = new System.Drawing.Size(215, 24);
-            this.radButton13.TabIndex = 64;
-            this.radButton13.Text = "7. Khách - Certificate/Gift";
-            this.radButton13.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton13.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton13.ThemeName = "TelerikMetro";
+            this.btnCustomerRevenueSpecific.Location = new System.Drawing.Point(18, 28);
+            this.btnCustomerRevenueSpecific.Name = "btnCustomerRevenueSpecific";
+            this.btnCustomerRevenueSpecific.Size = new System.Drawing.Size(215, 24);
+            this.btnCustomerRevenueSpecific.TabIndex = 58;
+            this.btnCustomerRevenueSpecific.Text = "1. Doanh thu cụ thể của từng khách";
+            this.btnCustomerRevenueSpecific.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCustomerRevenueSpecific.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCustomerRevenueSpecific.ThemeName = "TelerikMetro";
             // 
             // radGroupBox3
             // 
             this.radGroupBox3.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
-            this.radGroupBox3.Controls.Add(this.radButton16);
-            this.radGroupBox3.Controls.Add(this.radButton17);
-            this.radGroupBox3.Controls.Add(this.radButton18);
-            this.radGroupBox3.Controls.Add(this.radButton19);
+            this.radGroupBox3.Controls.Add(this.btnRevenueServiceMonthly);
+            this.radGroupBox3.Controls.Add(this.btnRevenueServiceDaily);
+            this.radGroupBox3.Controls.Add(this.btnRevenueVoucher);
+            this.radGroupBox3.Controls.Add(this.btnRevenueServicePromotion);
             this.radGroupBox3.HeaderText = "Service Report";
             this.radGroupBox3.Location = new System.Drawing.Point(532, 1);
             this.radGroupBox3.Name = "radGroupBox3";
@@ -307,58 +307,58 @@
             this.radGroupBox3.Text = "Service Report";
             this.radGroupBox3.ThemeName = "TelerikMetro";
             // 
-            // radButton16
+            // btnRevenueServiceMonthly
             // 
-            this.radButton16.Location = new System.Drawing.Point(18, 118);
-            this.radButton16.Name = "radButton16";
-            this.radButton16.Size = new System.Drawing.Size(233, 24);
-            this.radButton16.TabIndex = 61;
-            this.radButton16.Text = "4. Doanh thu dịch vụ theo tháng";
-            this.radButton16.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton16.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton16.ThemeName = "TelerikMetro";
+            this.btnRevenueServiceMonthly.Location = new System.Drawing.Point(18, 118);
+            this.btnRevenueServiceMonthly.Name = "btnRevenueServiceMonthly";
+            this.btnRevenueServiceMonthly.Size = new System.Drawing.Size(233, 24);
+            this.btnRevenueServiceMonthly.TabIndex = 61;
+            this.btnRevenueServiceMonthly.Text = "4. Doanh thu dịch vụ theo tháng";
+            this.btnRevenueServiceMonthly.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRevenueServiceMonthly.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnRevenueServiceMonthly.ThemeName = "TelerikMetro";
             // 
-            // radButton17
+            // btnRevenueServiceDaily
             // 
-            this.radButton17.Location = new System.Drawing.Point(18, 88);
-            this.radButton17.Name = "radButton17";
-            this.radButton17.Size = new System.Drawing.Size(233, 24);
-            this.radButton17.TabIndex = 60;
-            this.radButton17.Text = "3. Doanh thu dịch vụ theo ngày";
-            this.radButton17.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton17.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton17.ThemeName = "TelerikMetro";
+            this.btnRevenueServiceDaily.Location = new System.Drawing.Point(18, 88);
+            this.btnRevenueServiceDaily.Name = "btnRevenueServiceDaily";
+            this.btnRevenueServiceDaily.Size = new System.Drawing.Size(233, 24);
+            this.btnRevenueServiceDaily.TabIndex = 60;
+            this.btnRevenueServiceDaily.Text = "3. Doanh thu dịch vụ theo ngày";
+            this.btnRevenueServiceDaily.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRevenueServiceDaily.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnRevenueServiceDaily.ThemeName = "TelerikMetro";
             // 
-            // radButton18
+            // btnRevenueVoucher
             // 
-            this.radButton18.Location = new System.Drawing.Point(18, 58);
-            this.radButton18.Name = "radButton18";
-            this.radButton18.Size = new System.Drawing.Size(233, 24);
-            this.radButton18.TabIndex = 59;
-            this.radButton18.Text = "2. Doanh thu certificate/gift";
-            this.radButton18.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton18.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton18.ThemeName = "TelerikMetro";
+            this.btnRevenueVoucher.Location = new System.Drawing.Point(18, 58);
+            this.btnRevenueVoucher.Name = "btnRevenueVoucher";
+            this.btnRevenueVoucher.Size = new System.Drawing.Size(233, 24);
+            this.btnRevenueVoucher.TabIndex = 59;
+            this.btnRevenueVoucher.Text = "2. Doanh thu certificate/gift";
+            this.btnRevenueVoucher.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRevenueVoucher.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnRevenueVoucher.ThemeName = "TelerikMetro";
             // 
-            // radButton19
+            // btnRevenueServicePromotion
             // 
-            this.radButton19.Location = new System.Drawing.Point(18, 28);
-            this.radButton19.Name = "radButton19";
-            this.radButton19.Size = new System.Drawing.Size(233, 24);
-            this.radButton19.TabIndex = 58;
-            this.radButton19.Text = "1. Doanh thu dịch vụ - chương trình";
-            this.radButton19.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton19.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton19.ThemeName = "TelerikMetro";
+            this.btnRevenueServicePromotion.Location = new System.Drawing.Point(18, 28);
+            this.btnRevenueServicePromotion.Name = "btnRevenueServicePromotion";
+            this.btnRevenueServicePromotion.Size = new System.Drawing.Size(233, 24);
+            this.btnRevenueServicePromotion.TabIndex = 58;
+            this.btnRevenueServicePromotion.Text = "1. Doanh thu dịch vụ - chương trình";
+            this.btnRevenueServicePromotion.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRevenueServicePromotion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnRevenueServicePromotion.ThemeName = "TelerikMetro";
             // 
             // radGroupBox4
             // 
             this.radGroupBox4.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
-            this.radGroupBox4.Controls.Add(this.radButton23);
-            this.radGroupBox4.Controls.Add(this.radButton14);
-            this.radGroupBox4.Controls.Add(this.radButton15);
-            this.radGroupBox4.Controls.Add(this.radButton20);
-            this.radGroupBox4.Controls.Add(this.radButton21);
+            this.radGroupBox4.Controls.Add(this.btnRevenueMonthly);
+            this.radGroupBox4.Controls.Add(this.btnRevenueDaily);
+            this.radGroupBox4.Controls.Add(this.btnRevenue);
+            this.radGroupBox4.Controls.Add(this.btnDay);
+            this.radGroupBox4.Controls.Add(this.btnShift);
             this.radGroupBox4.HeaderText = "Daily Report";
             this.radGroupBox4.Location = new System.Drawing.Point(3, 224);
             this.radGroupBox4.Name = "radGroupBox4";
@@ -368,67 +368,67 @@
             this.radGroupBox4.Text = "Daily Report";
             this.radGroupBox4.ThemeName = "TelerikMetro";
             // 
-            // radButton14
+            // btnRevenueMonthly
             // 
-            this.radButton14.Location = new System.Drawing.Point(18, 118);
-            this.radButton14.Name = "radButton14";
-            this.radButton14.Size = new System.Drawing.Size(233, 24);
-            this.radButton14.TabIndex = 61;
-            this.radButton14.Text = "4. Doanh thu theo ngày";
-            this.radButton14.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton14.ThemeName = "TelerikMetro";
+            this.btnRevenueMonthly.Location = new System.Drawing.Point(18, 148);
+            this.btnRevenueMonthly.Name = "btnRevenueMonthly";
+            this.btnRevenueMonthly.Size = new System.Drawing.Size(233, 24);
+            this.btnRevenueMonthly.TabIndex = 62;
+            this.btnRevenueMonthly.Text = "5. Doanh thu theo tháng";
+            this.btnRevenueMonthly.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRevenueMonthly.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnRevenueMonthly.ThemeName = "TelerikMetro";
             // 
-            // radButton15
+            // btnRevenueDaily
             // 
-            this.radButton15.Location = new System.Drawing.Point(18, 88);
-            this.radButton15.Name = "radButton15";
-            this.radButton15.Size = new System.Drawing.Size(233, 24);
-            this.radButton15.TabIndex = 60;
-            this.radButton15.Text = "3. Doanh thu";
-            this.radButton15.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton15.ThemeName = "TelerikMetro";
+            this.btnRevenueDaily.Location = new System.Drawing.Point(18, 118);
+            this.btnRevenueDaily.Name = "btnRevenueDaily";
+            this.btnRevenueDaily.Size = new System.Drawing.Size(233, 24);
+            this.btnRevenueDaily.TabIndex = 61;
+            this.btnRevenueDaily.Text = "4. Doanh thu theo ngày";
+            this.btnRevenueDaily.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRevenueDaily.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnRevenueDaily.ThemeName = "TelerikMetro";
             // 
-            // radButton20
+            // btnRevenue
             // 
-            this.radButton20.Location = new System.Drawing.Point(18, 58);
-            this.radButton20.Name = "radButton20";
-            this.radButton20.Size = new System.Drawing.Size(233, 24);
-            this.radButton20.TabIndex = 59;
-            this.radButton20.Text = "2. Báo cáo kết ca";
-            this.radButton20.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton20.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton20.ThemeName = "TelerikMetro";
+            this.btnRevenue.Location = new System.Drawing.Point(18, 88);
+            this.btnRevenue.Name = "btnRevenue";
+            this.btnRevenue.Size = new System.Drawing.Size(233, 24);
+            this.btnRevenue.TabIndex = 60;
+            this.btnRevenue.Text = "3. Doanh thu";
+            this.btnRevenue.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRevenue.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnRevenue.ThemeName = "TelerikMetro";
             // 
-            // radButton21
+            // btnDay
             // 
-            this.radButton21.Location = new System.Drawing.Point(18, 28);
-            this.radButton21.Name = "radButton21";
-            this.radButton21.Size = new System.Drawing.Size(233, 24);
-            this.radButton21.TabIndex = 58;
-            this.radButton21.Text = "1. Báo cáo giao ca";
-            this.radButton21.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton21.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton21.ThemeName = "TelerikMetro";
+            this.btnDay.Location = new System.Drawing.Point(18, 58);
+            this.btnDay.Name = "btnDay";
+            this.btnDay.Size = new System.Drawing.Size(233, 24);
+            this.btnDay.TabIndex = 59;
+            this.btnDay.Text = "2. Báo cáo kết ca";
+            this.btnDay.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDay.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnDay.ThemeName = "TelerikMetro";
             // 
-            // radButton23
+            // btnShift
             // 
-            this.radButton23.Location = new System.Drawing.Point(18, 148);
-            this.radButton23.Name = "radButton23";
-            this.radButton23.Size = new System.Drawing.Size(233, 24);
-            this.radButton23.TabIndex = 62;
-            this.radButton23.Text = "5. Doanh thu theo tháng";
-            this.radButton23.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton23.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton23.ThemeName = "TelerikMetro";
+            this.btnShift.Location = new System.Drawing.Point(18, 28);
+            this.btnShift.Name = "btnShift";
+            this.btnShift.Size = new System.Drawing.Size(233, 24);
+            this.btnShift.TabIndex = 58;
+            this.btnShift.Text = "1. Báo cáo giao ca";
+            this.btnShift.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnShift.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnShift.ThemeName = "TelerikMetro";
             // 
             // radGroupBox5
             // 
             this.radGroupBox5.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
-            this.radGroupBox5.Controls.Add(this.radButton24);
-            this.radGroupBox5.Controls.Add(this.radButton25);
-            this.radGroupBox5.Controls.Add(this.radButton26);
+            this.radGroupBox5.Controls.Add(this.btnInventory);
+            this.radGroupBox5.Controls.Add(this.btnExport);
+            this.radGroupBox5.Controls.Add(this.btnImport);
             this.radGroupBox5.HeaderText = "Warehouse Report";
             this.radGroupBox5.Location = new System.Drawing.Point(278, 284);
             this.radGroupBox5.Name = "radGroupBox5";
@@ -438,42 +438,42 @@
             this.radGroupBox5.Text = "Warehouse Report";
             this.radGroupBox5.ThemeName = "TelerikMetro";
             // 
-            // radButton24
+            // btnInventory
             // 
-            this.radButton24.Location = new System.Drawing.Point(18, 88);
-            this.radButton24.Name = "radButton24";
-            this.radButton24.Size = new System.Drawing.Size(215, 24);
-            this.radButton24.TabIndex = 60;
-            this.radButton24.Text = "3. Báo cáo tồn kho";
-            this.radButton24.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton24.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton24.ThemeName = "TelerikMetro";
+            this.btnInventory.Location = new System.Drawing.Point(18, 88);
+            this.btnInventory.Name = "btnInventory";
+            this.btnInventory.Size = new System.Drawing.Size(215, 24);
+            this.btnInventory.TabIndex = 60;
+            this.btnInventory.Text = "3. Báo cáo tồn kho";
+            this.btnInventory.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInventory.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnInventory.ThemeName = "TelerikMetro";
             // 
-            // radButton25
+            // btnExport
             // 
-            this.radButton25.Location = new System.Drawing.Point(18, 58);
-            this.radButton25.Name = "radButton25";
-            this.radButton25.Size = new System.Drawing.Size(215, 24);
-            this.radButton25.TabIndex = 59;
-            this.radButton25.Text = "2. Báo cáo xuất kho";
-            this.radButton25.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton25.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton25.ThemeName = "TelerikMetro";
+            this.btnExport.Location = new System.Drawing.Point(18, 58);
+            this.btnExport.Name = "btnExport";
+            this.btnExport.Size = new System.Drawing.Size(215, 24);
+            this.btnExport.TabIndex = 59;
+            this.btnExport.Text = "2. Báo cáo xuất kho";
+            this.btnExport.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnExport.ThemeName = "TelerikMetro";
             // 
-            // radButton26
+            // btnImport
             // 
-            this.radButton26.Location = new System.Drawing.Point(18, 28);
-            this.radButton26.Name = "radButton26";
-            this.radButton26.Size = new System.Drawing.Size(215, 24);
-            this.radButton26.TabIndex = 58;
-            this.radButton26.Text = "1. Báo cáo nhập kho";
-            this.radButton26.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radButton26.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radButton26.ThemeName = "TelerikMetro";
+            this.btnImport.Location = new System.Drawing.Point(18, 28);
+            this.btnImport.Name = "btnImport";
+            this.btnImport.Size = new System.Drawing.Size(215, 24);
+            this.btnImport.TabIndex = 58;
+            this.btnImport.Text = "1. Báo cáo nhập kho";
+            this.btnImport.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnImport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnImport.ThemeName = "TelerikMetro";
             // 
             // FrmReport
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(823, 420);
             this.Controls.Add(this.radGroupBox5);
@@ -495,40 +495,40 @@
             this.ThemeName = "TelerikMetro";
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).EndInit();
             this.radGroupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.btnSave)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnKTVOrderMonthly)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnKTVOrderDaily)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnKTVOrderSpecific)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnKTVRevenueMonthly)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnKTVRevenueDaily)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnKTVRevenueSpecific)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox2)).EndInit();
             this.radGroupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.radButton6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCustomerMember)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCustomerVoucher)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCustomerKTVMonthly)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCustomerKTVDaily)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCustomerPromotion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCustomerRevenueMonthly)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCustomerRevenueDaily)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCustomerRevenueSpecific)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox3)).EndInit();
             this.radGroupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.radButton16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRevenueServiceMonthly)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRevenueServiceDaily)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRevenueVoucher)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRevenueServicePromotion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox4)).EndInit();
             this.radGroupBox4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.radButton14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRevenueMonthly)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRevenueDaily)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRevenue)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDay)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnShift)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox5)).EndInit();
             this.radGroupBox5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.radButton24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnInventory)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnExport)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnImport)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
@@ -538,35 +538,35 @@
 
         private Telerik.WinControls.Themes.TelerikMetroTheme telerikMetroTheme1;
         private Telerik.WinControls.UI.RadGroupBox radGroupBox1;
-        private Telerik.WinControls.UI.RadButton btnSave;
-        private Telerik.WinControls.UI.RadButton radButton3;
-        private Telerik.WinControls.UI.RadButton radButton4;
-        private Telerik.WinControls.UI.RadButton radButton5;
-        private Telerik.WinControls.UI.RadButton radButton2;
-        private Telerik.WinControls.UI.RadButton radButton1;
+        private Telerik.WinControls.UI.RadButton btnKTVRevenueSpecific;
+        private Telerik.WinControls.UI.RadButton btnKTVOrderMonthly;
+        private Telerik.WinControls.UI.RadButton btnKTVOrderDaily;
+        private Telerik.WinControls.UI.RadButton btnKTVOrderSpecific;
+        private Telerik.WinControls.UI.RadButton btnKTVRevenueMonthly;
+        private Telerik.WinControls.UI.RadButton btnKTVRevenueDaily;
         private Telerik.WinControls.UI.RadGroupBox radGroupBox2;
-        private Telerik.WinControls.UI.RadButton radButton6;
-        private Telerik.WinControls.UI.RadButton radButton7;
-        private Telerik.WinControls.UI.RadButton radButton8;
-        private Telerik.WinControls.UI.RadButton radButton9;
-        private Telerik.WinControls.UI.RadButton radButton10;
-        private Telerik.WinControls.UI.RadButton radButton11;
-        private Telerik.WinControls.UI.RadButton radButton12;
-        private Telerik.WinControls.UI.RadButton radButton13;
+        private Telerik.WinControls.UI.RadButton btnCustomerKTVMonthly;
+        private Telerik.WinControls.UI.RadButton btnCustomerKTVDaily;
+        private Telerik.WinControls.UI.RadButton btnCustomerPromotion;
+        private Telerik.WinControls.UI.RadButton btnCustomerRevenueMonthly;
+        private Telerik.WinControls.UI.RadButton btnCustomerRevenueDaily;
+        private Telerik.WinControls.UI.RadButton btnCustomerRevenueSpecific;
+        private Telerik.WinControls.UI.RadButton btnCustomerMember;
+        private Telerik.WinControls.UI.RadButton btnCustomerVoucher;
         private Telerik.WinControls.UI.RadGroupBox radGroupBox3;
-        private Telerik.WinControls.UI.RadButton radButton16;
-        private Telerik.WinControls.UI.RadButton radButton17;
-        private Telerik.WinControls.UI.RadButton radButton18;
-        private Telerik.WinControls.UI.RadButton radButton19;
+        private Telerik.WinControls.UI.RadButton btnRevenueServiceMonthly;
+        private Telerik.WinControls.UI.RadButton btnRevenueServiceDaily;
+        private Telerik.WinControls.UI.RadButton btnRevenueVoucher;
+        private Telerik.WinControls.UI.RadButton btnRevenueServicePromotion;
         private Telerik.WinControls.UI.RadGroupBox radGroupBox4;
-        private Telerik.WinControls.UI.RadButton radButton23;
-        private Telerik.WinControls.UI.RadButton radButton14;
-        private Telerik.WinControls.UI.RadButton radButton15;
-        private Telerik.WinControls.UI.RadButton radButton20;
-        private Telerik.WinControls.UI.RadButton radButton21;
+        private Telerik.WinControls.UI.RadButton btnRevenueMonthly;
+        private Telerik.WinControls.UI.RadButton btnRevenueDaily;
+        private Telerik.WinControls.UI.RadButton btnRevenue;
+        private Telerik.WinControls.UI.RadButton btnDay;
+        private Telerik.WinControls.UI.RadButton btnShift;
         private Telerik.WinControls.UI.RadGroupBox radGroupBox5;
-        private Telerik.WinControls.UI.RadButton radButton24;
-        private Telerik.WinControls.UI.RadButton radButton25;
-        private Telerik.WinControls.UI.RadButton radButton26;
+        private Telerik.WinControls.UI.RadButton btnInventory;
+        private Telerik.WinControls.UI.RadButton btnExport;
+        private Telerik.WinControls.UI.RadButton btnImport;
     }
 }
