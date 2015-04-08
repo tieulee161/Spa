@@ -46,6 +46,8 @@
             Telerik.WinControls.Data.SortDescriptor sortDescriptor4 = new Telerik.WinControls.Data.SortDescriptor();
             this.telerikMetroTheme1 = new Telerik.WinControls.Themes.TelerikMetroTheme();
             this.radGroupBox1 = new Telerik.WinControls.UI.RadGroupBox();
+            this.cbbxLocation = new Telerik.WinControls.UI.RadDropDownList();
+            this.radLabel4 = new Telerik.WinControls.UI.RadLabel();
             this.spinId = new Telerik.WinControls.UI.RadSpinEditor();
             this.radLabel3 = new Telerik.WinControls.UI.RadLabel();
             this.txtNote = new Telerik.WinControls.UI.RadTextBox();
@@ -66,10 +68,10 @@
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.btnCancel = new Telerik.WinControls.UI.RadButton();
             this.btnSave = new Telerik.WinControls.UI.RadButton();
-            this.radLabel4 = new Telerik.WinControls.UI.RadLabel();
-            this.cbbxLocation = new Telerik.WinControls.UI.RadDropDownList();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).BeginInit();
             this.radGroupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cbbxLocation)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.spinId)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtNote)).BeginInit();
@@ -100,8 +102,6 @@
             this.radPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnCancel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSave)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbbxLocation)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -128,6 +128,27 @@
             this.radGroupBox1.Text = "Customer";
             this.radGroupBox1.ThemeName = "TelerikMetro";
             // 
+            // cbbxLocation
+            // 
+            this.cbbxLocation.AllowShowFocusCues = false;
+            this.cbbxLocation.AutoCompleteDisplayMember = null;
+            this.cbbxLocation.AutoCompleteValueMember = null;
+            this.cbbxLocation.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList;
+            this.cbbxLocation.Location = new System.Drawing.Point(308, 28);
+            this.cbbxLocation.Name = "cbbxLocation";
+            this.cbbxLocation.Size = new System.Drawing.Size(117, 26);
+            this.cbbxLocation.TabIndex = 7;
+            this.cbbxLocation.ThemeName = "TelerikMetro";
+            // 
+            // radLabel4
+            // 
+            this.radLabel4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.radLabel4.Location = new System.Drawing.Point(243, 29);
+            this.radLabel4.Name = "radLabel4";
+            this.radLabel4.Size = new System.Drawing.Size(59, 19);
+            this.radLabel4.TabIndex = 6;
+            this.radLabel4.Text = "Location :";
+            // 
             // spinId
             // 
             this.spinId.Location = new System.Drawing.Point(64, 28);
@@ -139,7 +160,7 @@
             this.spinId.Name = "spinId";
             this.spinId.ReadOnly = true;
             this.spinId.ShowUpDownButtons = false;
-            this.spinId.Size = new System.Drawing.Size(100, 22);
+            this.spinId.Size = new System.Drawing.Size(100, 26);
             this.spinId.TabIndex = 0;
             this.spinId.TabStop = false;
             this.spinId.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -172,7 +193,7 @@
             this.dateBookingTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateBookingTime.Location = new System.Drawing.Point(308, 56);
             this.dateBookingTime.Name = "dateBookingTime";
-            this.dateBookingTime.Size = new System.Drawing.Size(117, 22);
+            this.dateBookingTime.Size = new System.Drawing.Size(117, 26);
             this.dateBookingTime.TabIndex = 2;
             this.dateBookingTime.TabStop = false;
             this.dateBookingTime.Text = "21/11/2014 09:58";
@@ -184,7 +205,7 @@
             this.txtCustomerName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtCustomerName.Location = new System.Drawing.Point(64, 56);
             this.txtCustomerName.Name = "txtCustomerName";
-            this.txtCustomerName.Size = new System.Drawing.Size(193, 22);
+            this.txtCustomerName.Size = new System.Drawing.Size(193, 26);
             this.txtCustomerName.TabIndex = 1;
             this.txtCustomerName.ThemeName = "TelerikMetro";
             // 
@@ -556,30 +577,9 @@
             this.btnSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSave.ThemeName = "TelerikMetro";
             // 
-            // radLabel4
-            // 
-            this.radLabel4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.radLabel4.Location = new System.Drawing.Point(243, 29);
-            this.radLabel4.Name = "radLabel4";
-            this.radLabel4.Size = new System.Drawing.Size(59, 19);
-            this.radLabel4.TabIndex = 6;
-            this.radLabel4.Text = "Location :";
-            // 
-            // cbbxLocation
-            // 
-            this.cbbxLocation.AllowShowFocusCues = false;
-            this.cbbxLocation.AutoCompleteDisplayMember = null;
-            this.cbbxLocation.AutoCompleteValueMember = null;
-            this.cbbxLocation.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList;
-            this.cbbxLocation.Location = new System.Drawing.Point(308, 28);
-            this.cbbxLocation.Name = "cbbxLocation";
-            this.cbbxLocation.Size = new System.Drawing.Size(117, 22);
-            this.cbbxLocation.TabIndex = 7;
-            this.cbbxLocation.ThemeName = "TelerikMetro";
-            // 
             // FrmBooking
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(992, 565);
             this.Controls.Add(this.splitMain);
@@ -598,6 +598,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).EndInit();
             this.radGroupBox1.ResumeLayout(false);
             this.radGroupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cbbxLocation)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.spinId)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtNote)).EndInit();
@@ -628,8 +630,6 @@
             this.radPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnCancel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSave)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbbxLocation)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 

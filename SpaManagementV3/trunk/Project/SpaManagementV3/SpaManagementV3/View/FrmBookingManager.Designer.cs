@@ -109,7 +109,7 @@
             // 
             // btnEndBooking
             // 
-            this.btnEndBooking.Image = global::SpaManagementV3.Properties.Resources.Check;
+        //    this.btnEndBooking.Image = global::SpaManagementV3.Properties.Resources.Check;
             this.btnEndBooking.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnEndBooking.Location = new System.Drawing.Point(528, 6);
             this.btnEndBooking.Name = "btnEndBooking";
