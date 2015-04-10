@@ -242,7 +242,7 @@
             this.pageMain.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.pageMain.Location = new System.Drawing.Point(0, 0);
             this.pageMain.Name = "pageMain";
-            this.pageMain.SelectedPage = this.pageJob;
+            this.pageMain.SelectedPage = this.pageCustomer;
             this.pageMain.Size = new System.Drawing.Size(869, 456);
             this.pageMain.TabIndex = 0;
             this.pageMain.Text = "radPageView1";
@@ -517,9 +517,9 @@
             this.pageNationality.Controls.Add(this.radPanel2);
             this.pageNationality.Controls.Add(this.radCommandBar2);
             this.pageNationality.ItemSize = new System.Drawing.SizeF(88F, 30F);
-            this.pageNationality.Location = new System.Drawing.Point(5, 31);
+            this.pageNationality.Location = new System.Drawing.Point(5, 36);
             this.pageNationality.Name = "pageNationality";
-            this.pageNationality.Size = new System.Drawing.Size(859, 425);
+            this.pageNationality.Size = new System.Drawing.Size(859, 415);
             this.pageNationality.Text = "Nationality";
             // 
             // dtgNationality
@@ -532,7 +532,7 @@
             this.dtgNationality.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.dtgNationality.Location = new System.Drawing.Point(0, 114);
             // 
-            // 
+            // dtgNationality
             // 
             this.dtgNationality.MasterTemplate.AllowAddNewRow = false;
             this.dtgNationality.MasterTemplate.AllowDeleteRow = false;
@@ -588,7 +588,7 @@
             this.dtgNationality.Name = "dtgNationality";
             this.dtgNationality.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.dtgNationality.ShowHeaderCellButtons = true;
-            this.dtgNationality.Size = new System.Drawing.Size(859, 311);
+            this.dtgNationality.Size = new System.Drawing.Size(859, 301);
             this.dtgNationality.TabIndex = 23;
             this.dtgNationality.Text = "radGridView1";
             this.dtgNationality.ThemeName = "TelerikMetro";
@@ -778,9 +778,9 @@
             this.pageMember.Controls.Add(this.radPanel4);
             this.pageMember.Controls.Add(this.radCommandBar4);
             this.pageMember.ItemSize = new System.Drawing.SizeF(71F, 30F);
-            this.pageMember.Location = new System.Drawing.Point(5, 31);
+            this.pageMember.Location = new System.Drawing.Point(5, 36);
             this.pageMember.Name = "pageMember";
-            this.pageMember.Size = new System.Drawing.Size(859, 425);
+            this.pageMember.Size = new System.Drawing.Size(859, 415);
             this.pageMember.Text = "Member";
             // 
             // dtgMember
@@ -793,7 +793,7 @@
             this.dtgMember.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.dtgMember.Location = new System.Drawing.Point(0, 116);
             // 
-            // 
+            // dtgMember
             // 
             this.dtgMember.MasterTemplate.AllowAddNewRow = false;
             this.dtgMember.MasterTemplate.AllowDeleteRow = false;
@@ -849,7 +849,7 @@
             this.dtgMember.Name = "dtgMember";
             this.dtgMember.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.dtgMember.ShowHeaderCellButtons = true;
-            this.dtgMember.Size = new System.Drawing.Size(859, 309);
+            this.dtgMember.Size = new System.Drawing.Size(859, 299);
             this.dtgMember.TabIndex = 24;
             this.dtgMember.Text = "radGridView1";
             this.dtgMember.ThemeName = "TelerikMetro";
@@ -1039,9 +1039,9 @@
             this.pageCustomer.Controls.Add(this.radPanel5);
             this.pageCustomer.Controls.Add(this.radCommandBar5);
             this.pageCustomer.ItemSize = new System.Drawing.SizeF(79F, 30F);
-            this.pageCustomer.Location = new System.Drawing.Point(5, 31);
+            this.pageCustomer.Location = new System.Drawing.Point(5, 36);
             this.pageCustomer.Name = "pageCustomer";
-            this.pageCustomer.Size = new System.Drawing.Size(859, 425);
+            this.pageCustomer.Size = new System.Drawing.Size(859, 415);
             this.pageCustomer.Text = "Customer";
             // 
             // dtgCustomer
@@ -1054,7 +1054,7 @@
             this.dtgCustomer.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.dtgCustomer.Location = new System.Drawing.Point(0, 229);
             // 
-            // 
+            // dtgCustomer
             // 
             this.dtgCustomer.MasterTemplate.AllowAddNewRow = false;
             this.dtgCustomer.MasterTemplate.AllowDeleteRow = false;
@@ -1167,7 +1167,7 @@
             this.dtgCustomer.Name = "dtgCustomer";
             this.dtgCustomer.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.dtgCustomer.ShowHeaderCellButtons = true;
-            this.dtgCustomer.Size = new System.Drawing.Size(859, 196);
+            this.dtgCustomer.Size = new System.Drawing.Size(859, 186);
             this.dtgCustomer.TabIndex = 23;
             this.dtgCustomer.Text = "radGridView1";
             this.dtgCustomer.ThemeName = "TelerikMetro";
@@ -1562,9 +1562,9 @@
             this.pageVIPSetting.Controls.Add(this.btnUpdateVIPLevel);
             this.pageVIPSetting.Controls.Add(this.radGroupBox1);
             this.pageVIPSetting.ItemSize = new System.Drawing.SizeF(88F, 30F);
-            this.pageVIPSetting.Location = new System.Drawing.Point(5, 31);
+            this.pageVIPSetting.Location = new System.Drawing.Point(5, 36);
             this.pageVIPSetting.Name = "pageVIPSetting";
-            this.pageVIPSetting.Size = new System.Drawing.Size(859, 425);
+            this.pageVIPSetting.Size = new System.Drawing.Size(859, 415);
             this.pageVIPSetting.Text = "VIP Setting";
             // 
             // btnUpdateVIPLevel

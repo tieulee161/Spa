@@ -162,7 +162,14 @@ namespace SpaManagementV3.View
             }
             else if (sender.Equals(btnRevenue))
             {
+                FrmConditionForReport f = new FrmConditionForReport();
+                f.CollapseCustomerPanel(true);
+                f.CollapseKTVPanel(true);
+                f.ShowDialog();
+                if(f.IsOK)
+                {
 
+                }
             }
             else if (sender.Equals(btnRevenueDaily))
             {

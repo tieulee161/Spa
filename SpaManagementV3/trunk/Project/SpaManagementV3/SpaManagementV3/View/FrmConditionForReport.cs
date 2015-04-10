@@ -87,6 +87,7 @@ namespace SpaManagementV3.View
             dateTo.Value = DateTime.Now;
 
             LoadData();
+            WireEvents();
         }
 
         private void WireEvents()

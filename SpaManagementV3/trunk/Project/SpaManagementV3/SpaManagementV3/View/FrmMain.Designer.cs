@@ -443,7 +443,7 @@
             this.ribbonMenu.Location = new System.Drawing.Point(0, 0);
             this.ribbonMenu.Name = "ribbonMenu";
             this.ribbonMenu.ShowExpandButton = false;
-            this.ribbonMenu.Size = new System.Drawing.Size(1396, 154);
+            this.ribbonMenu.Size = new System.Drawing.Size(1426, 158);
             this.ribbonMenu.StartButtonImage = ((System.Drawing.Image)(resources.GetObject("ribbonMenu.StartButtonImage")));
             this.ribbonMenu.TabIndex = 0;
             this.ribbonMenu.Text = "Spa Management";
@@ -744,9 +744,9 @@
             this.lbUser,
             this.commandBarSeparator1,
             this.radLabelElement2});
-            this.radStatusStrip1.Location = new System.Drawing.Point(0, 853);
+            this.radStatusStrip1.Location = new System.Drawing.Point(0, 979);
             this.radStatusStrip1.Name = "radStatusStrip1";
-            this.radStatusStrip1.Size = new System.Drawing.Size(1396, 25);
+            this.radStatusStrip1.Size = new System.Drawing.Size(1426, 30);
             this.radStatusStrip1.TabIndex = 1;
             this.radStatusStrip1.Text = "radStatusStrip1";
             this.radStatusStrip1.ThemeName = "TelerikMetro";
@@ -784,9 +784,9 @@
             // 
             this.radPanel2.Controls.Add(this.radSplitContainer1);
             this.radPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radPanel2.Location = new System.Drawing.Point(0, 197);
+            this.radPanel2.Location = new System.Drawing.Point(0, 201);
             this.radPanel2.Name = "radPanel2";
-            this.radPanel2.Size = new System.Drawing.Size(1396, 661);
+            this.radPanel2.Size = new System.Drawing.Size(1426, 778);
             this.radPanel2.TabIndex = 3;
             this.radPanel2.ThemeName = "TelerikMetro";
             // 
@@ -801,7 +801,7 @@
             // 
             // 
             this.radSplitContainer1.RootElement.MinSize = new System.Drawing.Size(0, 0);
-            this.radSplitContainer1.Size = new System.Drawing.Size(1396, 661);
+            this.radSplitContainer1.Size = new System.Drawing.Size(1426, 778);
             this.radSplitContainer1.TabIndex = 45;
             this.radSplitContainer1.TabStop = false;
             this.radSplitContainer1.ThemeName = "TelerikMetro";
@@ -819,11 +819,11 @@
             // 
             // 
             this.splitPanel2.RootElement.MinSize = new System.Drawing.Size(0, 0);
-            this.splitPanel2.Size = new System.Drawing.Size(484, 661);
-            this.splitPanel2.SizeInfo.AbsoluteSize = new System.Drawing.Size(484, 200);
+            this.splitPanel2.Size = new System.Drawing.Size(483, 778);
+            this.splitPanel2.SizeInfo.AbsoluteSize = new System.Drawing.Size(483, 200);
             this.splitPanel2.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(-0.008097172F, 0F);
             this.splitPanel2.SizeInfo.SizeMode = Telerik.WinControls.UI.Docking.SplitPanelSizeMode.Absolute;
-            this.splitPanel2.SizeInfo.SplitterCorrection = new System.Drawing.Size(276, 0);
+            this.splitPanel2.SizeInfo.SplitterCorrection = new System.Drawing.Size(275, 0);
             this.splitPanel2.TabIndex = 1;
             this.splitPanel2.TabStop = false;
             this.splitPanel2.ThemeName = "TelerikMetro";
@@ -860,6 +860,7 @@
             this.chkDiscountApply.TabIndex = 47;
             this.chkDiscountApply.Text = "Apply";
             this.chkDiscountApply.ThemeName = "TelerikMetro";
+            this.chkDiscountApply.Visible = false;
             // 
             // radLabel25
             // 
@@ -869,6 +870,7 @@
             this.radLabel25.Size = new System.Drawing.Size(105, 19);
             this.radLabel25.TabIndex = 46;
             this.radLabel25.Text = "Custom discount :";
+            this.radLabel25.Visible = false;
             // 
             // dtgPromotion
             // 
@@ -953,6 +955,7 @@
             this.rdDiscountVND.TabIndex = 41;
             this.rdDiscountVND.Text = "VND";
             this.rdDiscountVND.ThemeName = "TelerikMetro";
+            this.rdDiscountVND.Visible = false;
             // 
             // rdDiscountPercent
             // 
@@ -965,6 +968,7 @@
             this.rdDiscountPercent.Text = "%";
             this.rdDiscountPercent.ThemeName = "TelerikMetro";
             this.rdDiscountPercent.ToggleState = Telerik.WinControls.Enumerations.ToggleState.On;
+            this.rdDiscountPercent.Visible = false;
             // 
             // spinDiscount
             // 
@@ -987,12 +991,13 @@
             0,
             0,
             0});
+            this.spinDiscount.Visible = false;
             // 
             // btnAddServiceToBill
             // 
             this.btnAddServiceToBill.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAddServiceToBill.Image = global::SpaManagementV3.Properties.Resources.Add;
-            this.btnAddServiceToBill.Location = new System.Drawing.Point(112, 631);
+            this.btnAddServiceToBill.Location = new System.Drawing.Point(111, 748);
             this.btnAddServiceToBill.Name = "btnAddServiceToBill";
             this.btnAddServiceToBill.Size = new System.Drawing.Size(151, 24);
             this.btnAddServiceToBill.TabIndex = 44;
@@ -1111,7 +1116,7 @@
             // 
             this.btnNewBill.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnNewBill.Image = global::SpaManagementV3.Properties.Resources.Add;
-            this.btnNewBill.Location = new System.Drawing.Point(12, 631);
+            this.btnNewBill.Location = new System.Drawing.Point(11, 748);
             this.btnNewBill.Name = "btnNewBill";
             this.btnNewBill.Size = new System.Drawing.Size(94, 24);
             this.btnNewBill.TabIndex = 43;
@@ -1160,10 +1165,10 @@
             this.pageService.Controls.Add(this.cbbxServiceName);
             this.pageService.Controls.Add(this.radLabel4);
             this.pageService.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pageService.ItemSize = new System.Drawing.SizeF(76F, 27F);
-            this.pageService.Location = new System.Drawing.Point(5, 33);
+            this.pageService.ItemSize = new System.Drawing.SizeF(93F, 32F);
+            this.pageService.Location = new System.Drawing.Point(5, 38);
             this.pageService.Name = "pageService";
-            this.pageService.Size = new System.Drawing.Size(458, 245);
+            this.pageService.Size = new System.Drawing.Size(458, 240);
             this.pageService.Text = " 2. Service";
             // 
             // dtgServiceKTV
@@ -1438,7 +1443,7 @@
             this.pagePackage.Controls.Add(this.cbbxPackageName);
             this.pagePackage.Controls.Add(this.radLabel15);
             this.pagePackage.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pagePackage.ItemSize = new System.Drawing.SizeF(65F, 27F);
+            this.pagePackage.ItemSize = new System.Drawing.SizeF(79F, 32F);
             this.pagePackage.Location = new System.Drawing.Point(5, 38);
             this.pagePackage.Name = "pagePackage";
             this.pagePackage.Size = new System.Drawing.Size(458, 240);
@@ -1731,7 +1736,7 @@
             this.pageCertificate.Controls.Add(this.radLabel17);
             this.pageCertificate.Controls.Add(this.cbbxCertificateName);
             this.pageCertificate.Controls.Add(this.radLabel18);
-            this.pageCertificate.ItemSize = new System.Drawing.SizeF(193F, 27F);
+            this.pageCertificate.ItemSize = new System.Drawing.SizeF(239F, 32F);
             this.pageCertificate.Location = new System.Drawing.Point(5, 33);
             this.pageCertificate.Name = "pageCertificate";
             this.pageCertificate.Size = new System.Drawing.Size(458, 245);
@@ -1847,7 +1852,7 @@
             this.pageOthers.Controls.Add(this.radLabel23);
             this.pageOthers.Controls.Add(this.cbbxOthersName);
             this.pageOthers.Controls.Add(this.radLabel24);
-            this.pageOthers.ItemSize = new System.Drawing.SizeF(55F, 27F);
+            this.pageOthers.ItemSize = new System.Drawing.SizeF(66F, 32F);
             this.pageOthers.Location = new System.Drawing.Point(5, 33);
             this.pageOthers.Name = "pageOthers";
             this.pageOthers.Size = new System.Drawing.Size(458, 245);
@@ -1965,15 +1970,15 @@
             // 
             this.splitPanel1.Controls.Add(this.dtgBillDetail);
             this.splitPanel1.Controls.Add(this.radPanel3);
-            this.splitPanel1.Location = new System.Drawing.Point(488, 0);
+            this.splitPanel1.Location = new System.Drawing.Point(487, 0);
             this.splitPanel1.Name = "splitPanel1";
             // 
             // 
             // 
             this.splitPanel1.RootElement.MinSize = new System.Drawing.Size(0, 0);
-            this.splitPanel1.Size = new System.Drawing.Size(908, 661);
-            this.splitPanel1.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0.05882359F, 0F);
-            this.splitPanel1.SizeInfo.SplitterCorrection = new System.Drawing.Size(-276, 0);
+            this.splitPanel1.Size = new System.Drawing.Size(939, 778);
+            this.splitPanel1.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0.02538633F, 0F);
+            this.splitPanel1.SizeInfo.SplitterCorrection = new System.Drawing.Size(-275, 0);
             this.splitPanel1.TabIndex = 0;
             this.splitPanel1.TabStop = false;
             this.splitPanel1.ThemeName = "TelerikMetro";
@@ -1998,15 +2003,15 @@
             gridViewTextBoxColumn6.EnableExpressionEditor = false;
             gridViewTextBoxColumn6.HeaderText = "Description";
             gridViewTextBoxColumn6.Name = "colDescription";
-            gridViewTextBoxColumn6.Width = 263;
+            gridViewTextBoxColumn6.Width = 272;
             gridViewTextBoxColumn7.EnableExpressionEditor = false;
             gridViewTextBoxColumn7.HeaderText = "Code";
             gridViewTextBoxColumn7.Name = "colCode";
-            gridViewTextBoxColumn7.Width = 105;
+            gridViewTextBoxColumn7.Width = 108;
             gridViewTextBoxColumn8.EnableExpressionEditor = false;
             gridViewTextBoxColumn8.HeaderText = "KTV";
             gridViewTextBoxColumn8.Name = "colKTV";
-            gridViewTextBoxColumn8.Width = 158;
+            gridViewTextBoxColumn8.Width = 164;
             gridViewDecimalColumn7.EnableExpressionEditor = false;
             gridViewDecimalColumn7.FormatString = "{0:#,#}";
             gridViewDecimalColumn7.HeaderText = "Price";
@@ -2016,7 +2021,7 @@
             0,
             0});
             gridViewDecimalColumn7.Name = "colPrice";
-            gridViewDecimalColumn7.Width = 105;
+            gridViewDecimalColumn7.Width = 108;
             gridViewDecimalColumn8.EnableExpressionEditor = false;
             gridViewDecimalColumn8.FormatString = "{0:#,#}";
             gridViewDecimalColumn8.HeaderText = "Qty";
@@ -2026,7 +2031,7 @@
             0,
             0});
             gridViewDecimalColumn8.Name = "colQty";
-            gridViewDecimalColumn8.Width = 53;
+            gridViewDecimalColumn8.Width = 55;
             gridViewDecimalColumn9.EnableExpressionEditor = false;
             gridViewDecimalColumn9.FormatString = "{0:#,#}";
             gridViewDecimalColumn9.HeaderText = "Total";
@@ -2036,7 +2041,7 @@
             0,
             0});
             gridViewDecimalColumn9.Name = "colTotal";
-            gridViewDecimalColumn9.Width = 105;
+            gridViewDecimalColumn9.Width = 108;
             gridViewDecimalColumn10.EnableExpressionEditor = false;
             gridViewDecimalColumn10.FormatString = "{0:#,#}";
             gridViewDecimalColumn10.HeaderText = "Discount";
@@ -2046,7 +2051,7 @@
             0,
             0});
             gridViewDecimalColumn10.Name = "colDiscount";
-            gridViewDecimalColumn10.Width = 105;
+            gridViewDecimalColumn10.Width = 110;
             this.dtgBillDetail.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
             gridViewTextBoxColumn6,
             gridViewTextBoxColumn7,
@@ -2064,7 +2069,7 @@
             this.dtgBillDetail.Name = "dtgBillDetail";
             this.dtgBillDetail.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.dtgBillDetail.ShowHeaderCellButtons = true;
-            this.dtgBillDetail.Size = new System.Drawing.Size(908, 226);
+            this.dtgBillDetail.Size = new System.Drawing.Size(939, 343);
             this.dtgBillDetail.TabIndex = 45;
             this.dtgBillDetail.Text = "radGridView2";
             this.dtgBillDetail.ThemeName = "TelerikMetro";
@@ -2082,7 +2087,7 @@
             this.radPanel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.radPanel3.Location = new System.Drawing.Point(0, 0);
             this.radPanel3.Name = "radPanel3";
-            this.radPanel3.Size = new System.Drawing.Size(908, 435);
+            this.radPanel3.Size = new System.Drawing.Size(939, 435);
             this.radPanel3.TabIndex = 3;
             this.radPanel3.ThemeName = "TelerikMetro";
             ((Telerik.WinControls.Primitives.BorderPrimitive)(this.radPanel3.GetChildAt(0).GetChildAt(1))).Width = 1F;
@@ -2535,7 +2540,7 @@
             this.chkIncludeVAT.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.chkIncludeVAT.Location = new System.Drawing.Point(447, 29);
             this.chkIncludeVAT.Name = "chkIncludeVAT";
-            this.chkIncludeVAT.Size = new System.Drawing.Size(89, 19);
+            this.chkIncludeVAT.Size = new System.Drawing.Size(106, 24);
             this.chkIncludeVAT.TabIndex = 57;
             this.chkIncludeVAT.Text = "Include VAT";
             this.chkIncludeVAT.ThemeName = "TelerikMetro";
@@ -2743,9 +2748,9 @@
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelLogo.ForeColor = System.Drawing.Color.ForestGreen;
-            this.panelLogo.Location = new System.Drawing.Point(0, 154);
+            this.panelLogo.Location = new System.Drawing.Point(0, 158);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(1396, 43);
+            this.panelLogo.Size = new System.Drawing.Size(1426, 43);
             this.panelLogo.TabIndex = 2;
             this.panelLogo.Text = "SPA MANAGEMENT";
             this.panelLogo.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2765,9 +2770,9 @@
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1396, 883);
+            this.ClientSize = new System.Drawing.Size(1426, 1009);
             this.Controls.Add(this.radPanel2);
             this.Controls.Add(this.panelLogo);
             this.Controls.Add(this.radStatusStrip1);

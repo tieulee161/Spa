@@ -28,54 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn1 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn1 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn2 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn2 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn3 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn4 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn3 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn4 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn5 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn5 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn6 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn6 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn7 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn8 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewDateTimeColumn gridViewDateTimeColumn1 = new Telerik.WinControls.UI.GridViewDateTimeColumn();
-            Telerik.WinControls.UI.GridViewDateTimeColumn gridViewDateTimeColumn2 = new Telerik.WinControls.UI.GridViewDateTimeColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn9 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewComboBoxColumn gridViewComboBoxColumn1 = new Telerik.WinControls.UI.GridViewComboBoxColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn10 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn7 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn8 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn11 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn12 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn13 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn9 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn10 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn14 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn15 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn11 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn12 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn16 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewCheckBoxColumn gridViewCheckBoxColumn1 = new Telerik.WinControls.UI.GridViewCheckBoxColumn();
-            Telerik.WinControls.UI.GridViewComboBoxColumn gridViewComboBoxColumn2 = new Telerik.WinControls.UI.GridViewComboBoxColumn();
-            Telerik.WinControls.UI.GridViewDateTimeColumn gridViewDateTimeColumn3 = new Telerik.WinControls.UI.GridViewDateTimeColumn();
-            Telerik.WinControls.UI.GridViewDateTimeColumn gridViewDateTimeColumn4 = new Telerik.WinControls.UI.GridViewDateTimeColumn();
-            Telerik.WinControls.UI.GridViewDateTimeColumn gridViewDateTimeColumn5 = new Telerik.WinControls.UI.GridViewDateTimeColumn();
-            Telerik.WinControls.UI.GridViewDateTimeColumn gridViewDateTimeColumn6 = new Telerik.WinControls.UI.GridViewDateTimeColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn13 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.Data.SortDescriptor sortDescriptor1 = new Telerik.WinControls.Data.SortDescriptor();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn17 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn18 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn19 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn14 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn15 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn20 = new Telerik.WinControls.UI.GridViewDecimalColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn16 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.RadListDataItem radListDataItem1 = new Telerik.WinControls.UI.RadListDataItem();
-            Telerik.WinControls.UI.RadListDataItem radListDataItem2 = new Telerik.WinControls.UI.RadListDataItem();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn23 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn20 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn21 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn24 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn25 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn26 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn22 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn23 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn27 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn24 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn25 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn28 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn29 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn30 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewDateTimeColumn gridViewDateTimeColumn11 = new Telerik.WinControls.UI.GridViewDateTimeColumn();
+            Telerik.WinControls.UI.GridViewDateTimeColumn gridViewDateTimeColumn12 = new Telerik.WinControls.UI.GridViewDateTimeColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn31 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewComboBoxColumn gridViewComboBoxColumn4 = new Telerik.WinControls.UI.GridViewComboBoxColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn32 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn26 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn27 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn33 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn34 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn35 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn28 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn29 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn36 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn21 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn17 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn18 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn22 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewCheckBoxColumn gridViewCheckBoxColumn2 = new Telerik.WinControls.UI.GridViewCheckBoxColumn();
+            Telerik.WinControls.UI.GridViewComboBoxColumn gridViewComboBoxColumn3 = new Telerik.WinControls.UI.GridViewComboBoxColumn();
+            Telerik.WinControls.UI.GridViewDateTimeColumn gridViewDateTimeColumn7 = new Telerik.WinControls.UI.GridViewDateTimeColumn();
+            Telerik.WinControls.UI.GridViewDateTimeColumn gridViewDateTimeColumn8 = new Telerik.WinControls.UI.GridViewDateTimeColumn();
+            Telerik.WinControls.UI.GridViewDateTimeColumn gridViewDateTimeColumn9 = new Telerik.WinControls.UI.GridViewDateTimeColumn();
+            Telerik.WinControls.UI.GridViewDateTimeColumn gridViewDateTimeColumn10 = new Telerik.WinControls.UI.GridViewDateTimeColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn19 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.Data.SortDescriptor sortDescriptor2 = new Telerik.WinControls.Data.SortDescriptor();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn37 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn38 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn39 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn30 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn31 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn40 = new Telerik.WinControls.UI.GridViewDecimalColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn32 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.RadListDataItem radListDataItem3 = new Telerik.WinControls.UI.RadListDataItem();
+            Telerik.WinControls.UI.RadListDataItem radListDataItem4 = new Telerik.WinControls.UI.RadListDataItem();
             this.pageMain = new Telerik.WinControls.UI.RadPageView();
             this.pageService = new Telerik.WinControls.UI.RadPageViewPage();
             this.dtgService = new Telerik.WinControls.UI.RadGridView();
@@ -383,7 +383,7 @@
             this.pageMain.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.pageMain.Location = new System.Drawing.Point(0, 0);
             this.pageMain.Name = "pageMain";
-            this.pageMain.SelectedPage = this.pageService;
+            this.pageMain.SelectedPage = this.pagePromotion;
             this.pageMain.Size = new System.Drawing.Size(869, 456);
             this.pageMain.TabIndex = 0;
             this.pageMain.Text = "radPageView1";
@@ -418,64 +418,64 @@
             this.dtgService.MasterTemplate.AllowEditRow = false;
             this.dtgService.MasterTemplate.AllowRowResize = false;
             this.dtgService.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            gridViewDecimalColumn1.DecimalPlaces = 0;
-            gridViewDecimalColumn1.EnableExpressionEditor = false;
-            gridViewDecimalColumn1.HeaderText = "Id";
-            gridViewDecimalColumn1.IsVisible = false;
-            gridViewDecimalColumn1.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn23.DecimalPlaces = 0;
+            gridViewDecimalColumn23.EnableExpressionEditor = false;
+            gridViewDecimalColumn23.HeaderText = "Id";
+            gridViewDecimalColumn23.IsVisible = false;
+            gridViewDecimalColumn23.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn1.Name = "colId";
-            gridViewTextBoxColumn1.EnableExpressionEditor = false;
-            gridViewTextBoxColumn1.HeaderText = "Name";
-            gridViewTextBoxColumn1.Name = "colName";
-            gridViewTextBoxColumn1.Width = 212;
-            gridViewTextBoxColumn2.EnableExpressionEditor = false;
-            gridViewTextBoxColumn2.HeaderText = "Code";
-            gridViewTextBoxColumn2.Name = "colCode";
-            gridViewTextBoxColumn2.Width = 212;
-            gridViewDecimalColumn2.DecimalPlaces = 0;
-            gridViewDecimalColumn2.EnableExpressionEditor = false;
-            gridViewDecimalColumn2.FormatString = "{0:0,0}";
-            gridViewDecimalColumn2.HeaderText = "Price";
-            gridViewDecimalColumn2.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn23.Name = "colId";
+            gridViewTextBoxColumn20.EnableExpressionEditor = false;
+            gridViewTextBoxColumn20.HeaderText = "Name";
+            gridViewTextBoxColumn20.Name = "colName";
+            gridViewTextBoxColumn20.Width = 212;
+            gridViewTextBoxColumn21.EnableExpressionEditor = false;
+            gridViewTextBoxColumn21.HeaderText = "Code";
+            gridViewTextBoxColumn21.Name = "colCode";
+            gridViewTextBoxColumn21.Width = 212;
+            gridViewDecimalColumn24.DecimalPlaces = 0;
+            gridViewDecimalColumn24.EnableExpressionEditor = false;
+            gridViewDecimalColumn24.FormatString = "{0:0,0}";
+            gridViewDecimalColumn24.HeaderText = "Price";
+            gridViewDecimalColumn24.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn2.Name = "colPrice";
-            gridViewDecimalColumn2.Step = new decimal(new int[] {
+            gridViewDecimalColumn24.Name = "colPrice";
+            gridViewDecimalColumn24.Step = new decimal(new int[] {
             10000,
             0,
             0,
             0});
-            gridViewDecimalColumn2.ThousandsSeparator = true;
-            gridViewDecimalColumn2.Width = 212;
-            gridViewDecimalColumn3.DecimalPlaces = 0;
-            gridViewDecimalColumn3.EnableExpressionEditor = false;
-            gridViewDecimalColumn3.FormatString = "{0:0,0}";
-            gridViewDecimalColumn3.HeaderText = "Tour";
-            gridViewDecimalColumn3.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn24.ThousandsSeparator = true;
+            gridViewDecimalColumn24.Width = 212;
+            gridViewDecimalColumn25.DecimalPlaces = 0;
+            gridViewDecimalColumn25.EnableExpressionEditor = false;
+            gridViewDecimalColumn25.FormatString = "{0:0,0}";
+            gridViewDecimalColumn25.HeaderText = "Tour";
+            gridViewDecimalColumn25.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn3.Name = "colTour";
-            gridViewDecimalColumn3.Step = new decimal(new int[] {
+            gridViewDecimalColumn25.Name = "colTour";
+            gridViewDecimalColumn25.Step = new decimal(new int[] {
             10000,
             0,
             0,
             0});
-            gridViewDecimalColumn3.ThousandsSeparator = true;
-            gridViewDecimalColumn3.Width = 206;
+            gridViewDecimalColumn25.ThousandsSeparator = true;
+            gridViewDecimalColumn25.Width = 206;
             this.dtgService.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewDecimalColumn1,
-            gridViewTextBoxColumn1,
-            gridViewTextBoxColumn2,
-            gridViewDecimalColumn2,
-            gridViewDecimalColumn3});
+            gridViewDecimalColumn23,
+            gridViewTextBoxColumn20,
+            gridViewTextBoxColumn21,
+            gridViewDecimalColumn24,
+            gridViewDecimalColumn25});
             this.dtgService.MasterTemplate.EnableGrouping = false;
             this.dtgService.MasterTemplate.ShowHeaderCellButtons = true;
             this.dtgService.Name = "dtgService";
@@ -762,28 +762,28 @@
             this.dtgServiceForPackage.MasterTemplate.AllowEditRow = false;
             this.dtgServiceForPackage.MasterTemplate.AllowRowResize = false;
             this.dtgServiceForPackage.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            gridViewDecimalColumn4.DecimalPlaces = 0;
-            gridViewDecimalColumn4.EnableExpressionEditor = false;
-            gridViewDecimalColumn4.HeaderText = "Id";
-            gridViewDecimalColumn4.IsVisible = false;
-            gridViewDecimalColumn4.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn26.DecimalPlaces = 0;
+            gridViewDecimalColumn26.EnableExpressionEditor = false;
+            gridViewDecimalColumn26.HeaderText = "Id";
+            gridViewDecimalColumn26.IsVisible = false;
+            gridViewDecimalColumn26.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn4.Name = "colId";
-            gridViewTextBoxColumn3.EnableExpressionEditor = false;
-            gridViewTextBoxColumn3.HeaderText = "Service Code";
-            gridViewTextBoxColumn3.Name = "colCode";
-            gridViewTextBoxColumn3.Width = 66;
-            gridViewTextBoxColumn4.EnableExpressionEditor = false;
-            gridViewTextBoxColumn4.HeaderText = "Service Name";
-            gridViewTextBoxColumn4.Name = "colName";
-            gridViewTextBoxColumn4.Width = 132;
+            gridViewDecimalColumn26.Name = "colId";
+            gridViewTextBoxColumn22.EnableExpressionEditor = false;
+            gridViewTextBoxColumn22.HeaderText = "Service Code";
+            gridViewTextBoxColumn22.Name = "colCode";
+            gridViewTextBoxColumn22.Width = 66;
+            gridViewTextBoxColumn23.EnableExpressionEditor = false;
+            gridViewTextBoxColumn23.HeaderText = "Service Name";
+            gridViewTextBoxColumn23.Name = "colName";
+            gridViewTextBoxColumn23.Width = 132;
             this.dtgServiceForPackage.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewDecimalColumn4,
-            gridViewTextBoxColumn3,
-            gridViewTextBoxColumn4});
+            gridViewDecimalColumn26,
+            gridViewTextBoxColumn22,
+            gridViewTextBoxColumn23});
             this.dtgServiceForPackage.MasterTemplate.EnableGrouping = false;
             this.dtgServiceForPackage.Name = "dtgServiceForPackage";
             this.dtgServiceForPackage.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -947,39 +947,39 @@
             this.dtgPackage.MasterTemplate.AllowEditRow = false;
             this.dtgPackage.MasterTemplate.AllowRowResize = false;
             this.dtgPackage.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            gridViewDecimalColumn5.DecimalPlaces = 0;
-            gridViewDecimalColumn5.EnableExpressionEditor = false;
-            gridViewDecimalColumn5.HeaderText = "Id";
-            gridViewDecimalColumn5.IsVisible = false;
-            gridViewDecimalColumn5.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn27.DecimalPlaces = 0;
+            gridViewDecimalColumn27.EnableExpressionEditor = false;
+            gridViewDecimalColumn27.HeaderText = "Id";
+            gridViewDecimalColumn27.IsVisible = false;
+            gridViewDecimalColumn27.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn5.Name = "colId";
-            gridViewTextBoxColumn5.EnableExpressionEditor = false;
-            gridViewTextBoxColumn5.HeaderText = "Package Name";
-            gridViewTextBoxColumn5.Name = "colName";
-            gridViewTextBoxColumn5.Width = 334;
-            gridViewTextBoxColumn6.EnableExpressionEditor = false;
-            gridViewTextBoxColumn6.HeaderText = "Package Code";
-            gridViewTextBoxColumn6.Name = "colCode";
-            gridViewTextBoxColumn6.Width = 156;
-            gridViewDecimalColumn6.EnableExpressionEditor = false;
-            gridViewDecimalColumn6.FormatString = "{0:0,0}";
-            gridViewDecimalColumn6.HeaderText = "Price";
-            gridViewDecimalColumn6.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn27.Name = "colId";
+            gridViewTextBoxColumn24.EnableExpressionEditor = false;
+            gridViewTextBoxColumn24.HeaderText = "Package Name";
+            gridViewTextBoxColumn24.Name = "colName";
+            gridViewTextBoxColumn24.Width = 334;
+            gridViewTextBoxColumn25.EnableExpressionEditor = false;
+            gridViewTextBoxColumn25.HeaderText = "Package Code";
+            gridViewTextBoxColumn25.Name = "colCode";
+            gridViewTextBoxColumn25.Width = 156;
+            gridViewDecimalColumn28.EnableExpressionEditor = false;
+            gridViewDecimalColumn28.FormatString = "{0:0,0}";
+            gridViewDecimalColumn28.HeaderText = "Price";
+            gridViewDecimalColumn28.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn6.Name = "colPrice";
-            gridViewDecimalColumn6.Width = 134;
+            gridViewDecimalColumn28.Name = "colPrice";
+            gridViewDecimalColumn28.Width = 134;
             this.dtgPackage.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewDecimalColumn5,
-            gridViewTextBoxColumn5,
-            gridViewTextBoxColumn6,
-            gridViewDecimalColumn6});
+            gridViewDecimalColumn27,
+            gridViewTextBoxColumn24,
+            gridViewTextBoxColumn25,
+            gridViewDecimalColumn28});
             this.dtgPackage.MasterTemplate.EnableGrouping = false;
             this.dtgPackage.Name = "dtgPackage";
             this.dtgPackage.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -1212,79 +1212,79 @@
             this.dtgCertificateSeri.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.dtgCertificateSeri.Location = new System.Drawing.Point(566, 171);
             // 
-            // dtgCertificateSeri
+            // 
             // 
             this.dtgCertificateSeri.MasterTemplate.AllowAddNewRow = false;
             this.dtgCertificateSeri.MasterTemplate.AllowDeleteRow = false;
             this.dtgCertificateSeri.MasterTemplate.AllowEditRow = false;
             this.dtgCertificateSeri.MasterTemplate.AllowRowResize = false;
             this.dtgCertificateSeri.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            gridViewDecimalColumn7.DecimalPlaces = 0;
-            gridViewDecimalColumn7.EnableExpressionEditor = false;
-            gridViewDecimalColumn7.HeaderText = "Id";
-            gridViewDecimalColumn7.IsVisible = false;
-            gridViewDecimalColumn7.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn29.DecimalPlaces = 0;
+            gridViewDecimalColumn29.EnableExpressionEditor = false;
+            gridViewDecimalColumn29.HeaderText = "Id";
+            gridViewDecimalColumn29.IsVisible = false;
+            gridViewDecimalColumn29.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn7.Name = "colId";
-            gridViewDecimalColumn8.DecimalPlaces = 0;
-            gridViewDecimalColumn8.EnableExpressionEditor = false;
-            gridViewDecimalColumn8.FormatString = "{0:0,0}";
-            gridViewDecimalColumn8.HeaderText = "Seri";
-            gridViewDecimalColumn8.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn29.Name = "colId";
+            gridViewDecimalColumn30.DecimalPlaces = 0;
+            gridViewDecimalColumn30.EnableExpressionEditor = false;
+            gridViewDecimalColumn30.FormatString = "{0:0,0}";
+            gridViewDecimalColumn30.HeaderText = "Seri";
+            gridViewDecimalColumn30.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn8.Name = "colSeri";
-            gridViewDecimalColumn8.ThousandsSeparator = true;
-            gridViewDecimalColumn8.Width = 37;
-            gridViewDateTimeColumn1.CustomFormat = "dd/MM/yyyy";
-            gridViewDateTimeColumn1.DateTimeKind = System.DateTimeKind.Utc;
-            gridViewDateTimeColumn1.EnableExpressionEditor = false;
-            gridViewDateTimeColumn1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            gridViewDateTimeColumn1.FormatString = "{0:dd/MM/yyyy}";
-            gridViewDateTimeColumn1.HeaderText = "Issue Date";
-            gridViewDateTimeColumn1.Name = "colIssueDate";
-            gridViewDateTimeColumn1.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            gridViewDateTimeColumn1.Width = 65;
-            gridViewDateTimeColumn2.CustomFormat = "dd/MM/yyyy";
-            gridViewDateTimeColumn2.EnableExpressionEditor = false;
-            gridViewDateTimeColumn2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            gridViewDateTimeColumn2.FormatString = "{0:dd/MM/yyyy}";
-            gridViewDateTimeColumn2.HeaderText = "Expiry Date";
-            gridViewDateTimeColumn2.Name = "colExpiryDate";
-            gridViewDateTimeColumn2.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            gridViewDateTimeColumn2.Width = 63;
-            gridViewDecimalColumn9.DecimalPlaces = 0;
-            gridViewDecimalColumn9.EnableExpressionEditor = false;
-            gridViewDecimalColumn9.FormatString = "{0:0,0}";
-            gridViewDecimalColumn9.HeaderText = "Remain (VND)";
-            gridViewDecimalColumn9.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn30.Name = "colSeri";
+            gridViewDecimalColumn30.ThousandsSeparator = true;
+            gridViewDecimalColumn30.Width = 37;
+            gridViewDateTimeColumn11.CustomFormat = "dd/MM/yyyy";
+            gridViewDateTimeColumn11.DateTimeKind = System.DateTimeKind.Utc;
+            gridViewDateTimeColumn11.EnableExpressionEditor = false;
+            gridViewDateTimeColumn11.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            gridViewDateTimeColumn11.FormatString = "{0:dd/MM/yyyy}";
+            gridViewDateTimeColumn11.HeaderText = "Issue Date";
+            gridViewDateTimeColumn11.Name = "colIssueDate";
+            gridViewDateTimeColumn11.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            gridViewDateTimeColumn11.Width = 65;
+            gridViewDateTimeColumn12.CustomFormat = "dd/MM/yyyy";
+            gridViewDateTimeColumn12.EnableExpressionEditor = false;
+            gridViewDateTimeColumn12.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            gridViewDateTimeColumn12.FormatString = "{0:dd/MM/yyyy}";
+            gridViewDateTimeColumn12.HeaderText = "Expiry Date";
+            gridViewDateTimeColumn12.Name = "colExpiryDate";
+            gridViewDateTimeColumn12.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            gridViewDateTimeColumn12.Width = 63;
+            gridViewDecimalColumn31.DecimalPlaces = 0;
+            gridViewDecimalColumn31.EnableExpressionEditor = false;
+            gridViewDecimalColumn31.FormatString = "{0:0,0}";
+            gridViewDecimalColumn31.HeaderText = "Remain (VND)";
+            gridViewDecimalColumn31.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn9.Name = "colRemain";
-            gridViewDecimalColumn9.Step = new decimal(new int[] {
+            gridViewDecimalColumn31.Name = "colRemain";
+            gridViewDecimalColumn31.Step = new decimal(new int[] {
             10000,
             0,
             0,
             0});
-            gridViewDecimalColumn9.ThousandsSeparator = true;
-            gridViewDecimalColumn9.Width = 49;
-            gridViewComboBoxColumn1.HeaderText = "Status";
-            gridViewComboBoxColumn1.Name = "colStatus";
-            gridViewComboBoxColumn1.Width = 63;
+            gridViewDecimalColumn31.ThousandsSeparator = true;
+            gridViewDecimalColumn31.Width = 49;
+            gridViewComboBoxColumn4.HeaderText = "Status";
+            gridViewComboBoxColumn4.Name = "colStatus";
+            gridViewComboBoxColumn4.Width = 63;
             this.dtgCertificateSeri.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewDecimalColumn7,
-            gridViewDecimalColumn8,
-            gridViewDateTimeColumn1,
-            gridViewDateTimeColumn2,
-            gridViewDecimalColumn9,
-            gridViewComboBoxColumn1});
+            gridViewDecimalColumn29,
+            gridViewDecimalColumn30,
+            gridViewDateTimeColumn11,
+            gridViewDateTimeColumn12,
+            gridViewDecimalColumn31,
+            gridViewComboBoxColumn4});
             this.dtgCertificateSeri.MasterTemplate.EnableGrouping = false;
             this.dtgCertificateSeri.MasterTemplate.ShowHeaderCellButtons = true;
             this.dtgCertificateSeri.Name = "dtgCertificateSeri";
@@ -1305,63 +1305,63 @@
             this.dtgCertificate.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.dtgCertificate.Location = new System.Drawing.Point(0, 171);
             // 
-            // dtgCertificate
+            // 
             // 
             this.dtgCertificate.MasterTemplate.AllowAddNewRow = false;
             this.dtgCertificate.MasterTemplate.AllowDeleteRow = false;
             this.dtgCertificate.MasterTemplate.AllowEditRow = false;
             this.dtgCertificate.MasterTemplate.AllowRowResize = false;
             this.dtgCertificate.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            gridViewDecimalColumn10.DecimalPlaces = 0;
-            gridViewDecimalColumn10.EnableExpressionEditor = false;
-            gridViewDecimalColumn10.HeaderText = "Id";
-            gridViewDecimalColumn10.IsVisible = false;
-            gridViewDecimalColumn10.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn32.DecimalPlaces = 0;
+            gridViewDecimalColumn32.EnableExpressionEditor = false;
+            gridViewDecimalColumn32.HeaderText = "Id";
+            gridViewDecimalColumn32.IsVisible = false;
+            gridViewDecimalColumn32.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn10.Name = "colId";
-            gridViewTextBoxColumn7.EnableExpressionEditor = false;
-            gridViewTextBoxColumn7.HeaderText = "Name";
-            gridViewTextBoxColumn7.Name = "colName";
-            gridViewTextBoxColumn7.Width = 257;
-            gridViewTextBoxColumn8.EnableExpressionEditor = false;
-            gridViewTextBoxColumn8.HeaderText = "Code";
-            gridViewTextBoxColumn8.Name = "colCode";
-            gridViewTextBoxColumn8.Width = 115;
-            gridViewDecimalColumn11.DecimalPlaces = 0;
-            gridViewDecimalColumn11.EnableExpressionEditor = false;
-            gridViewDecimalColumn11.FormatString = "{0:0,0}";
-            gridViewDecimalColumn11.HeaderText = "Price";
-            gridViewDecimalColumn11.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn32.Name = "colId";
+            gridViewTextBoxColumn26.EnableExpressionEditor = false;
+            gridViewTextBoxColumn26.HeaderText = "Name";
+            gridViewTextBoxColumn26.Name = "colName";
+            gridViewTextBoxColumn26.Width = 257;
+            gridViewTextBoxColumn27.EnableExpressionEditor = false;
+            gridViewTextBoxColumn27.HeaderText = "Code";
+            gridViewTextBoxColumn27.Name = "colCode";
+            gridViewTextBoxColumn27.Width = 115;
+            gridViewDecimalColumn33.DecimalPlaces = 0;
+            gridViewDecimalColumn33.EnableExpressionEditor = false;
+            gridViewDecimalColumn33.FormatString = "{0:0,0}";
+            gridViewDecimalColumn33.HeaderText = "Price";
+            gridViewDecimalColumn33.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn11.Name = "colPrice";
-            gridViewDecimalColumn11.Step = new decimal(new int[] {
+            gridViewDecimalColumn33.Name = "colPrice";
+            gridViewDecimalColumn33.Step = new decimal(new int[] {
             10000,
             0,
             0,
             0});
-            gridViewDecimalColumn11.ThousandsSeparator = true;
-            gridViewDecimalColumn11.Width = 99;
-            gridViewDecimalColumn12.EnableExpressionEditor = false;
-            gridViewDecimalColumn12.HeaderText = "Duration";
-            gridViewDecimalColumn12.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn33.ThousandsSeparator = true;
+            gridViewDecimalColumn33.Width = 99;
+            gridViewDecimalColumn34.EnableExpressionEditor = false;
+            gridViewDecimalColumn34.HeaderText = "Duration";
+            gridViewDecimalColumn34.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn12.Name = "colDuration";
-            gridViewDecimalColumn12.Width = 78;
+            gridViewDecimalColumn34.Name = "colDuration";
+            gridViewDecimalColumn34.Width = 78;
             this.dtgCertificate.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewDecimalColumn10,
-            gridViewTextBoxColumn7,
-            gridViewTextBoxColumn8,
-            gridViewDecimalColumn11,
-            gridViewDecimalColumn12});
+            gridViewDecimalColumn32,
+            gridViewTextBoxColumn26,
+            gridViewTextBoxColumn27,
+            gridViewDecimalColumn33,
+            gridViewDecimalColumn34});
             this.dtgCertificate.MasterTemplate.EnableGrouping = false;
             this.dtgCertificate.MasterTemplate.ShowHeaderCellButtons = true;
             this.dtgCertificate.Name = "dtgCertificate";
@@ -1710,46 +1710,46 @@
             this.dtgOthers.MasterTemplate.AllowEditRow = false;
             this.dtgOthers.MasterTemplate.AllowRowResize = false;
             this.dtgOthers.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            gridViewDecimalColumn13.DecimalPlaces = 0;
-            gridViewDecimalColumn13.EnableExpressionEditor = false;
-            gridViewDecimalColumn13.HeaderText = "Id";
-            gridViewDecimalColumn13.IsVisible = false;
-            gridViewDecimalColumn13.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn35.DecimalPlaces = 0;
+            gridViewDecimalColumn35.EnableExpressionEditor = false;
+            gridViewDecimalColumn35.HeaderText = "Id";
+            gridViewDecimalColumn35.IsVisible = false;
+            gridViewDecimalColumn35.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn13.Name = "colId";
-            gridViewTextBoxColumn9.EnableExpressionEditor = false;
-            gridViewTextBoxColumn9.HeaderText = "Name";
-            gridViewTextBoxColumn9.Name = "colName";
-            gridViewTextBoxColumn9.Width = 280;
-            gridViewTextBoxColumn10.EnableExpressionEditor = false;
-            gridViewTextBoxColumn10.HeaderText = "Code";
-            gridViewTextBoxColumn10.Name = "colCode";
-            gridViewTextBoxColumn10.Width = 280;
-            gridViewDecimalColumn14.DecimalPlaces = 0;
-            gridViewDecimalColumn14.EnableExpressionEditor = false;
-            gridViewDecimalColumn14.FormatString = "{0:0,0}";
-            gridViewDecimalColumn14.HeaderText = "Price";
-            gridViewDecimalColumn14.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn35.Name = "colId";
+            gridViewTextBoxColumn28.EnableExpressionEditor = false;
+            gridViewTextBoxColumn28.HeaderText = "Name";
+            gridViewTextBoxColumn28.Name = "colName";
+            gridViewTextBoxColumn28.Width = 280;
+            gridViewTextBoxColumn29.EnableExpressionEditor = false;
+            gridViewTextBoxColumn29.HeaderText = "Code";
+            gridViewTextBoxColumn29.Name = "colCode";
+            gridViewTextBoxColumn29.Width = 280;
+            gridViewDecimalColumn36.DecimalPlaces = 0;
+            gridViewDecimalColumn36.EnableExpressionEditor = false;
+            gridViewDecimalColumn36.FormatString = "{0:0,0}";
+            gridViewDecimalColumn36.HeaderText = "Price";
+            gridViewDecimalColumn36.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn14.Name = "colPrice";
-            gridViewDecimalColumn14.Step = new decimal(new int[] {
+            gridViewDecimalColumn36.Name = "colPrice";
+            gridViewDecimalColumn36.Step = new decimal(new int[] {
             10000,
             0,
             0,
             0});
-            gridViewDecimalColumn14.ThousandsSeparator = true;
-            gridViewDecimalColumn14.Width = 281;
+            gridViewDecimalColumn36.ThousandsSeparator = true;
+            gridViewDecimalColumn36.Width = 281;
             this.dtgOthers.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewDecimalColumn13,
-            gridViewTextBoxColumn9,
-            gridViewTextBoxColumn10,
-            gridViewDecimalColumn14});
+            gridViewDecimalColumn35,
+            gridViewTextBoxColumn28,
+            gridViewTextBoxColumn29,
+            gridViewDecimalColumn36});
             this.dtgOthers.MasterTemplate.EnableGrouping = false;
             this.dtgOthers.MasterTemplate.ShowHeaderCellButtons = true;
             this.dtgOthers.Name = "dtgOthers";
@@ -1968,9 +1968,9 @@
             this.pagePromotion.Controls.Add(this.radPanel6);
             this.pagePromotion.Controls.Add(this.radCommandBar6);
             this.pagePromotion.ItemSize = new System.Drawing.SizeF(86F, 30F);
-            this.pagePromotion.Location = new System.Drawing.Point(5, 31);
+            this.pagePromotion.Location = new System.Drawing.Point(5, 36);
             this.pagePromotion.Name = "pagePromotion";
-            this.pagePromotion.Size = new System.Drawing.Size(859, 425);
+            this.pagePromotion.Size = new System.Drawing.Size(859, 415);
             this.pagePromotion.Text = "Promotion";
             // 
             // dtgPromotion
@@ -1983,105 +1983,105 @@
             this.dtgPromotion.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.dtgPromotion.Location = new System.Drawing.Point(0, 267);
             // 
-            // 
+            // dtgPromotion
             // 
             this.dtgPromotion.MasterTemplate.AllowAddNewRow = false;
             this.dtgPromotion.MasterTemplate.AllowDeleteRow = false;
             this.dtgPromotion.MasterTemplate.AllowEditRow = false;
             this.dtgPromotion.MasterTemplate.AllowRowResize = false;
             this.dtgPromotion.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            gridViewDecimalColumn15.DecimalPlaces = 0;
-            gridViewDecimalColumn15.EnableExpressionEditor = false;
-            gridViewDecimalColumn15.HeaderText = "Id";
-            gridViewDecimalColumn15.IsVisible = false;
-            gridViewDecimalColumn15.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn21.DecimalPlaces = 0;
+            gridViewDecimalColumn21.EnableExpressionEditor = false;
+            gridViewDecimalColumn21.HeaderText = "Id";
+            gridViewDecimalColumn21.IsVisible = false;
+            gridViewDecimalColumn21.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn15.Name = "colId";
-            gridViewTextBoxColumn11.EnableExpressionEditor = false;
-            gridViewTextBoxColumn11.HeaderText = "Promotion";
-            gridViewTextBoxColumn11.Name = "colName";
-            gridViewTextBoxColumn11.Width = 192;
-            gridViewTextBoxColumn12.EnableExpressionEditor = false;
-            gridViewTextBoxColumn12.HeaderText = "Code";
-            gridViewTextBoxColumn12.Name = "colCode";
-            gridViewTextBoxColumn12.SortOrder = Telerik.WinControls.UI.RadSortOrder.Ascending;
-            gridViewTextBoxColumn12.Width = 80;
-            gridViewDecimalColumn16.DecimalPlaces = 0;
-            gridViewDecimalColumn16.EnableExpressionEditor = false;
-            gridViewDecimalColumn16.HeaderText = "Discount";
-            gridViewDecimalColumn16.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn21.Name = "colId";
+            gridViewTextBoxColumn17.EnableExpressionEditor = false;
+            gridViewTextBoxColumn17.HeaderText = "Promotion";
+            gridViewTextBoxColumn17.Name = "colName";
+            gridViewTextBoxColumn17.Width = 192;
+            gridViewTextBoxColumn18.EnableExpressionEditor = false;
+            gridViewTextBoxColumn18.HeaderText = "Code";
+            gridViewTextBoxColumn18.Name = "colCode";
+            gridViewTextBoxColumn18.SortOrder = Telerik.WinControls.UI.RadSortOrder.Ascending;
+            gridViewTextBoxColumn18.Width = 80;
+            gridViewDecimalColumn22.DecimalPlaces = 0;
+            gridViewDecimalColumn22.EnableExpressionEditor = false;
+            gridViewDecimalColumn22.HeaderText = "Discount";
+            gridViewDecimalColumn22.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn16.Name = "colDiscount";
-            gridViewDecimalColumn16.ThousandsSeparator = true;
-            gridViewDecimalColumn16.Width = 75;
-            gridViewCheckBoxColumn1.Checked = Telerik.WinControls.Enumerations.ToggleState.Off;
-            gridViewCheckBoxColumn1.EnableExpressionEditor = false;
-            gridViewCheckBoxColumn1.EnableHeaderCheckBox = false;
-            gridViewCheckBoxColumn1.HeaderText = "%";
-            gridViewCheckBoxColumn1.MinWidth = 20;
-            gridViewCheckBoxColumn1.Name = "colIsPercent";
-            gridViewCheckBoxColumn1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            gridViewCheckBoxColumn1.Width = 33;
-            gridViewComboBoxColumn2.EnableExpressionEditor = false;
-            gridViewComboBoxColumn2.HeaderText = "Condition type";
-            gridViewComboBoxColumn2.Name = "colConditionType";
-            gridViewComboBoxColumn2.Width = 107;
-            gridViewDateTimeColumn3.EnableExpressionEditor = false;
-            gridViewDateTimeColumn3.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            gridViewDateTimeColumn3.FormatString = "{0:dd/MM/yyyy}";
-            gridViewDateTimeColumn3.HeaderText = "From date";
-            gridViewDateTimeColumn3.Name = "colFromDate";
-            gridViewDateTimeColumn3.Width = 56;
-            gridViewDateTimeColumn4.EnableExpressionEditor = false;
-            gridViewDateTimeColumn4.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            gridViewDateTimeColumn4.FormatString = "{0:dd/MM/yyyy}";
-            gridViewDateTimeColumn4.HeaderText = "To date";
-            gridViewDateTimeColumn4.Name = "colToDate";
-            gridViewDateTimeColumn4.Width = 56;
-            gridViewDateTimeColumn5.EnableExpressionEditor = false;
-            gridViewDateTimeColumn5.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            gridViewDateTimeColumn5.FormatString = "{0:HH:mm}";
-            gridViewDateTimeColumn5.HeaderText = "From Time";
-            gridViewDateTimeColumn5.Name = "colFromTime";
-            gridViewDateTimeColumn5.Width = 56;
-            gridViewDateTimeColumn6.EnableExpressionEditor = false;
-            gridViewDateTimeColumn6.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            gridViewDateTimeColumn6.FormatString = "{0:HH:mm}";
-            gridViewDateTimeColumn6.HeaderText = "To Time";
-            gridViewDateTimeColumn6.Name = "colToTime";
-            gridViewDateTimeColumn6.Width = 57;
-            gridViewTextBoxColumn13.EnableExpressionEditor = false;
-            gridViewTextBoxColumn13.HeaderText = "Note";
-            gridViewTextBoxColumn13.Name = "colNote";
-            gridViewTextBoxColumn13.Width = 136;
+            gridViewDecimalColumn22.Name = "colDiscount";
+            gridViewDecimalColumn22.ThousandsSeparator = true;
+            gridViewDecimalColumn22.Width = 75;
+            gridViewCheckBoxColumn2.Checked = Telerik.WinControls.Enumerations.ToggleState.Off;
+            gridViewCheckBoxColumn2.EnableExpressionEditor = false;
+            gridViewCheckBoxColumn2.EnableHeaderCheckBox = false;
+            gridViewCheckBoxColumn2.HeaderText = "%";
+            gridViewCheckBoxColumn2.MinWidth = 20;
+            gridViewCheckBoxColumn2.Name = "colIsPercent";
+            gridViewCheckBoxColumn2.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            gridViewCheckBoxColumn2.Width = 33;
+            gridViewComboBoxColumn3.EnableExpressionEditor = false;
+            gridViewComboBoxColumn3.HeaderText = "Condition type";
+            gridViewComboBoxColumn3.Name = "colConditionType";
+            gridViewComboBoxColumn3.Width = 107;
+            gridViewDateTimeColumn7.EnableExpressionEditor = false;
+            gridViewDateTimeColumn7.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            gridViewDateTimeColumn7.FormatString = "{0:dd/MM/yyyy}";
+            gridViewDateTimeColumn7.HeaderText = "From date";
+            gridViewDateTimeColumn7.Name = "colFromDate";
+            gridViewDateTimeColumn7.Width = 56;
+            gridViewDateTimeColumn8.EnableExpressionEditor = false;
+            gridViewDateTimeColumn8.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            gridViewDateTimeColumn8.FormatString = "{0:dd/MM/yyyy}";
+            gridViewDateTimeColumn8.HeaderText = "To date";
+            gridViewDateTimeColumn8.Name = "colToDate";
+            gridViewDateTimeColumn8.Width = 56;
+            gridViewDateTimeColumn9.EnableExpressionEditor = false;
+            gridViewDateTimeColumn9.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            gridViewDateTimeColumn9.FormatString = "{0:HH:mm}";
+            gridViewDateTimeColumn9.HeaderText = "From Time";
+            gridViewDateTimeColumn9.Name = "colFromTime";
+            gridViewDateTimeColumn9.Width = 56;
+            gridViewDateTimeColumn10.EnableExpressionEditor = false;
+            gridViewDateTimeColumn10.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            gridViewDateTimeColumn10.FormatString = "{0:HH:mm}";
+            gridViewDateTimeColumn10.HeaderText = "To Time";
+            gridViewDateTimeColumn10.Name = "colToTime";
+            gridViewDateTimeColumn10.Width = 57;
+            gridViewTextBoxColumn19.EnableExpressionEditor = false;
+            gridViewTextBoxColumn19.HeaderText = "Note";
+            gridViewTextBoxColumn19.Name = "colNote";
+            gridViewTextBoxColumn19.Width = 136;
             this.dtgPromotion.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewDecimalColumn15,
-            gridViewTextBoxColumn11,
-            gridViewTextBoxColumn12,
-            gridViewDecimalColumn16,
-            gridViewCheckBoxColumn1,
-            gridViewComboBoxColumn2,
-            gridViewDateTimeColumn3,
-            gridViewDateTimeColumn4,
-            gridViewDateTimeColumn5,
-            gridViewDateTimeColumn6,
-            gridViewTextBoxColumn13});
+            gridViewDecimalColumn21,
+            gridViewTextBoxColumn17,
+            gridViewTextBoxColumn18,
+            gridViewDecimalColumn22,
+            gridViewCheckBoxColumn2,
+            gridViewComboBoxColumn3,
+            gridViewDateTimeColumn7,
+            gridViewDateTimeColumn8,
+            gridViewDateTimeColumn9,
+            gridViewDateTimeColumn10,
+            gridViewTextBoxColumn19});
             this.dtgPromotion.MasterTemplate.EnableGrouping = false;
             this.dtgPromotion.MasterTemplate.EnableSorting = false;
             this.dtgPromotion.MasterTemplate.ShowHeaderCellButtons = true;
-            sortDescriptor1.PropertyName = "colCode";
+            sortDescriptor2.PropertyName = "colCode";
             this.dtgPromotion.MasterTemplate.SortDescriptors.AddRange(new Telerik.WinControls.Data.SortDescriptor[] {
-            sortDescriptor1});
+            sortDescriptor2});
             this.dtgPromotion.Name = "dtgPromotion";
             this.dtgPromotion.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.dtgPromotion.ShowHeaderCellButtons = true;
-            this.dtgPromotion.Size = new System.Drawing.Size(859, 158);
+            this.dtgPromotion.Size = new System.Drawing.Size(859, 148);
             this.dtgPromotion.TabIndex = 3;
             this.dtgPromotion.Text = "radGridView1";
             this.dtgPromotion.ThemeName = "TelerikMetro";
@@ -2160,9 +2160,9 @@
             // 
             // rdByTime
             // 
-            this.rdByTime.Location = new System.Drawing.Point(88, 120);
+            this.rdByTime.Location = new System.Drawing.Point(89, 120);
             this.rdByTime.Name = "rdByTime";
-            this.rdByTime.Size = new System.Drawing.Size(63, 19);
+            this.rdByTime.Size = new System.Drawing.Size(74, 24);
             this.rdByTime.TabIndex = 19;
             this.rdByTime.Text = "By time";
             this.rdByTime.ThemeName = "TelerikMetro";
@@ -2171,7 +2171,7 @@
             // 
             this.rdByDate.Location = new System.Drawing.Point(88, 94);
             this.rdByDate.Name = "rdByDate";
-            this.rdByDate.Size = new System.Drawing.Size(63, 19);
+            this.rdByDate.Size = new System.Drawing.Size(74, 24);
             this.rdByDate.TabIndex = 18;
             this.rdByDate.Text = "By date";
             this.rdByDate.ThemeName = "TelerikMetro";
@@ -2179,9 +2179,9 @@
             // radLabel28
             // 
             this.radLabel28.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radLabel28.Location = new System.Drawing.Point(18, 68);
+            this.radLabel28.Location = new System.Drawing.Point(6, 68);
             this.radLabel28.Name = "radLabel28";
-            this.radLabel28.Size = new System.Drawing.Size(66, 19);
+            this.radLabel28.Size = new System.Drawing.Size(82, 24);
             this.radLabel28.TabIndex = 17;
             this.radLabel28.Text = "Condition :";
             // 
@@ -2190,7 +2190,7 @@
             this.rdNoCondition.CheckState = System.Windows.Forms.CheckState.Checked;
             this.rdNoCondition.Location = new System.Drawing.Point(88, 68);
             this.rdNoCondition.Name = "rdNoCondition";
-            this.rdNoCondition.Size = new System.Drawing.Size(94, 19);
+            this.rdNoCondition.Size = new System.Drawing.Size(113, 24);
             this.rdNoCondition.TabIndex = 16;
             this.rdNoCondition.TabStop = true;
             this.rdNoCondition.Text = "No condition";
@@ -2260,7 +2260,7 @@
             this.radLabel30.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radLabel30.Location = new System.Drawing.Point(227, 42);
             this.radLabel30.Name = "radLabel30";
-            this.radLabel30.Size = new System.Drawing.Size(61, 19);
+            this.radLabel30.Size = new System.Drawing.Size(75, 24);
             this.radLabel30.TabIndex = 15;
             this.radLabel30.Text = "Discount :";
             // 
@@ -2301,9 +2301,9 @@
             // radLabel7
             // 
             this.radLabel7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radLabel7.Location = new System.Drawing.Point(18, 151);
+            this.radLabel7.Location = new System.Drawing.Point(8, 151);
             this.radLabel7.Name = "radLabel7";
-            this.radLabel7.Size = new System.Drawing.Size(40, 19);
+            this.radLabel7.Size = new System.Drawing.Size(49, 24);
             this.radLabel7.TabIndex = 10;
             this.radLabel7.Text = "Note :";
             // 
@@ -2320,9 +2320,9 @@
             // radLabel24
             // 
             this.radLabel24.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radLabel24.Location = new System.Drawing.Point(16, 42);
+            this.radLabel24.Location = new System.Drawing.Point(6, 42);
             this.radLabel24.Name = "radLabel24";
-            this.radLabel24.Size = new System.Drawing.Size(41, 19);
+            this.radLabel24.Size = new System.Drawing.Size(51, 24);
             this.radLabel24.TabIndex = 8;
             this.radLabel24.Text = "Code :";
             // 
@@ -2339,9 +2339,9 @@
             // radLabel25
             // 
             this.radLabel25.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radLabel25.Location = new System.Drawing.Point(16, 16);
+            this.radLabel25.Location = new System.Drawing.Point(6, 16);
             this.radLabel25.Name = "radLabel25";
-            this.radLabel25.Size = new System.Drawing.Size(45, 19);
+            this.radLabel25.Size = new System.Drawing.Size(56, 24);
             this.radLabel25.TabIndex = 6;
             this.radLabel25.Text = "Name :";
             // 
@@ -2484,36 +2484,36 @@
             this.dtgBed.MasterTemplate.AllowEditRow = false;
             this.dtgBed.MasterTemplate.AllowRowResize = false;
             this.dtgBed.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            gridViewDecimalColumn17.DecimalPlaces = 0;
-            gridViewDecimalColumn17.EnableExpressionEditor = false;
-            gridViewDecimalColumn17.HeaderText = "Id";
-            gridViewDecimalColumn17.IsVisible = false;
-            gridViewDecimalColumn17.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn37.DecimalPlaces = 0;
+            gridViewDecimalColumn37.EnableExpressionEditor = false;
+            gridViewDecimalColumn37.HeaderText = "Id";
+            gridViewDecimalColumn37.IsVisible = false;
+            gridViewDecimalColumn37.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn17.Name = "colId";
-            gridViewDecimalColumn18.DecimalPlaces = 0;
-            gridViewDecimalColumn18.EnableExpressionEditor = false;
-            gridViewDecimalColumn18.FormatString = "{0:0,0}";
-            gridViewDecimalColumn18.HeaderText = "Bed No";
-            gridViewDecimalColumn18.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn37.Name = "colId";
+            gridViewDecimalColumn38.DecimalPlaces = 0;
+            gridViewDecimalColumn38.EnableExpressionEditor = false;
+            gridViewDecimalColumn38.FormatString = "{0:0,0}";
+            gridViewDecimalColumn38.HeaderText = "Bed No";
+            gridViewDecimalColumn38.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn18.Name = "colBedId";
-            gridViewDecimalColumn18.Step = new decimal(new int[] {
+            gridViewDecimalColumn38.Name = "colBedId";
+            gridViewDecimalColumn38.Step = new decimal(new int[] {
             10000,
             0,
             0,
             0});
-            gridViewDecimalColumn18.ThousandsSeparator = true;
-            gridViewDecimalColumn18.Width = 133;
+            gridViewDecimalColumn38.ThousandsSeparator = true;
+            gridViewDecimalColumn38.Width = 133;
             this.dtgBed.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewDecimalColumn17,
-            gridViewDecimalColumn18});
+            gridViewDecimalColumn37,
+            gridViewDecimalColumn38});
             this.dtgBed.MasterTemplate.EnableGrouping = false;
             this.dtgBed.MasterTemplate.ShowHeaderCellButtons = true;
             this.dtgBed.Name = "dtgBed";
@@ -2660,51 +2660,51 @@
             this.dtgRoom.MasterTemplate.AllowEditRow = false;
             this.dtgRoom.MasterTemplate.AllowRowResize = false;
             this.dtgRoom.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            gridViewDecimalColumn19.DecimalPlaces = 0;
-            gridViewDecimalColumn19.EnableExpressionEditor = false;
-            gridViewDecimalColumn19.HeaderText = "Id";
-            gridViewDecimalColumn19.IsVisible = false;
-            gridViewDecimalColumn19.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn39.DecimalPlaces = 0;
+            gridViewDecimalColumn39.EnableExpressionEditor = false;
+            gridViewDecimalColumn39.HeaderText = "Id";
+            gridViewDecimalColumn39.IsVisible = false;
+            gridViewDecimalColumn39.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn19.Name = "colId";
-            gridViewTextBoxColumn14.EnableExpressionEditor = false;
-            gridViewTextBoxColumn14.HeaderText = "Name";
-            gridViewTextBoxColumn14.Name = "colName";
-            gridViewTextBoxColumn14.Width = 229;
-            gridViewTextBoxColumn15.EnableExpressionEditor = false;
-            gridViewTextBoxColumn15.HeaderText = "Code";
-            gridViewTextBoxColumn15.Name = "colCode";
-            gridViewTextBoxColumn15.Width = 169;
-            gridViewDecimalColumn20.DecimalPlaces = 0;
-            gridViewDecimalColumn20.EnableExpressionEditor = false;
-            gridViewDecimalColumn20.FormatString = "{0:0,0}";
-            gridViewDecimalColumn20.HeaderText = "Charge (%)";
-            gridViewDecimalColumn20.Minimum = new decimal(new int[] {
+            gridViewDecimalColumn39.Name = "colId";
+            gridViewTextBoxColumn30.EnableExpressionEditor = false;
+            gridViewTextBoxColumn30.HeaderText = "Name";
+            gridViewTextBoxColumn30.Name = "colName";
+            gridViewTextBoxColumn30.Width = 229;
+            gridViewTextBoxColumn31.EnableExpressionEditor = false;
+            gridViewTextBoxColumn31.HeaderText = "Code";
+            gridViewTextBoxColumn31.Name = "colCode";
+            gridViewTextBoxColumn31.Width = 169;
+            gridViewDecimalColumn40.DecimalPlaces = 0;
+            gridViewDecimalColumn40.EnableExpressionEditor = false;
+            gridViewDecimalColumn40.FormatString = "{0:0,0}";
+            gridViewDecimalColumn40.HeaderText = "Charge (%)";
+            gridViewDecimalColumn40.Minimum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            gridViewDecimalColumn20.Name = "colCharge";
-            gridViewDecimalColumn20.Step = new decimal(new int[] {
+            gridViewDecimalColumn40.Name = "colCharge";
+            gridViewDecimalColumn40.Step = new decimal(new int[] {
             10000,
             0,
             0,
             0});
-            gridViewDecimalColumn20.ThousandsSeparator = true;
-            gridViewDecimalColumn20.Width = 159;
-            gridViewTextBoxColumn16.EnableExpressionEditor = false;
-            gridViewTextBoxColumn16.HeaderText = "Branch";
-            gridViewTextBoxColumn16.Name = "Branch";
-            gridViewTextBoxColumn16.Width = 132;
+            gridViewDecimalColumn40.ThousandsSeparator = true;
+            gridViewDecimalColumn40.Width = 159;
+            gridViewTextBoxColumn32.EnableExpressionEditor = false;
+            gridViewTextBoxColumn32.HeaderText = "Branch";
+            gridViewTextBoxColumn32.Name = "Branch";
+            gridViewTextBoxColumn32.Width = 132;
             this.dtgRoom.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewDecimalColumn19,
-            gridViewTextBoxColumn14,
-            gridViewTextBoxColumn15,
-            gridViewDecimalColumn20,
-            gridViewTextBoxColumn16});
+            gridViewDecimalColumn39,
+            gridViewTextBoxColumn30,
+            gridViewTextBoxColumn31,
+            gridViewDecimalColumn40,
+            gridViewTextBoxColumn32});
             this.dtgRoom.MasterTemplate.EnableGrouping = false;
             this.dtgRoom.MasterTemplate.ShowHeaderCellButtons = true;
             this.dtgRoom.Name = "dtgRoom";
@@ -2740,14 +2740,14 @@
             this.cbbxBranch.AutoCompleteDisplayMember = null;
             this.cbbxBranch.AutoCompleteValueMember = null;
             this.cbbxBranch.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList;
-            radListDataItem1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            radListDataItem1.Text = "9C";
-            radListDataItem1.TextWrap = true;
-            radListDataItem2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            radListDataItem2.Text = "2A";
-            radListDataItem2.TextWrap = true;
-            this.cbbxBranch.Items.Add(radListDataItem1);
-            this.cbbxBranch.Items.Add(radListDataItem2);
+            radListDataItem3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            radListDataItem3.Text = "9C";
+            radListDataItem3.TextWrap = true;
+            radListDataItem4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            radListDataItem4.Text = "2A";
+            radListDataItem4.TextWrap = true;
+            this.cbbxBranch.Items.Add(radListDataItem3);
+            this.cbbxBranch.Items.Add(radListDataItem4);
             this.cbbxBranch.Location = new System.Drawing.Point(72, 68);
             this.cbbxBranch.Name = "cbbxBranch";
             this.cbbxBranch.Size = new System.Drawing.Size(100, 22);

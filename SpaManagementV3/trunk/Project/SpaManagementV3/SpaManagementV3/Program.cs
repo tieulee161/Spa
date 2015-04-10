@@ -35,6 +35,7 @@ namespace SpaManagementV3
             Application.Run(new FrmMain());
          //   Application.Run(new FrmBookingManager());
        //     Application.Run(new FrmRoomManagement2A());
+      //      Application.Run(new FrmReport());
         }
 
         public static string ServerUrl = string.Format("tcp://{0}:{1}/SpaServer", Properties.Settings.Default.ServerIP, Properties.Settings.Default.Port);
